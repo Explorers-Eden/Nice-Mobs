@@ -1,0 +1,31 @@
+{
+	"mushling": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/mushling/red_mushling.png",
+			"assets/animated_java/textures/blueprint/mushling/brown_mushling.png",
+			"assets/animated_java/textures/blueprint/mushling/brown_mushling_hurt.png",
+			"assets/animated_java/textures/blueprint/mushling/red_mushling_hurt.png",
+			"assets/animated_java/items/blueprint/mushling/leg_right.json",
+			"assets/animated_java/items/blueprint/mushling/leg_left.json",
+			"assets/animated_java/items/blueprint/mushling/hat.json",
+			"assets/animated_java/items/blueprint/mushling/body.json",
+			"assets/animated_java/models/blueprint/mushling/leg_right.json",
+			"assets/animated_java/models/blueprint/mushling/leg_left.json",
+			"assets/animated_java/models/blueprint/mushling/hat.json",
+			"assets/animated_java/models/blueprint/mushling/body.json",
+			"assets/animated_java/models/blueprint/mushling/brown/leg_right.json",
+			"assets/animated_java/models/blueprint/mushling/brown/leg_left.json",
+			"assets/animated_java/models/blueprint/mushling/brown/hat.json",
+			"assets/animated_java/models/blueprint/mushling/brown/body.json",
+			"assets/animated_java/models/blueprint/mushling/default_hurt/leg_right.json",
+			"assets/animated_java/models/blueprint/mushling/default_hurt/leg_left.json",
+			"assets/animated_java/models/blueprint/mushling/default_hurt/hat.json",
+			"assets/animated_java/models/blueprint/mushling/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/mushling/brown_hurt/leg_right.json",
+			"assets/animated_java/models/blueprint/mushling/brown_hurt/leg_left.json",
+			"assets/animated_java/models/blueprint/mushling/brown_hurt/hat.json",
+			"assets/animated_java/models/blueprint/mushling/brown_hurt/body.json"
+		]
+	}
+}

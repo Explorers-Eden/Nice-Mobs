@@ -1,0 +1,39 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "brown",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/mushling/brown/hat"
+				}
+			},
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/mushling/default_hurt/hat"
+				}
+			},
+			{
+				"when": "brown_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/mushling/brown_hurt/hat"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/mushling/hat"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}

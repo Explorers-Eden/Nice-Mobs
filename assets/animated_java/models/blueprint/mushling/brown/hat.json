@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/mushling/hat",
+	"textures": {
+		"0": "animated_java:blueprint/mushling/brown_mushling"
+	}
+}

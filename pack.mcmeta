@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"pack_format": 61,
+		"description": [
+			{
+				"text": "Nice Mobs by NiceRon",
+				"color": "white"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": 61
+			}
+		]
+	}
+}
