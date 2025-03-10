@@ -4,10 +4,12 @@ execute store result score $mushling_type eden.technical run random value 1..10
 execute if score $mushling_type eden.technical matches 1..7 run function animated_java:mushling/summon {args: {}}
 execute if score $mushling_type eden.technical matches 8..10 run function animated_java:mushling/summon {args: {variant: "brown"}}
 
-execute if score $mushling_type eden.technical matches 1..5 run tag @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger] add nice_mobs.mushling.red
-execute if score $mushling_type eden.technical matches 6..10 run tag @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger] add nice_mobs.mushling.brown
+execute if score $mushling_type eden.technical matches 1..5 run tag @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.mushling.red
+execute if score $mushling_type eden.technical matches 6..10 run tag @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.mushling.brown
 
-ride @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle] mount @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger]
+ride @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
-tag @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle] add nice_mobs.has_vehicle
-tag @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger] add nice_mobs.has_passenger
+scoreboard players set @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.mushling.dig.timer 0
+
+tag @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
+tag @n[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

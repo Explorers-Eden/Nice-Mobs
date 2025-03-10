@@ -1,10 +1,10 @@
 schedule function nice_mobs:mushling/run 5t
 
+#cancel further functions if no mushling vehicle exists
+execute unless entity @e[type=item_display,tag=aj.mushling.root] run return fail
+
 #remove if vehicle entity is dead or hit by lightning
 execute as @e[type=item_display,tag=aj.mushling.root,predicate=!eden:entity/has_zombie_horse_vehicle] at @s run function animated_java:mushling/remove/this
-
-#cancel further functions if no mushling vehicle exists
-execute unless entity @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle] run return fail
 
 #increase timers
 execute as @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle] at @s if predicate eden:entity/is_idle if predicate eden:location/stepping_on_dirt run scoreboard players add @s nice_mobs.mushling.dig.timer 1
