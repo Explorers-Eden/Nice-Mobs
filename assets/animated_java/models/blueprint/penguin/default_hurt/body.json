@@ -1,0 +1,8 @@
+{
+	"parent": "animated_java:blueprint/penguin/body",
+	"textures": {
+		"0": "animated_java:blueprint/penguin/base_hurt",
+		"1": "animated_java:blueprint/penguin/eyebrows_hurt",
+		"6": "animated_java:blueprint/penguin/tale_hurt"
+	}
+}

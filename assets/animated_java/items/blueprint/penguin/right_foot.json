@@ -1,7 +1,20 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "animated_java:blueprint/penguin/right_foot",
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/penguin/default_hurt/right_foot"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/penguin/right_foot"
+		},
 		"tints": [
 			{
 				"type": "minecraft:dye",

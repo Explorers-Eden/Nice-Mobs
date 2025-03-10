@@ -15,9 +15,5 @@ execute on vehicle on passengers if entity @s[tag=aj.penguin.node.head] run func
 data modify entity @s data.bones.bone_head set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.penguin.node.body] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_body set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.penguin.node.beak] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_beak set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.penguin.node.left_eyebrow] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_left_eyebrow set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.penguin.node.right_eyebrow] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_right_eyebrow set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.penguin.node.bartering_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.item_display_bartering_item set from storage aj:uuid main.out

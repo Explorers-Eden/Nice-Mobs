@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"3": "animated_java:blueprint/penguin/tale",
+		"6": "animated_java:blueprint/penguin/tale",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -20,12 +20,12 @@
 			"faces": {
 				"up": {
 					"uv": [0, 0, 10, 6],
-					"texture": "#3"
+					"texture": "#6"
 				},
 				"down": {
 					"uv": [10, 0, 0, 6],
 					"rotation": 180,
-					"texture": "#3"
+					"texture": "#6"
 				}
 			}
 		}

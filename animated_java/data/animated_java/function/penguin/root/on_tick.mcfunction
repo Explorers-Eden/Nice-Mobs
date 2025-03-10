@@ -4,5 +4,7 @@ execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:g
 function #animated_java:penguin/as_root/pre_tick
 execute if entity @s[tag=aj.penguin.animation.idle.playing] run function animated_java:penguin/animations/idle/zzz/on_tick
 execute if entity @s[tag=aj.penguin.animation.walk.playing] run function animated_java:penguin/animations/walk/zzz/on_tick
+execute if entity @s[tag=aj.penguin.animation.fall.playing] run function animated_java:penguin/animations/fall/zzz/on_tick
+execute if entity @s[tag=aj.penguin.animation.bartering.playing] run function animated_java:penguin/animations/bartering/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:penguin/as_root/post_tick

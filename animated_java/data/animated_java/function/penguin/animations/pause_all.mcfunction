@@ -2,3 +2,5 @@
 execute unless entity @s[type=item_display,tag=aj.penguin.root] run return run function animated_java:global/errors/function_not_executed_as_root_entity {'export_namespace': 'penguin', 'function_path': 'animated_java:penguin/animations/pause_all'}
 tag @s remove aj.penguin.animation.idle.playing
 tag @s remove aj.penguin.animation.walk.playing
+tag @s remove aj.penguin.animation.fall.playing
+tag @s remove aj.penguin.animation.bartering.playing

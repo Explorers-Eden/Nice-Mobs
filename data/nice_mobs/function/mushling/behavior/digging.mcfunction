@@ -12,7 +12,7 @@ execute on passengers run particle block{block_state:"minecraft:dirt"} ~ ~ ~ .1 
 execute unless score @s nice_mobs.mushling.dig.action matches 17 run scoreboard players add @s nice_mobs.mushling.dig.action 1
 execute unless score @s nice_mobs.mushling.dig.action matches 16 on passengers run tag @s add is_digging
 
-execute if score @s nice_mobs.mushling.dig.action matches 16.. run loot spawn ~ ~ ~ loot eden:entity/mushling
+execute if score @s nice_mobs.mushling.dig.action matches 16.. run loot spawn ~ ~ ~ loot eden:gameplay/mushling_digging
 execute if score @s nice_mobs.mushling.dig.action matches 16.. run scoreboard players set @s nice_mobs.mushling.dig.timer 0
 execute if score @s nice_mobs.mushling.dig.action matches 16.. on passengers run tag @s remove is_digging
 execute if score @s nice_mobs.mushling.dig.action matches 16.. run scoreboard players set @s nice_mobs.mushling.dig.action 0

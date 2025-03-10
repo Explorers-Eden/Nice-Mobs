@@ -1,0 +1,1 @@
+execute as @n[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!is_bartering,distance=..1] at @s run function nice_mobs:penguin/behavior/bartering/start

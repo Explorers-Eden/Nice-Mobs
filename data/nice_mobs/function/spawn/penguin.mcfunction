@@ -5,5 +5,7 @@ tag @n[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passen
 
 ride @n[type=item_display,tag=aj.penguin.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
+scoreboard players set @n[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.penguin.bartering.timer 0
+
 tag @n[type=item_display,tag=aj.penguin.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

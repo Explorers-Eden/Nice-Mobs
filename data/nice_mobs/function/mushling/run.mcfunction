@@ -28,7 +28,8 @@ execute as @e[type=zombie_horse,tag=nice_mobs.mushling.brown,tag=!not_hurt] at @
 execute as @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle,scores={nice_mobs.mushling.dig.timer=960..}] at @s if predicate eden:entity/is_idle if predicate eden:location/stepping_on_dirt run function nice_mobs:mushling/behavior/digging
 
 #play ambient sound
-execute as @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle] at @s if predicate eden:percentages/5 run playsound minecraft:entity.armadillo.ambient neutral @a ~ ~ ~ .5 2
+execute as @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=is_idle] at @s if predicate eden:percentages/5 run playsound minecraft:entity.armadillo.ambient neutral @a ~ ~ ~ .5 2
+execute as @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle,tag=is_walking] at @s if predicate eden:percentages/5 run playsound minecraft:entity.armadillo.ambient neutral @a ~ ~ ~ .5 2
 
 #modify misc data
 effect clear @e[type=zombie_horse,tag=nice_mobs.mushling.vehicle] minecraft:glowing
