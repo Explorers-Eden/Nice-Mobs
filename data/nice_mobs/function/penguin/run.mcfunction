@@ -29,6 +29,6 @@ execute as @e[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=is_walking] at
 #bartering functions
 execute as @e[type=zombie_horse,tag=nice_mobs.penguin.vehicle,scores={nice_mobs.penguin.bartering.action=1}] run scoreboard players add @s nice_mobs.penguin.bartering.timer 1
 
-execute as @e[type=item,nbt={Item:{id:"minecraft:cod"}}] at @s if entity @e[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!is_bartering,distance=..1] run function nice_mobs:penguin/behavior/bartering/init
+execute as @e[type=item,predicate=eden:entity/is_cod_item] at @s if entity @e[type=zombie_horse,tag=nice_mobs.penguin.vehicle,tag=!is_bartering,distance=..1] run function nice_mobs:penguin/behavior/bartering/init
 execute as @e[type=zombie_horse,tag=nice_mobs.penguin.vehicle,scores={nice_mobs.penguin.bartering.timer=4}] at @s run function nice_mobs:penguin/behavior/bartering/end
 execute as @e[type=zombie_horse,tag=nice_mobs.penguin.vehicle,scores={nice_mobs.penguin.bartering.timer=120..}] run function nice_mobs:penguin/behavior/bartering/reset

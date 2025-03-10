@@ -13,5 +13,3 @@ execute on passengers run function animated_java:penguin/animations/bartering/pl
 scoreboard players set @s nice_mobs.penguin.bartering.action 1
 
 particle minecraft:heart ~ ~.8 ~ .1 .1 .1 0 3
-
-item modify entity @n[type=item,nbt={Item:{id:"minecraft:cod"}},distance=..1] container.0 eden:detract_item

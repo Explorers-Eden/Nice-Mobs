@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Item:{id:\"minecraft:saddle\",count:1,components:{\"minecraft:custom_data\":{nice_mobs:remove}}}}"
+    }
+  }
