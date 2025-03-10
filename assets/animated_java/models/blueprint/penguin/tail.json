@@ -1,0 +1,33 @@
+{
+	"textures": {
+		"3": "animated_java:blueprint/penguin/tale",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [4.9, 8.4, 5.25],
+			"to": [10.1, 8.4, 8.25],
+			"rotation": {
+				"angle": 22.5,
+				"axis": "x",
+				"origin": [8, 6.4, 6.25]
+			},
+			"faces": {
+				"up": {
+					"uv": [0, 0, 10, 6],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [10, 0, 0, 6],
+					"rotation": 180,
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

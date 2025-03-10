@@ -27,5 +27,34 @@
 			"assets/animated_java/models/blueprint/mushling/brown_hurt/hat.json",
 			"assets/animated_java/models/blueprint/mushling/brown_hurt/body.json"
 		]
+	},
+	"penguin": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/penguin/base.png",
+			"assets/animated_java/textures/blueprint/penguin/eyebrows.png",
+			"assets/animated_java/textures/blueprint/penguin/beak.png",
+			"assets/animated_java/textures/blueprint/penguin/tale.png",
+			"assets/animated_java/items/blueprint/penguin/tail.json",
+			"assets/animated_java/items/blueprint/penguin/left_wing.json",
+			"assets/animated_java/items/blueprint/penguin/right_wing.json",
+			"assets/animated_java/items/blueprint/penguin/left_foot.json",
+			"assets/animated_java/items/blueprint/penguin/right_foot.json",
+			"assets/animated_java/items/blueprint/penguin/head.json",
+			"assets/animated_java/items/blueprint/penguin/body.json",
+			"assets/animated_java/items/blueprint/penguin/beak.json",
+			"assets/animated_java/items/blueprint/penguin/left_eyebrow.json",
+			"assets/animated_java/items/blueprint/penguin/right_eyebrow.json",
+			"assets/animated_java/models/blueprint/penguin/tail.json",
+			"assets/animated_java/models/blueprint/penguin/left_wing.json",
+			"assets/animated_java/models/blueprint/penguin/right_wing.json",
+			"assets/animated_java/models/blueprint/penguin/left_foot.json",
+			"assets/animated_java/models/blueprint/penguin/right_foot.json",
+			"assets/animated_java/models/blueprint/penguin/head.json",
+			"assets/animated_java/models/blueprint/penguin/body.json",
+			"assets/animated_java/models/blueprint/penguin/beak.json",
+			"assets/animated_java/models/blueprint/penguin/left_eyebrow.json",
+			"assets/animated_java/models/blueprint/penguin/right_eyebrow.json"
+		]
 	}
 }
