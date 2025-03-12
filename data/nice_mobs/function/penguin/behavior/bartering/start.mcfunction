@@ -10,6 +10,6 @@ execute on passengers run function animated_java:penguin/animations/fall/stop
 execute on passengers run function animated_java:penguin/animations/idle/stop
 execute on passengers run function animated_java:penguin/animations/bartering/play
 
-scoreboard players set @s nice_mobs.penguin.bartering.action 1
+scoreboard players set @s nice_mobs.entity.action 1
 
 particle minecraft:heart ~ ~.8 ~ .1 .1 .1 0 3

@@ -1,0 +1,137 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "blue",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/blue/left_eye"
+				}
+			},
+			{
+				"when": "cyan",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/cyan/left_eye"
+				}
+			},
+			{
+				"when": "gray",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/gray/left_eye"
+				}
+			},
+			{
+				"when": "green",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/green/left_eye"
+				}
+			},
+			{
+				"when": "pink",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/pink/left_eye"
+				}
+			},
+			{
+				"when": "purple",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/purple/left_eye"
+				}
+			},
+			{
+				"when": "red",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/red/left_eye"
+				}
+			},
+			{
+				"when": "yellow",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/yellow/left_eye"
+				}
+			},
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/default_hurt/left_eye"
+				}
+			},
+			{
+				"when": "blue_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/blue_hurt/left_eye"
+				}
+			},
+			{
+				"when": "cyan_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/cyan_hurt/left_eye"
+				}
+			},
+			{
+				"when": "gray_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/gray_hurt/left_eye"
+				}
+			},
+			{
+				"when": "green_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/green_hurt/left_eye"
+				}
+			},
+			{
+				"when": "purple_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/purple_hurt/left_eye"
+				}
+			},
+			{
+				"when": "pink_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/pink_hurt/left_eye"
+				}
+			},
+			{
+				"when": "red_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/red_hurt/left_eye"
+				}
+			},
+			{
+				"when": "yellow_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/snail/yellow_hurt/left_eye"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/snail/left_eye"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}

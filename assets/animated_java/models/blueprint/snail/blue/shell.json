@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/snail/shell",
+	"textures": {
+		"0": "animated_java:blueprint/snail/snail_blue"
+	}
+}

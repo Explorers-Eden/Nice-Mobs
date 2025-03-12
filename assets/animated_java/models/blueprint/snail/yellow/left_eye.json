@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/snail/left_eye",
+	"textures": {
+		"0": "animated_java:blueprint/snail/snail_yellow"
+	}
+}
