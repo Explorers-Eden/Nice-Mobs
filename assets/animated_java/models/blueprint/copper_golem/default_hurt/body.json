@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/copper_golem/body",
+	"textures": {
+		"0": "animated_java:blueprint/copper_golem/copper_golem_hurt"
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "animated_java:blueprint/copper_golem/texture",
+		"0": "animated_java:blueprint/copper_golem/copper_golem",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
