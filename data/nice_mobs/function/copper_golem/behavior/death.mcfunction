@@ -1,0 +1,1 @@
+function animated_java:copper_golem/remove/this

@@ -1,4 +1,4 @@
-schedule function nice_mobs:misc/run 3t
+schedule function nice_mobs:misc/run 4t
 
 #modify general behavior
 execute as @e[type=pig,tag=nice_mobs.base] run function nice_mobs:misc/modify_entity_data

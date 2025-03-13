@@ -1,4 +1,26 @@
 {
+	"copper_golem": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/copper_golem/texture.png",
+			"assets/animated_java/items/blueprint/copper_golem/body.json",
+			"assets/animated_java/items/blueprint/copper_golem/left_foot.json",
+			"assets/animated_java/items/blueprint/copper_golem/right_foot.json",
+			"assets/animated_java/items/blueprint/copper_golem/head.json",
+			"assets/animated_java/items/blueprint/copper_golem/antenna.json",
+			"assets/animated_java/items/blueprint/copper_golem/nose.json",
+			"assets/animated_java/items/blueprint/copper_golem/left_arm.json",
+			"assets/animated_java/items/blueprint/copper_golem/right_arm.json",
+			"assets/animated_java/models/blueprint/copper_golem/body.json",
+			"assets/animated_java/models/blueprint/copper_golem/left_foot.json",
+			"assets/animated_java/models/blueprint/copper_golem/right_foot.json",
+			"assets/animated_java/models/blueprint/copper_golem/head.json",
+			"assets/animated_java/models/blueprint/copper_golem/antenna.json",
+			"assets/animated_java/models/blueprint/copper_golem/nose.json",
+			"assets/animated_java/models/blueprint/copper_golem/left_arm.json",
+			"assets/animated_java/models/blueprint/copper_golem/right_arm.json"
+		]
+	},
 	"mushling": {
 		"files": [
 			"assets/animated_java/models/empty.json",
