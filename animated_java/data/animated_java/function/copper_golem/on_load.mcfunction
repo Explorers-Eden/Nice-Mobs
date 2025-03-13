@@ -3,4 +3,4 @@ scoreboard objectives add aj.idle.frame dummy
 scoreboard objectives add aj.idle_angry.frame dummy
 scoreboard objectives add aj.walk.frame dummy
 scoreboard objectives add aj.walk_angry.frame dummy
-scoreboard objectives add aj.button_press.frame dummy
+scoreboard objectives add aj.action.frame dummy

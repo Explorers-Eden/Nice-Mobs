@@ -6,6 +6,6 @@ execute if entity @s[tag=aj.copper_golem.animation.idle.playing] run function an
 execute if entity @s[tag=aj.copper_golem.animation.idle_angry.playing] run function animated_java:copper_golem/animations/idle_angry/zzz/on_tick
 execute if entity @s[tag=aj.copper_golem.animation.walk.playing] run function animated_java:copper_golem/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.copper_golem.animation.walk_angry.playing] run function animated_java:copper_golem/animations/walk_angry/zzz/on_tick
-execute if entity @s[tag=aj.copper_golem.animation.button_press.playing] run function animated_java:copper_golem/animations/button_press/zzz/on_tick
+execute if entity @s[tag=aj.copper_golem.animation.action.playing] run function animated_java:copper_golem/animations/action/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:copper_golem/as_root/post_tick

@@ -4,4 +4,4 @@ tag @s remove aj.copper_golem.animation.idle.playing
 tag @s remove aj.copper_golem.animation.idle_angry.playing
 tag @s remove aj.copper_golem.animation.walk.playing
 tag @s remove aj.copper_golem.animation.walk_angry.playing
-tag @s remove aj.copper_golem.animation.button_press.playing
+tag @s remove aj.copper_golem.animation.action.playing
