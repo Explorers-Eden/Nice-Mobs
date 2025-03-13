@@ -1,2 +1,2 @@
-playsound entity.silverfish.death ambient @a ~ ~ ~ .4 .7
+playsound entity.silverfish.death ambient @a ~ ~ ~ .3 .7
 function animated_java:snail/remove/this

@@ -1,3 +1,2 @@
 function animated_java:global/remove/everything
-execute as @e[type=zombie_horse,tag=nice_mobs.base] run tp ~ ~-250 ~
-kill @e[type=zombie_horse,tag=nice_mobs.base]
+execute as @e[type=pig,tag=nice_mobs.base] run function nice_mobs:misc/kill

@@ -1,6 +1,6 @@
 tag @s remove not_hurt
 
-playsound minecraft:entity.silverfish.hurt ambient @a ~ ~ ~ .4 .7
+playsound minecraft:entity.silverfish.hurt ambient @a ~ ~ ~ .3 .7
 
 execute as @s[tag=nice_mobs.snail.brown] on passengers run function animated_java:snail/variants/default_hurt/apply
 execute as @s[tag=nice_mobs.snail.blue] on passengers run function animated_java:snail/variants/blue_hurt/apply
