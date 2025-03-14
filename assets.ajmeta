@@ -1,4 +1,32 @@
 {
+	"blueprint": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/blueprint/head.png",
+			"assets/animated_java/textures/blueprint/blueprint/nose.png",
+			"assets/animated_java/textures/blueprint/blueprint/clothing_blue.png",
+			"assets/animated_java/textures/blueprint/blueprint/arms.png",
+			"assets/animated_java/textures/blueprint/blueprint/body.png",
+			"assets/animated_java/textures/blueprint/blueprint/legs.png",
+			"assets/animated_java/textures/blueprint/blueprint/extra_clothing_blue.png",
+			"assets/animated_java/items/blueprint/blueprint/head.json",
+			"assets/animated_java/items/blueprint/blueprint/body.json",
+			"assets/animated_java/items/blueprint/blueprint/clothing.json",
+			"assets/animated_java/items/blueprint/blueprint/left_leg.json",
+			"assets/animated_java/items/blueprint/blueprint/nose.json",
+			"assets/animated_java/items/blueprint/blueprint/right_leg.json",
+			"assets/animated_java/items/blueprint/blueprint/left_arm.json",
+			"assets/animated_java/items/blueprint/blueprint/right_arm.json",
+			"assets/animated_java/models/blueprint/blueprint/head.json",
+			"assets/animated_java/models/blueprint/blueprint/body.json",
+			"assets/animated_java/models/blueprint/blueprint/clothing.json",
+			"assets/animated_java/models/blueprint/blueprint/left_leg.json",
+			"assets/animated_java/models/blueprint/blueprint/nose.json",
+			"assets/animated_java/models/blueprint/blueprint/right_leg.json",
+			"assets/animated_java/models/blueprint/blueprint/left_arm.json",
+			"assets/animated_java/models/blueprint/blueprint/right_arm.json"
+		]
+	},
 	"copper_golem": {
 		"files": [
 			"assets/animated_java/models/empty.json",

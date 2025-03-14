@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"3": "animated_java:blueprint/blueprint/arms",
+		"6": "animated_java:blueprint/blueprint/extra_clothing_blue",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [13, 9, 6],
+			"to": [16, 19, 10],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [14.5, 14, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [5.5, 0, 4, 5],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [4, 0, 2, 5],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [1.5, 5, 0, 10],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [2, 0, 0, 5],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [1.5, 7, 3, 5],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [3, 5, 4.5, 7],
+					"texture": "#3"
+				}
+			}
+		},
+		{
+			"from": [12.95, 16, 5.95],
+			"to": [16.05, 18, 10.05],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [14.5, 14, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [1.5, 3, 0, 4],
+					"texture": "#6"
+				},
+				"east": {
+					"uv": [4, 2, 2, 3],
+					"texture": "#6"
+				},
+				"south": {
+					"uv": [4.5, 0, 3, 1],
+					"texture": "#6"
+				},
+				"west": {
+					"uv": [2, 2, 0, 3],
+					"texture": "#6"
+				},
+				"up": {
+					"uv": [0, 2, 1.5, 0],
+					"texture": "#6"
+				},
+				"down": {
+					"uv": [0, 2, 1.5, 0],
+					"texture": "#6"
+				}
+			}
+		}
+	]
+}

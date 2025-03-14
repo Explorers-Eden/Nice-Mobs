@@ -1,4 +1,4 @@
-particle minecraft:wax_off ^ ^ ^.3 .3 .3 .3 1 10 normal
+particle minecraft:wax_off ^ ^ ^.3 .3 .3 .3 1 5 normal
 
 playsound minecraft:block.copper_bulb.turn_off block @a ~ ~ ~ .5
 

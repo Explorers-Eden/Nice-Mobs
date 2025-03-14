@@ -1,5 +1,8 @@
 schedule function nice_mobs:copper_golem/run 5t
 
+#spawn natural Copper Golems
+function nice_mobs:copper_golem/spawning/init
+
 #cancel further functions if no copper_golem vehicle exists
 execute unless entity @e[type=item_display,tag=aj.copper_golem.root] run return fail
 
