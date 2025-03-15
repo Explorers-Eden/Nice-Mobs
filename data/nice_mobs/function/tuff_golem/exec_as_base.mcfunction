@@ -6,5 +6,5 @@ execute as @s[tag=!is_idle] if predicate eden:entity/is_idle run function nice_m
 execute as @s[tag=!is_walking] if predicate eden:entity/is_walking run function nice_mobs:tuff_golem/behavior/walk
 
 #apply textures when hurt or not
-#execute as @s[tag=!is_hurt] unless predicate eden:entity/has_no_hurttime run function nice_mobs:tuff_golem/behavior/hurt/start
-#execute as @s[tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..}] if predicate eden:entity/has_no_hurttime run function nice_mobs:tuff_golem/behavior/hurt/end
+execute as @s[tag=!is_hurt] unless predicate eden:entity/has_no_hurttime run function nice_mobs:tuff_golem/behavior/hurt/start
+execute as @s[tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..}] if predicate eden:entity/has_no_hurttime run function nice_mobs:tuff_golem/behavior/hurt/end

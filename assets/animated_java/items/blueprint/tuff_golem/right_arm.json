@@ -121,6 +121,132 @@
 					"type": "minecraft:model",
 					"model": "animated_java:blueprint/tuff_golem/yellow/right_arm"
 				}
+			},
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/default_hurt/right_arm"
+				}
+			},
+			{
+				"when": "black_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/black_hurt/right_arm"
+				}
+			},
+			{
+				"when": "brown_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/brown_hurt/right_arm"
+				}
+			},
+			{
+				"when": "cyan_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/cyan_hurt/right_arm"
+				}
+			},
+			{
+				"when": "gray_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/gray_hurt/right_arm"
+				}
+			},
+			{
+				"when": "green_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/green_hurt/right_arm"
+				}
+			},
+			{
+				"when": "light_blue_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/light_blue_hurt/right_arm"
+				}
+			},
+			{
+				"when": "light_gray_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/light_gray_hurt/right_arm"
+				}
+			},
+			{
+				"when": "lime_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/lime_hurt/right_arm"
+				}
+			},
+			{
+				"when": "magenta_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/magenta_hurt/right_arm"
+				}
+			},
+			{
+				"when": "moss_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/moss_hurt/right_arm"
+				}
+			},
+			{
+				"when": "orange_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/orange_hurt/right_arm"
+				}
+			},
+			{
+				"when": "pale_moss_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/pale_moss_hurt/right_arm"
+				}
+			},
+			{
+				"when": "pink_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/pink_hurt/right_arm"
+				}
+			},
+			{
+				"when": "purple_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/purple_hurt/right_arm"
+				}
+			},
+			{
+				"when": "red_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/red_hurt/right_arm"
+				}
+			},
+			{
+				"when": "white_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/white_hurt/right_arm"
+				}
+			},
+			{
+				"when": "yellow_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/tuff_golem/yellow_hurt/right_arm"
+				}
 			}
 		],
 		"fallback": {
