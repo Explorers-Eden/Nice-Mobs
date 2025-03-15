@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/tuff_golem/clothing",
+	"textures": {
+		"2": "animated_java:blueprint/tuff_golem/clothing_pink"
+	}
+}

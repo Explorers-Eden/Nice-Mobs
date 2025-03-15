@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "interacted": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"nice_mobs.tuff_golem.vehicle\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nice_mobs:tuff_golem/behavior/player_interacted"
+    }
+  }
