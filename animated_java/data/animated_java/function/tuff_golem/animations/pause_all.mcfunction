@@ -2,3 +2,5 @@
 execute unless entity @s[type=item_display,tag=aj.tuff_golem.root] run return run function animated_java:global/errors/function_not_executed_as_root_entity {'export_namespace': 'tuff_golem', 'function_path': 'animated_java:tuff_golem/animations/pause_all'}
 tag @s remove aj.tuff_golem.animation.idle.playing
 tag @s remove aj.tuff_golem.animation.walk.playing
+tag @s remove aj.tuff_golem.animation.start_holding.playing
+tag @s remove aj.tuff_golem.animation.end_holding.playing

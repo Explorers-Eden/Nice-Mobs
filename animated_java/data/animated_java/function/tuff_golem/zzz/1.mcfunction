@@ -17,3 +17,7 @@ execute on vehicle on passengers if entity @s[tag=aj.tuff_golem.node.left_arm] r
 data modify entity @s data.bones.bone_left_arm set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.tuff_golem.node.right_arm] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_right_arm set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.tuff_golem.node.tuff_golem_holding] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.item_display_tuff_golem_holding set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.tuff_golem.node.display] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_display set from storage aj:uuid main.out

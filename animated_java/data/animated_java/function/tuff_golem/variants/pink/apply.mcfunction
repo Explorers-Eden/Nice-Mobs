@@ -8,3 +8,4 @@ execute on passengers if entity @s[tag=aj.tuff_golem.bone.nose] run function ani
 execute on passengers if entity @s[tag=aj.tuff_golem.bone.right_leg] run function animated_java:tuff_golem/variants/pink/zzz/5
 execute on passengers if entity @s[tag=aj.tuff_golem.bone.left_arm] run function animated_java:tuff_golem/variants/pink/zzz/6
 execute on passengers if entity @s[tag=aj.tuff_golem.bone.right_arm] run function animated_java:tuff_golem/variants/pink/zzz/7
+execute on passengers if entity @s[tag=aj.tuff_golem.bone.display] run function animated_java:tuff_golem/variants/pink/zzz/8

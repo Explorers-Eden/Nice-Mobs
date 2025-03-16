@@ -1,6 +1,6 @@
 tag @s remove not_hurt
 
-#playsound minecraft:entity.chicken.hurt neutral @a ~ ~ ~ .3 .2
+playsound minecraft:entity.villager.hurt neutral @a ~ ~ ~ .5 .5
 
 scoreboard players set @s nice_mobs.entity.is_hurt 1
 tag @s add is_hurt

@@ -11,6 +11,6 @@
       }
     },
     "rewards": {
-      "function": "nice_mobs:tuff_golem/behavior/player_interacted"
+      "function": "nice_mobs:tuff_golem/player_interaction/init"
     }
   }

@@ -12,6 +12,7 @@ Tags:["nice_mobs.base","nice_mobs.tuff_golem.vehicle","eden.scaled","eden.baby_m
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:150},{id:"minecraft:movement_speed",base:.18},{id:"minecraft:scale",base:0.58}]\
 }
+
 execute store result score $tuff_golem_type eden.technical run random value 1..18
 execute if score $tuff_golem_type eden.technical matches 1 run function animated_java:tuff_golem/summon {args: {}}
 execute if score $tuff_golem_type eden.technical matches 2 run function animated_java:tuff_golem/summon {args: {variant: "black"}}
@@ -50,8 +51,6 @@ execute if score $tuff_golem_type eden.technical matches 15 run tag @n[type=vill
 execute if score $tuff_golem_type eden.technical matches 16 run tag @n[type=villager,tag=nice_mobs.tuff_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.tuff_golem.red
 execute if score $tuff_golem_type eden.technical matches 17 run tag @n[type=villager,tag=nice_mobs.tuff_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.tuff_golem.white
 execute if score $tuff_golem_type eden.technical matches 18 run tag @n[type=villager,tag=nice_mobs.tuff_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.tuff_golem.yellow
-
-tag @n[type=villager,tag=nice_mobs.tuff_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.tuff_golem
 
 ride @n[type=item_display,tag=aj.tuff_golem.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=villager,tag=nice_mobs.tuff_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
