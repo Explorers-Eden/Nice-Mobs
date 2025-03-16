@@ -12,6 +12,5 @@ execute as @s[tag=!is_holding,tag=!not_hurt,tag=!is_returning,scores={nice_mobs.
 #item hold behaviors
 execute as @s[scores={nice_mobs.entity.action=2}] run scoreboard players add @s nice_mobs.entity.timer 1
 execute as @s[scores={nice_mobs.entity.timer=2..}] run function nice_mobs:tuff_golem/behavior/remove_holding_data
-
 execute as @s[scores={nice_mobs.entity.action=2},tag=!is_returning] run function nice_mobs:tuff_golem/behavior/end_holding
 execute as @s[scores={nice_mobs.entity.action=1},tag=!is_holding] run function nice_mobs:tuff_golem/behavior/start_holding
