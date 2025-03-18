@@ -1,0 +1,2 @@
+execute if data entity @n[type=minecraft:block_display,tag=aj.dirt_golem.node.plant,distance=..3] block_state{"Name":"minecraft:air"} run return run function nice_mobs:dirt_golem/player_interaction/give_item
+execute unless data entity @n[type=minecraft:block_display,tag=aj.dirt_golem.node.plant,distance=..3] block_state{"Name":"minecraft:air"} run return run function nice_mobs:dirt_golem/player_interaction/swap_item
