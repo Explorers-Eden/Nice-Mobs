@@ -1,0 +1,50 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/dirt_golem/dirt_golem_base",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [13.5, 11, 6],
+			"to": [15.5, 18, 9],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [14.5, 14.5, 7.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [4, 5.75, 4.5, 7.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [2.5, 5.75, 3.25, 7.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [6.25, 6.5, 6.75, 8.25],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [1.75, 5.75, 2.5, 7.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [8.5, 5, 7.75, 4.5],
+					"rotation": 270,
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [8.5, 5, 7.75, 5.5],
+					"rotation": 90,
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/dirt_golem/right_arm",
+	"textures": {
+		"0": "animated_java:blueprint/dirt_golem/dirt_golem_hurt"
+	}
+}

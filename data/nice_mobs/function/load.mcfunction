@@ -12,6 +12,7 @@ schedule function nice_mobs:penguin/run 5t
 schedule function nice_mobs:snail/run 5t
 schedule function nice_mobs:copper_golem/run 5t
 schedule function nice_mobs:tuff_golem/run 5t
+schedule function nice_mobs:dirt_golem/run 5t
 
 ##purge temp storage
 data remove storage eden:temp nice_mobs

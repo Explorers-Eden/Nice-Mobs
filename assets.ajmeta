@@ -30,6 +30,31 @@
 			"assets/animated_java/models/blueprint/copper_golem/default_hurt/body.json"
 		]
 	},
+	"dirt_golem": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/dirt_golem/dirt_golem_base.png",
+			"assets/animated_java/textures/blueprint/dirt_golem/dirt_golem_hurt.png",
+			"assets/animated_java/items/blueprint/dirt_golem/body.json",
+			"assets/animated_java/items/blueprint/dirt_golem/left_leg.json",
+			"assets/animated_java/items/blueprint/dirt_golem/right_leg.json",
+			"assets/animated_java/items/blueprint/dirt_golem/left_arm.json",
+			"assets/animated_java/items/blueprint/dirt_golem/right_arm.json",
+			"assets/animated_java/items/blueprint/dirt_golem/hat.json",
+			"assets/animated_java/models/blueprint/dirt_golem/body.json",
+			"assets/animated_java/models/blueprint/dirt_golem/left_leg.json",
+			"assets/animated_java/models/blueprint/dirt_golem/right_leg.json",
+			"assets/animated_java/models/blueprint/dirt_golem/left_arm.json",
+			"assets/animated_java/models/blueprint/dirt_golem/right_arm.json",
+			"assets/animated_java/models/blueprint/dirt_golem/hat.json",
+			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/left_leg.json",
+			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/right_leg.json",
+			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/left_arm.json",
+			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/right_arm.json",
+			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/hat.json"
+		]
+	},
 	"mushling": {
 		"files": [
 			"assets/animated_java/models/empty.json",
