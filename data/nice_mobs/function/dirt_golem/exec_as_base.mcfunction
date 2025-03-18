@@ -15,5 +15,5 @@ execute as @s[tag=!is_holding,tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..
 
 #planting
 execute as @s[scores={nice_mobs.entity.timer=960},tag=!is_planting] if predicate eden:location/stepping_on_dirt if block ~ ~ ~ #minecraft:air run function nice_mobs:dirt_golem/behavior/planting/init
-execute as @s[scores={nice_mobs.entity.timer=963},tag=is_planting] if predicate eden:location/stepping_on_dirt if block ~ ~ ~ #minecraft:air run function nice_mobs:dirt_golem/behavior/planting/pre_planting
+execute as @s[scores={nice_mobs.entity.timer=964},tag=is_planting] if predicate eden:location/stepping_on_dirt if block ~ ~ ~ #minecraft:air run function nice_mobs:dirt_golem/behavior/planting/pre_planting
 execute as @s[scores={nice_mobs.entity.timer=968..}] run function nice_mobs:dirt_golem/behavior/planting/end_planting
