@@ -1,0 +1,39 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "pale",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/glare/pale/lower"
+				}
+			},
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/glare/default_hurt/lower"
+				}
+			},
+			{
+				"when": "pale_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/glare/pale_hurt/lower"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/glare/lower"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}

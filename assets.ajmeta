@@ -55,6 +55,30 @@
 			"assets/animated_java/models/blueprint/dirt_golem/default_hurt/hat.json"
 		]
 	},
+	"glare": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/glare/glare_default.png",
+			"assets/animated_java/textures/blueprint/glare/glare_pale.png",
+			"assets/animated_java/textures/blueprint/glare/glare_pale_hurt.png",
+			"assets/animated_java/textures/blueprint/glare/glare_default_hurt.png",
+			"assets/animated_java/items/blueprint/glare/head.json",
+			"assets/animated_java/items/blueprint/glare/mid.json",
+			"assets/animated_java/items/blueprint/glare/lower.json",
+			"assets/animated_java/models/blueprint/glare/head.json",
+			"assets/animated_java/models/blueprint/glare/mid.json",
+			"assets/animated_java/models/blueprint/glare/lower.json",
+			"assets/animated_java/models/blueprint/glare/pale/head.json",
+			"assets/animated_java/models/blueprint/glare/pale/mid.json",
+			"assets/animated_java/models/blueprint/glare/pale/lower.json",
+			"assets/animated_java/models/blueprint/glare/default_hurt/head.json",
+			"assets/animated_java/models/blueprint/glare/default_hurt/mid.json",
+			"assets/animated_java/models/blueprint/glare/default_hurt/lower.json",
+			"assets/animated_java/models/blueprint/glare/pale_hurt/head.json",
+			"assets/animated_java/models/blueprint/glare/pale_hurt/mid.json",
+			"assets/animated_java/models/blueprint/glare/pale_hurt/lower.json"
+		]
+	},
 	"mushling": {
 		"files": [
 			"assets/animated_java/models/empty.json",

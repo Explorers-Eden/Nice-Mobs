@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/glare/head",
+	"textures": {
+		"0": "animated_java:blueprint/glare/glare_pale_hurt"
+	}
+}

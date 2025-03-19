@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:moss_block",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"nice_mobs.glare.moss\"]}"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+          {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 1,
+                    "min": 0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2,
+                    "min": 0
+                  },
+                  "enchantment": "minecraft:looting",
+                  "function": "minecraft:enchanted_count_increase"
+                }
+              ],
+              "name": "minecraft:pale_moss_block",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"nice_mobs.glare.pale_moss\"]}"
+                  }
+                }
+              ]
+            }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/blaze"
+}
