@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/rat/back_left_foot",
+	"textures": {
+		"0": "animated_java:blueprint/rat/rat_light_brown_hurt"
+	}
+}

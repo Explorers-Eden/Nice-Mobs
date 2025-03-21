@@ -9,6 +9,62 @@
 					"type": "minecraft:model",
 					"model": "animated_java:blueprint/rat/default_hurt/head"
 				}
+			},
+			{
+				"when": "gray",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/gray/head"
+				}
+			},
+			{
+				"when": "gray_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/gray_hurt/head"
+				}
+			},
+			{
+				"when": "light_brown",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/light_brown/head"
+				}
+			},
+			{
+				"when": "light_brown_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/light_brown_hurt/head"
+				}
+			},
+			{
+				"when": "white",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/white/head"
+				}
+			},
+			{
+				"when": "white_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/white_hurt/head"
+				}
+			},
+			{
+				"when": "black",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/black/head"
+				}
+			},
+			{
+				"when": "black_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/black_hurt/head"
+				}
 			}
 		],
 		"fallback": {

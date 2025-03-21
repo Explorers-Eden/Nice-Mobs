@@ -9,6 +9,62 @@
 					"type": "minecraft:model",
 					"model": "animated_java:blueprint/rat/default_hurt/body"
 				}
+			},
+			{
+				"when": "gray",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/gray/body"
+				}
+			},
+			{
+				"when": "gray_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/gray_hurt/body"
+				}
+			},
+			{
+				"when": "light_brown",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/light_brown/body"
+				}
+			},
+			{
+				"when": "light_brown_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/light_brown_hurt/body"
+				}
+			},
+			{
+				"when": "white",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/white/body"
+				}
+			},
+			{
+				"when": "white_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/white_hurt/body"
+				}
+			},
+			{
+				"when": "black",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/black/body"
+				}
+			},
+			{
+				"when": "black_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/black_hurt/body"
+				}
 			}
 		],
 		"fallback": {

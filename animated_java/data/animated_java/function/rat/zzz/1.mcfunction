@@ -21,3 +21,5 @@ execute on vehicle on passengers if entity @s[tag=aj.rat.node.front_right_foot] 
 data modify entity @s data.bones.bone_front_right_foot set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.rat.node.front_left_foot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_front_left_foot set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.rat.node.item_display] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.item_display_item_display set from storage aj:uuid main.out

@@ -9,6 +9,62 @@
 					"type": "minecraft:model",
 					"model": "animated_java:blueprint/rat/default_hurt/back_right_foot"
 				}
+			},
+			{
+				"when": "gray",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/gray/back_right_foot"
+				}
+			},
+			{
+				"when": "gray_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/gray_hurt/back_right_foot"
+				}
+			},
+			{
+				"when": "light_brown",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/light_brown/back_right_foot"
+				}
+			},
+			{
+				"when": "light_brown_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/light_brown_hurt/back_right_foot"
+				}
+			},
+			{
+				"when": "white",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/white/back_right_foot"
+				}
+			},
+			{
+				"when": "white_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/white_hurt/back_right_foot"
+				}
+			},
+			{
+				"when": "black",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/black/back_right_foot"
+				}
+			},
+			{
+				"when": "black_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/rat/black_hurt/back_right_foot"
+				}
 			}
 		],
 		"fallback": {
