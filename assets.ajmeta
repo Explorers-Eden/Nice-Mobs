@@ -141,6 +141,43 @@
 			"assets/animated_java/models/blueprint/penguin/default_hurt/body.json"
 		]
 	},
+	"rat": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/rat/rat_brown.png",
+			"assets/animated_java/textures/blueprint/rat/rat_brown_hurt.png",
+			"assets/animated_java/items/blueprint/rat/body.json",
+			"assets/animated_java/items/blueprint/rat/head.json",
+			"assets/animated_java/items/blueprint/rat/1.json",
+			"assets/animated_java/items/blueprint/rat/2.json",
+			"assets/animated_java/items/blueprint/rat/3.json",
+			"assets/animated_java/items/blueprint/rat/4.json",
+			"assets/animated_java/items/blueprint/rat/back_left_foot.json",
+			"assets/animated_java/items/blueprint/rat/back_right_foot.json",
+			"assets/animated_java/items/blueprint/rat/front_right_foot.json",
+			"assets/animated_java/items/blueprint/rat/front_left_foot.json",
+			"assets/animated_java/models/blueprint/rat/body.json",
+			"assets/animated_java/models/blueprint/rat/head.json",
+			"assets/animated_java/models/blueprint/rat/1.json",
+			"assets/animated_java/models/blueprint/rat/2.json",
+			"assets/animated_java/models/blueprint/rat/3.json",
+			"assets/animated_java/models/blueprint/rat/4.json",
+			"assets/animated_java/models/blueprint/rat/back_left_foot.json",
+			"assets/animated_java/models/blueprint/rat/back_right_foot.json",
+			"assets/animated_java/models/blueprint/rat/front_right_foot.json",
+			"assets/animated_java/models/blueprint/rat/front_left_foot.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/head.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/1.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/2.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/3.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/4.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/back_left_foot.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/back_right_foot.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/front_right_foot.json",
+			"assets/animated_java/models/blueprint/rat/default_hurt/front_left_foot.json"
+		]
+	},
 	"snail": {
 		"files": [
 			"assets/animated_java/models/empty.json",

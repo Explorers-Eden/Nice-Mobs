@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/rat/rat_brown",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.5, 9.25, 12],
+			"to": [8, 9.75, 13],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [7.5, 8.25, 13]
+			},
+			"faces": {
+				"north": {
+					"uv": [11, 1, 11.5, 1.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [1, 10, 2, 10.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [2, 11, 2.5, 11.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2, 10, 3, 10.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [10.5, 3, 10, 2],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [3.5, 10, 3, 11],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
