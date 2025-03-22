@@ -3,7 +3,7 @@ schedule function nice_mobs:penguin/run 5t
 #cancel further functions if no penguin vehicle exists
 execute unless entity @e[type=item_display,tag=aj.penguin.root] run return fail
 
-#init barterint
+#init bartering
 execute as @e[type=item,predicate=eden:entity/is_cod_item] at @s if entity @e[type=pig,tag=nice_mobs.penguin.vehicle,tag=!is_bartering,distance=..1] run function nice_mobs:penguin/behavior/bartering/init
 
 #on death

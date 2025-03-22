@@ -16,4 +16,4 @@ execute as @e[type=villager,tag=nice_mobs.tuff_golem.vehicle,tag=!is_hurt,predic
 execute as @e[type=creeper,tag=nice_mobs.glare.vehicle,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.shulker.ambient neutral @a ~ ~ ~ .3 .5
 
 #Rat
-execute as @e[type=pig,tag=nice_mobs.rat.vehicle,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.bat.ambient neutral @a ~ ~ ~ .5 1.5
+execute as @e[type=pig,tag=nice_mobs.rat.vehicle,tag=!is_hurt,tag=!is_eating,predicate=eden:percentages/10] at @s run playsound minecraft:entity.bat.ambient neutral @a ~ ~ ~ .5 1.5

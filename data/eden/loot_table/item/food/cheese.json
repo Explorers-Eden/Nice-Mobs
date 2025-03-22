@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+        "minecraft:item_name": "{\"fallback\":\"Cheese\",\"translate\":\"item.nice_mobs.cheese\"}",
+        "minecraft:item_model": "nice_mobs:cheese"
+      }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
