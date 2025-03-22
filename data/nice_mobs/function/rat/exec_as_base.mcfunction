@@ -12,6 +12,6 @@ execute as @s[tag=nice_mobs.rat.vehicle,tag=!not_hurt,scores={nice_mobs.entity.i
 
 #eating functions
 execute as @s[scores={nice_mobs.entity.action=1}] run scoreboard players add @s nice_mobs.entity.timer 1
-execute as @s[scores={nice_mobs.entity.action=1,nice_mobs.entity.timer=..14}] run function nice_mobs:rat/behavior/eating/during_action
+execute as @s[scores={nice_mobs.entity.action=1,nice_mobs.entity.timer=..13}] run function nice_mobs:rat/behavior/eating/during_action
 execute as @s[scores={nice_mobs.entity.timer=14}] run function nice_mobs:rat/behavior/eating/end
 execute as @s[scores={nice_mobs.entity.timer=960..}] run function nice_mobs:rat/behavior/eating/reset
