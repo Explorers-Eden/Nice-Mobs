@@ -1,6 +1,6 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Penguin"}',\
+CustomName:'{"bold":false,"fallback":"Penguin","italic":false,"translate":"entity.nice_mobs.penguin"}',\
 DeathLootTable:"eden:entity/penguin",\
 Silent:1b,\
 PersistenceRequired:1b,\

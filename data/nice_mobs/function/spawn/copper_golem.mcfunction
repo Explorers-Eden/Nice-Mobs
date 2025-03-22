@@ -1,6 +1,6 @@
 summon iron_golem ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Copper Golem"}',\
+CustomName:'{"bold":false,"fallback":"Copper Golem","italic":false,"translate":"entity.nice_mobs.copper_golem"}',\
 DeathLootTable:"eden:entity/copper_golem",\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\

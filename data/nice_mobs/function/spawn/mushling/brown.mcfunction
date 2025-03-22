@@ -1,6 +1,6 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Mushling"}',\
+CustomName:'{"bold":false,"fallback":"Mushling","italic":false,"translate":"entity.nice_mobs.mushling"}',\
 DeathLootTable:"eden:entity/mushling",\
 Silent:1b,\
 PersistenceRequired:1b,\

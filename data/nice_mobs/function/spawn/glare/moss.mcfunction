@@ -1,6 +1,6 @@
 summon creeper ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Glare"}',\
+CustomName:'{"bold":false,"fallback":"Glare","italic":false,"translate":"entity.nice_mobs.glare"}',\
 DeathLootTable:"eden:entity/glare",\
 Silent:1b,\
 PersistenceRequired:1b,\

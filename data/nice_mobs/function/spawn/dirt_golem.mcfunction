@@ -1,6 +1,6 @@
 summon villager ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Dirt Golem"}',\
+CustomName:'{"bold":false,"fallback":"Dirt Golem","italic":false,"translate":"entity.nice_mobs.dirt_golem"}',\
 DeathLootTable:"eden:entity/dirt_golem",\
 Silent:1b,\
 PersistenceRequired:1b,\

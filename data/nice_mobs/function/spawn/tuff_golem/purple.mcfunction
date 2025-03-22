@@ -1,6 +1,6 @@
 summon villager ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Tuff Golem"}',\
+CustomName:'{"bold":false,"fallback":"Tuff Golem","italic":false,"translate":"entity.nice_mobs.tuff_golem"}',\
 DeathLootTable:"eden:entity/tuff_golem",\
 Silent:1b,\
 PersistenceRequired:1b,\
