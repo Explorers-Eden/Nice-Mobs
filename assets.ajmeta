@@ -1,4 +1,36 @@
 {
+	"bloomer": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/bloomer/creeper_alt.png",
+			"assets/animated_java/textures/blueprint/bloomer/bloomer_flash.png",
+			"assets/animated_java/textures/blueprint/bloomer/bloomer_hurt.png",
+			"assets/animated_java/items/blueprint/bloomer/body.json",
+			"assets/animated_java/items/blueprint/bloomer/head.json",
+			"assets/animated_java/items/blueprint/bloomer/leg0.json",
+			"assets/animated_java/items/blueprint/bloomer/leg1.json",
+			"assets/animated_java/items/blueprint/bloomer/leg2.json",
+			"assets/animated_java/items/blueprint/bloomer/leg3.json",
+			"assets/animated_java/models/blueprint/bloomer/body.json",
+			"assets/animated_java/models/blueprint/bloomer/head.json",
+			"assets/animated_java/models/blueprint/bloomer/leg0.json",
+			"assets/animated_java/models/blueprint/bloomer/leg1.json",
+			"assets/animated_java/models/blueprint/bloomer/leg2.json",
+			"assets/animated_java/models/blueprint/bloomer/leg3.json",
+			"assets/animated_java/models/blueprint/bloomer/default_hurt/head.json",
+			"assets/animated_java/models/blueprint/bloomer/default_hurt/leg0.json",
+			"assets/animated_java/models/blueprint/bloomer/default_hurt/leg1.json",
+			"assets/animated_java/models/blueprint/bloomer/default_hurt/leg2.json",
+			"assets/animated_java/models/blueprint/bloomer/default_hurt/leg3.json",
+			"assets/animated_java/models/blueprint/bloomer/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/bloomer/default_flash/head.json",
+			"assets/animated_java/models/blueprint/bloomer/default_flash/leg0.json",
+			"assets/animated_java/models/blueprint/bloomer/default_flash/leg1.json",
+			"assets/animated_java/models/blueprint/bloomer/default_flash/leg2.json",
+			"assets/animated_java/models/blueprint/bloomer/default_flash/leg3.json",
+			"assets/animated_java/models/blueprint/bloomer/default_flash/body.json"
+		]
+	},
 	"copper_golem": {
 		"files": [
 			"assets/animated_java/models/empty.json",

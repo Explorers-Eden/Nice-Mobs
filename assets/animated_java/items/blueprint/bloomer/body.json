@@ -1,0 +1,32 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/bloomer/default_hurt/body"
+				}
+			},
+			{
+				"when": "default_flash",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/bloomer/default_flash/body"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/bloomer/body"
+		},
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": [1, 1, 1]
+			}
+		]
+	}
+}

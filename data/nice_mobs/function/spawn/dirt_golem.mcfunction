@@ -14,7 +14,6 @@ attributes:[{id:"minecraft:max_health",base:80},{id:"minecraft:movement_speed",b
 }
 
 function animated_java:dirt_golem/summon {args: {}}
-tag @n[type=villager,tag=nice_mobs.dirt_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.dirt_golem.oak_sapling
 
 ride @n[type=item_display,tag=aj.dirt_golem.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=villager,tag=nice_mobs.dirt_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

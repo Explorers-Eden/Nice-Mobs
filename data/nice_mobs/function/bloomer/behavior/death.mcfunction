@@ -1,0 +1,1 @@
+function animated_java:bloomer/remove/this
