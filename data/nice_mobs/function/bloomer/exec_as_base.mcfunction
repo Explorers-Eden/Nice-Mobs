@@ -8,8 +8,8 @@ execute as @s[tag=!is_walking] if predicate eden:entity/is_walking run function 
 #do explosion actions
 execute as @s[tag=!is_exploding,scores={nice_mobs.entity.action=..0}] if predicate eden:entity/targeted_player_within_3_blocks run function nice_mobs:bloomer/behavior/primed
 execute as @s[tag=!is_exploding,scores={nice_mobs.entity.action=..0}] if data entity @s {"ignited":1b} run function nice_mobs:bloomer/behavior/primed
-execute as @s[tag=is_exploding] run function nice_mobs:bloomer/behavior/flashing
-#execute as @s[tag=is_exploding] unless predicate eden:entity/targeted_player_within_3_blocks run function nice_mobs:bloomer/behavior/score_reset
+execute as @s[scores={nice_mobs.entity.action=1}] run function nice_mobs:bloomer/behavior/flashing
+execute unless entity @e[type=player,distance=..3] run function nice_mobs:bloomer/behavior/score_reset
 
 #apply textures when hurt or not
 execute as @s[tag=!is_hurt] unless predicate eden:entity/has_no_hurttime run function nice_mobs:bloomer/behavior/hurt/start
