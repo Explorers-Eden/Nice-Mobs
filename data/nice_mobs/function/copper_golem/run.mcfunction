@@ -1,7 +1,7 @@
 schedule function nice_mobs:copper_golem/run 5t
 
-#spawn natural Copper Golems
-function nice_mobs:copper_golem/spawning/init
+#replace percentage of villager spawned iron golems with copper golems
+execute as @e[type=minecraft:iron_golem,tag=!nice_mobs.base,tag=!nice_mobs.exclude_spawning] at @s run function nice_mobs:copper_golem/spawning
 
 #cancel further functions if no copper_golem vehicle exists
 execute unless entity @e[type=item_display,tag=aj.copper_golem.root] run return fail

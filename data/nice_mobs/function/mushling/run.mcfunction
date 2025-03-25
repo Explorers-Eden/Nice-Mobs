@@ -1,8 +1,5 @@
 schedule function nice_mobs:mushling/run 5t
 
-#spawn natural Mushling
-function nice_mobs:mushling/spawning/init
-
 #cancel further functions if no mushling vehicle exists
 execute unless entity @e[type=item_display,tag=aj.mushling.root] run return fail
 

@@ -1,0 +1,17 @@
+{
+    "structures": [
+      {
+        "structure": "nice_mobs:pale_garden_spawner",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spread_type": "triangular",
+      "salt": 749894434,
+      "spacing": 18,
+      "separation": 9,
+      "frequency_reduction_method": "default",
+      "frequency": 1
+    }
+  }
