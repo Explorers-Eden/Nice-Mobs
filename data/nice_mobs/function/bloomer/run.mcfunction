@@ -1,5 +1,8 @@
 schedule function nice_mobs:bloomer/run 5t
 
+#spawn natural Bloomers
+function nice_mobs:bloomer/spawning/init
+
 #cancel further functions if no bloomer vehicle exists
 execute unless entity @e[type=item_display,tag=aj.bloomer.root] run return fail
 

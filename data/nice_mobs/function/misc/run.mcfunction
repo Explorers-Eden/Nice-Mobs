@@ -1,4 +1,5 @@
 schedule function nice_mobs:misc/run 6t
+execute unless entity @e[tag=nice_mobs.base] run return fail
 
 #modify general behavior
 execute as @e[type=pig,tag=nice_mobs.base] run function nice_mobs:misc/modify_pig_data

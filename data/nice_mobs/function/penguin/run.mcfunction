@@ -1,5 +1,8 @@
 schedule function nice_mobs:penguin/run 5t
 
+#spawn natural Penguins
+function nice_mobs:penguin/spawning/init
+
 #cancel further functions if no penguin vehicle exists
 execute unless entity @e[type=item_display,tag=aj.penguin.root] run return fail
 
