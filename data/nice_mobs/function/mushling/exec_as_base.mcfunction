@@ -3,6 +3,7 @@ execute as @s if predicate eden:entity/is_idle if predicate eden:location/steppi
 
 #set rotations of passengers
 execute as @s store result entity @n[type=item_display,tag=aj.mushling.root,distance=..1] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
+execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #play walk/idle animations
 execute as @s[tag=!is_idle,scores={nice_mobs.entity.timer=..959}] if predicate eden:entity/is_idle run function nice_mobs:mushling/behavior/idle

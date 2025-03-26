@@ -1,0 +1,51 @@
+{
+    "name": "nice_mobs:copper_forge_feature",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 20,
+        "element": {
+            "location": "nice_mobs:copper_forge/feature_1",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 5,
+        "element": {
+            "location": "nice_mobs:copper_forge/feature_2",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 5,
+        "element": {
+            "location": "nice_mobs:copper_forge/feature_3",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 5,
+        "element": {
+            "location": "nice_mobs:copper_forge/feature_4",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 5,
+        "element": {
+            "location": "nice_mobs:copper_forge/feature_5",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

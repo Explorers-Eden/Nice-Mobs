@@ -1,5 +1,6 @@
 #set rotations of passengers
 execute store result entity @n[type=item_display,tag=aj.copper_golem.root,distance=..2] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
+execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #play default walk/idle animations
 execute as @s[tag=!is_idle,predicate=eden:entity/has_no_angertime] if predicate eden:entity/is_idle run function nice_mobs:copper_golem/behavior/idle

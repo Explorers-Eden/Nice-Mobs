@@ -1,0 +1,15 @@
+{
+    "name": "nice_mobs:copper_forge",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 10,
+        "element": {
+            "location": "nice_mobs:copper_forge/house_1",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

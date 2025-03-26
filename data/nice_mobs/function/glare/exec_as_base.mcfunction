@@ -1,5 +1,6 @@
 #set rotations of passengers
 execute store result entity @n[type=item_display,tag=aj.glare.root,distance=..3] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
+execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #play walk/idle animations
 execute as @s[tag=!is_idle] if predicate eden:entity/is_idle run function nice_mobs:glare/behavior/idle
