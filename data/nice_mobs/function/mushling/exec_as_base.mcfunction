@@ -1,5 +1,5 @@
 #increase timers
-execute as @s if predicate eden:entity/is_idle if predicate eden:location/stepping_on_dirt run scoreboard players add @s nice_mobs.entity.timer 1
+execute as @s[predicate=eden:percentages/25] if predicate eden:entity/is_idle if predicate eden:location/stepping_on_dirt run scoreboard players add @s nice_mobs.entity.timer 1
 
 #set rotations of passengers
 execute as @s store result entity @n[type=item_display,tag=aj.mushling.root,distance=..1] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000

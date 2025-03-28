@@ -19,7 +19,5 @@ ride @n[type=item_display,tag=aj.dirt_golem.root,tag=!nice_mobs.has_vehicle,dist
 
 scoreboard players set @n[type=villager,tag=nice_mobs.dirt_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.timer 0
 
-execute as @n[type=item_display,tag=aj.dirt_golem.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f
-
 tag @n[type=item_display,tag=aj.dirt_golem.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=villager,tag=nice_mobs.dirt_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

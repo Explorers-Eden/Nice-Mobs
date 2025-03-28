@@ -1,0 +1,11 @@
+{
+  "description": {
+    "translate": "instrument.nice_mobs.pufftail_calling",
+      "fallback": "Pufftail Calling"
+  },
+  "range": 196,
+  "sound_event": {
+    "sound_id": "nice_mobs:item.nautilus_horn.pufftail_calling"
+  },
+  "use_duration": 30
+}

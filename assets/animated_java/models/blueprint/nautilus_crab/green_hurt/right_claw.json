@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/nautilus_crab/right_claw",
+	"textures": {
+		"0": "animated_java:blueprint/nautilus_crab/nautilus_crab_green_hurt"
+	}
+}

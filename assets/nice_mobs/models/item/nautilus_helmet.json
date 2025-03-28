@@ -1,0 +1,97 @@
+{
+	"credit": "Made by ArborGrizz",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "nice_mobs:item/nautilus_helmet1",
+		"1": "nice_mobs:item/nautilus_helmet2",
+		"2": "nice_mobs:item/nautilus_helmet3",
+		"particle": "nice_mobs:item/nautilus_helmet1"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"south": {"uv": [4, 0, 8, 4], "texture": "#0"},
+				"west": {"uv": [4, 4, 8, 8], "texture": "#0"},
+				"up": {"uv": [4, 12, 0, 8], "texture": "#0"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 2, 12],
+			"to": [12, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 6, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#2"},
+				"east": {"uv": [4, 4, 6, 7], "texture": "#2"},
+				"south": {"uv": [0, 3, 4, 6], "texture": "#2"},
+				"west": {"uv": [0, 6, 2, 9], "texture": "#2"},
+				"up": {"uv": [8, 2, 4, 0], "texture": "#2"},
+				"down": {"uv": [8, 2, 4, 4], "texture": "#2"}
+			}
+		},
+		{
+			"from": [4, 8, 4],
+			"to": [12, 12, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 8, 4]},
+			"faces": {
+				"north": {"uv": [0, 8, 4, 10], "texture": "#1"},
+				"east": {"uv": [0, 6, 6, 8], "texture": "#1"},
+				"south": {"uv": [8, 0, 12, 2], "texture": "#1"},
+				"west": {"uv": [6, 6, 12, 8], "texture": "#1"},
+				"up": {"uv": [4, 6, 0, 0], "texture": "#1"},
+				"down": {"uv": [8, 0, 4, 6], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [40, 0, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [40, 0, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [20, -45, 0],
+			"translation": [1.25, 1.25, 0]
+		},
+		"head": {
+			"translation": [0, 7.6, 0],
+			"scale": [1.9, 1.9, 1.9]
+		},
+		"fixed": {
+			"rotation": [-15, 0, 0],
+			"translation": [0, 0, -9],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	},
+	"groups": [
+		{
+			"name": "nautilus_helmet",
+			"origin": [4, 8, 4],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

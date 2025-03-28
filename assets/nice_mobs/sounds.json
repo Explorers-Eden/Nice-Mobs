@@ -1,0 +1,7 @@
+{
+      "item.nautilus_horn.pufftail_calling": {
+        "sounds": [
+            "nice_mobs:item/nautilus_horn/pufftail_calling"
+        ]
+      }
+}

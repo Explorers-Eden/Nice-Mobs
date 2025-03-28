@@ -63,4 +63,13 @@ execute as @s[tag=nice_mobs.spawner.tuff_golem.red] run function nice_mobs:spawn
 execute as @s[tag=nice_mobs.spawner.tuff_golem.white] run function nice_mobs:spawn/tuff_golem/white
 execute as @s[tag=nice_mobs.spawner.tuff_golem.yellow] run function nice_mobs:spawn/tuff_golem/yellow
 
+#Nautilus Crab
+execute as @s[tag=nice_mobs.spawner.nautilus_crab] run function nice_mobs:spawn/nautilus_crab
+execute as @s[tag=nice_mobs.spawner.nautilus_crab.red] run function nice_mobs:spawn/nautilus_crab/red
+execute as @s[tag=nice_mobs.spawner.nautilus_crab.blue] run function nice_mobs:spawn/nautilus_crab/blue
+execute as @s[tag=nice_mobs.spawner.nautilus_crab.green] run function nice_mobs:spawn/nautilus_crab/green
+execute as @s[tag=nice_mobs.spawner.nautilus_crab.orange] run function nice_mobs:spawn/nautilus_crab/orange
+execute as @s[tag=nice_mobs.spawner.nautilus_crab.pink] run function nice_mobs:spawn/nautilus_crab/pink
+execute as @s[tag=nice_mobs.spawner.nautilus_crab.purple] run function nice_mobs:spawn/nautilus_crab/purple
+
 kill @s

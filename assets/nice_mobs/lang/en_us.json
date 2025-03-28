@@ -1,5 +1,9 @@
 {
+    "instrument.nice_mobs.pufftail_calling": "Pufftail Calling",
     "item.nice_mobs.cheese": "Cheese",
+    "item.nice_mobs.nautilus_horn": "Nautilus Horn",
+    "item.nice_mobs.used_nautilus_horn": "Used Nautilus Horn",
+    "item.nice_mobs.nautilus_helmet": "Nautilus Helmet",
     "entity.nice_mobs.glare": "Glare",
     "entity.nice_mobs.mushling": "Mushling",
     "entity.nice_mobs.rat": "Rat",
@@ -8,6 +12,10 @@
     "entity.nice_mobs.copper_golem": "Copper Golem",
     "entity.nice_mobs.dirt_golem": "Dirt Golem",
     "entity.nice_mobs.penguin": "Penguin",
-    "entity.nice_mobs.bloomer": "Bloomer"
+    "entity.nice_mobs.bloomer": "Bloomer",
+    "entity.nice_mobs.nautilus_crab": "Nautilus Crab",
+    "entity.nice_mobs.jellyfish": "Jellyfish",
+    "entity.nice_mobs.pufftail": "Pufftail",
+    "entity.nice_mobs.carniflower": "Carniflower"
 }
     

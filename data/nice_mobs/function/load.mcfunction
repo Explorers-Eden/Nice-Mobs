@@ -17,6 +17,7 @@ schedule function nice_mobs:dirt_golem/run 5t
 schedule function nice_mobs:glare/run 5t
 schedule function nice_mobs:rat/run 5t
 schedule function nice_mobs:bloomer/run 5t
+schedule function nice_mobs:nautilus_crab/run 5t
 
 ##purge temp storage
 data remove storage eden:temp nice_mobs
