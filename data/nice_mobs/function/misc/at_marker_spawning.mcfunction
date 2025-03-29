@@ -72,4 +72,7 @@ execute as @s[tag=nice_mobs.spawner.nautilus_crab.orange] run function nice_mobs
 execute as @s[tag=nice_mobs.spawner.nautilus_crab.pink] run function nice_mobs:spawn/nautilus_crab/pink
 execute as @s[tag=nice_mobs.spawner.nautilus_crab.purple] run function nice_mobs:spawn/nautilus_crab/purple
 
+#Pufftail
+execute as @s[tag=nice_mobs.spawner.pufftail] run function nice_mobs:spawn/pufftail
+
 kill @s

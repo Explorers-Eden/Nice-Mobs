@@ -2,5 +2,7 @@
 execute unless entity @s[tag=aj.pufftail.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 function #animated_java:pufftail/as_root/pre_tick
+execute if entity @s[tag=aj.pufftail.animation.idle.playing] run function animated_java:pufftail/animations/idle/zzz/on_tick
+execute if entity @s[tag=aj.pufftail.animation.fly.playing] run function animated_java:pufftail/animations/fly/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:pufftail/as_root/post_tick

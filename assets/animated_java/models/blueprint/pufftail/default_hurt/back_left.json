@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/pufftail/back_left",
+	"textures": {
+		"0": "animated_java:blueprint/pufftail/pufftail_default_hurt"
+	}
+}

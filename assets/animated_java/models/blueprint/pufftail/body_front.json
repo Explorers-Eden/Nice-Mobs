@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "animated_java:blueprint/pufftail/default",
+		"0": "animated_java:blueprint/pufftail/pufftail_default",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -12,6 +12,11 @@
 		{
 			"from": [0, 8, -10.66667],
 			"to": [16, 28, 13.33333],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
 			"faces": {
 				"north": {
 					"uv": [0, 7.5, 3, 11.25],

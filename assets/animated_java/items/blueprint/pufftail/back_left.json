@@ -1,7 +1,20 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "animated_java:blueprint/pufftail/back_left",
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/pufftail/default_hurt/back_left"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animated_java:blueprint/pufftail/back_left"
+		},
 		"tints": [
 			{
 				"type": "minecraft:dye",
