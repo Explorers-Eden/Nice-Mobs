@@ -1,0 +1,10 @@
+{
+    "values": [
+      "minecraft:pig",
+      "minecraft:zombified_piglin",
+      "minecraft:villager",
+      "minecraft:pillager",
+      "minecraft:vex",
+      "minecraft:creeper"
+    ]
+  }

@@ -17,3 +17,6 @@ execute as @e[type=creeper,tag=nice_mobs.glare.vehicle,tag=!is_hurt,predicate=ed
 
 #Rat
 execute as @e[type=pig,tag=nice_mobs.rat.vehicle,tag=!is_hurt,tag=!is_eating,predicate=eden:percentages/10] at @s run playsound minecraft:entity.bat.ambient neutral @a ~ ~ ~ .5 1.5
+
+#Pufftail
+execute as @e[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!is_hurt,predicate=eden:percentages/33] at @s run playsound minecraft:entity.wither.ambient hostile @a ~ ~ ~ .7 .5
