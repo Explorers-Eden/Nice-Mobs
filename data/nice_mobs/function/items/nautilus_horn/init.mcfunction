@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:goat_horn[minecraft:custom_data={nice_mobs:"nautilus_horn"}] run return run function nice_mobs:items/nautilus_horn/exec_mainhand
+execute if items entity @s weapon.offhand minecraft:goat_horn[minecraft:custom_data={nice_mobs:"nautilus_horn"}] run return run function nice_mobs:items/nautilus_horn/exec_offhand

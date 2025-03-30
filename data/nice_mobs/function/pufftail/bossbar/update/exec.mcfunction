@@ -1,0 +1,1 @@
+$execute store result bossbar nice_mobs:pufftail_$(bossbar_id_update) value run data get entity @s Health

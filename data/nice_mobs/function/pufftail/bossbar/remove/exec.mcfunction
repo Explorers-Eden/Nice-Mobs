@@ -1,0 +1,1 @@
+$bossbar remove nice_mobs:pufftail_$(bossbar_id_del)

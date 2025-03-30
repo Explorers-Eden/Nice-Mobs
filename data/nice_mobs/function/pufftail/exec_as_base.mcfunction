@@ -20,5 +20,8 @@ execute as @e[type=player,distance=..3,predicate=eden:percentages/25] at @s run 
 
 #play particles
 particle end_rod ~ ~2 ~ 1 1 1 0 1 force
-particle dust{color:[1.000,1.000,1.000],scale:2} ~ ~2 ~ 1 1 1 0 3 force
-particle dust{color:[0.361,0.827,1.000],scale:3} ~ ~2 ~ 1 1 1 0 3 force
+particle dust{color:[1.000,1.000,1.000],scale:2} ~ ~2 ~ 1 1 1 0 3
+particle dust{color:[0.361,0.827,1.000],scale:3} ~ ~2 ~ 1 1 1 0 3
+
+#show/hide bossbar
+function nice_mobs:pufftail/bossbar/visibility/init

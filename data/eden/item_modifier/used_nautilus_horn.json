@@ -1,0 +1,13 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "name": {
+        "translate": "item.nice_mobs.used_nautilus_horn",
+        "fallback": "Used Nautilus Horn"
+      }
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{nice_mobs: \"used_nautilus_horn\"}"
+    }
+  ]

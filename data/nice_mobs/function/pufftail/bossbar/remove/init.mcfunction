@@ -1,0 +1,2 @@
+execute store result storage eden:temp nice_mobs.pufftail.bossbar_id_del int 1 run scoreboard players get @s nice_mobs.pufftail.bossbar
+function nice_mobs:pufftail/bossbar/remove/exec with storage eden:temp nice_mobs.pufftail

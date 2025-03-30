@@ -1,0 +1,1 @@
+$bossbar set nice_mobs:pufftail_$(bossbar_id_vis) players @a[distance=..48]
