@@ -7,7 +7,7 @@ execute as @s[tag=nice_mobs.nautilus_crab.pink] on passengers run function anima
 execute as @s[tag=nice_mobs.nautilus_crab.purple] on passengers run function animated_java:nautilus_crab/variants/purple_hurt/apply
 execute as @s[tag=nice_mobs.nautilus_crab.green] on passengers run function animated_java:nautilus_crab/variants/green_hurt/apply
 
-playsound minecraft:entity.chicken.hurt neutral @a ~ ~ ~ .3 .2
+playsound minecraft:entity.axolotl.hurt neutral @a ~ ~ ~ .5 .5
 
 scoreboard players set @s nice_mobs.entity.is_hurt 1
 tag @s add is_hurt
