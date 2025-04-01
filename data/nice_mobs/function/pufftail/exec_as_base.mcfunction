@@ -19,7 +19,7 @@ execute as @s[scores={nice_mobs.entity.timer=30..}] if entity @e[type=player,gam
 execute as @e[type=player,distance=..3,predicate=eden:percentages/25] at @s run damage @s 2.5 minecraft:drown by @n[type=vex,tag=nice_mobs.pufftail.vehicle]
 
 #play particles
-particle end_rod ~ ~2 ~ 1 1 1 0 1 force
+particle end_rod ~ ~2 ~ 1 1 1 0 1
 particle dust{color:[1.000,1.000,1.000],scale:2} ~ ~2 ~ 1 1 1 0 3
 particle dust{color:[0.361,0.827,1.000],scale:3} ~ ~2 ~ 1 1 1 0 3
 

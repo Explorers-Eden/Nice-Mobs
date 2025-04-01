@@ -7,6 +7,6 @@ execute unless data storage aj:temp args.animation run function animated_java:bl
 execute if data storage aj:temp args.animation run function animated_java:bloomer/zzz/6 with storage aj:temp args
 tp @s ~ ~ ~ ~ ~
 execute at @s on passengers run rotate @s ~ ~
-data modify entity @s teleport_duration set value 1
-execute on passengers run data modify entity @s teleport_duration set value 1
+data modify entity @s teleport_duration set value 5
+execute on passengers run data modify entity @s teleport_duration set value 5
 function #animated_java:bloomer/as_root/on_summon
