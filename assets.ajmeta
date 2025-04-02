@@ -62,6 +62,34 @@
 			"assets/animated_java/models/blueprint/copper_golem/default_hurt/body.json"
 		]
 	},
+	"cruncher": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/cruncher/cruncher_default.png",
+			"assets/animated_java/textures/blueprint/cruncher/cruncher_default_hurt.png",
+			"assets/animated_java/items/blueprint/cruncher/body.json",
+			"assets/animated_java/items/blueprint/cruncher/upper.json",
+			"assets/animated_java/items/blueprint/cruncher/lower.json",
+			"assets/animated_java/items/blueprint/cruncher/front_left.json",
+			"assets/animated_java/items/blueprint/cruncher/back_left.json",
+			"assets/animated_java/items/blueprint/cruncher/front_right.json",
+			"assets/animated_java/items/blueprint/cruncher/back_right.json",
+			"assets/animated_java/models/blueprint/cruncher/body.json",
+			"assets/animated_java/models/blueprint/cruncher/upper.json",
+			"assets/animated_java/models/blueprint/cruncher/lower.json",
+			"assets/animated_java/models/blueprint/cruncher/front_left.json",
+			"assets/animated_java/models/blueprint/cruncher/back_left.json",
+			"assets/animated_java/models/blueprint/cruncher/front_right.json",
+			"assets/animated_java/models/blueprint/cruncher/back_right.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/upper.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/lower.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/front_left.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/back_left.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/front_right.json",
+			"assets/animated_java/models/blueprint/cruncher/default_hurt/back_right.json"
+		]
+	},
 	"dirt_golem": {
 		"files": [
 			"assets/animated_java/models/empty.json",

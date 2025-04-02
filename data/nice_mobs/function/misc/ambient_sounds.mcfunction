@@ -1,7 +1,7 @@
 schedule function nice_mobs:misc/ambient_sounds 5s
 
 #Snail
-execute as @e[type=pig,tag=nice_mobs.snail.vehicle,tag=!is_hiding,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound entity.silverfish.ambient ambient @a ~ ~ ~ .3 .7
+execute as @e[type=pig,tag=nice_mobs.snail.vehicle,tag=!is_hiding,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.silverfish.ambient ambient @a ~ ~ ~ .3 .7
 
 #Penguin
 execute as @e[type=pig,tag=nice_mobs.penguin.vehicle,tag=!is_bartering,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.chicken.ambient neutral @a ~ ~ ~ .3 .2
@@ -20,3 +20,6 @@ execute as @e[type=pig,tag=nice_mobs.rat.vehicle,tag=!is_hurt,tag=!is_eating,pre
 
 #Pufftail
 execute as @e[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!is_hurt,predicate=eden:percentages/33] at @s run playsound minecraft:entity.wither.ambient hostile @a ~ ~ ~ .7 .5
+
+#Cruncher
+execute as @e[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.camel.ambient neutral @a ~ ~ ~ .6 .5

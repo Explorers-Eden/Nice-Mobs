@@ -1,0 +1,14 @@
+execute if items entity @s container.* #eden:stone_ores run scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] nice_mobs.cruncher.stone_block_type 1
+execute if items entity @s container.* #eden:deepslate_ores run scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] nice_mobs.cruncher.stone_block_type 2
+
+execute store result score $ore_count eden.technical run random value 1..3
+scoreboard players operation @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] nice_mobs.cruncher.total_ore_count += $ore_count eden.technical
+
+execute if items entity @s container.* #minecraft:coal_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.coal += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:copper_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.copper += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:iron_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.iron += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:redstone_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.redstone += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:lapis_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.lapis += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:diamond_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.diamond += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:gold_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.gold += $ore_count eden.technical
+execute if items entity @s container.* #minecraft:emerald_ores run return run execute as @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_eating,distance=..1] run scoreboard players operation @s nice_mobs.cruncher.emerald += $ore_count eden.technical

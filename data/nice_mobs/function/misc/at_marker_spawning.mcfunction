@@ -75,4 +75,7 @@ execute as @s[tag=nice_mobs.spawner.nautilus_crab.purple] run function nice_mobs
 #Pufftail
 execute as @s[tag=nice_mobs.spawner.pufftail] run function nice_mobs:spawn/pufftail
 
+#Cruncher
+execute as @s[tag=nice_mobs.spawner.cruncher] run function nice_mobs:spawn/cruncher
+
 kill @s
