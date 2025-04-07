@@ -12,7 +12,7 @@ execute as @s[tag=nice_mobs.spawner.dirt_golem] run function nice_mobs:spawn/dir
 #Glare
 execute as @s[tag=nice_mobs.spawner.glare] run function nice_mobs:spawn/glare
 execute as @s[tag=nice_mobs.spawner.glare.pale_moss] run function nice_mobs:spawn/glare/pale_moss
-execute as @s[tag=nice_mobs.spawner.glare.moss] run function nice_mobs:spawn/glare/pale_moss
+execute as @s[tag=nice_mobs.spawner.glare.moss] run function nice_mobs:spawn/glare/moss
 
 #Mushling
 execute as @s[tag=nice_mobs.spawner.mushling] run function nice_mobs:spawn/mushling

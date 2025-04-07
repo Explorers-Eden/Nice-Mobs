@@ -24,13 +24,13 @@ kill @e[type=item_display,tag=eden.hermit_crab.head]
 kill @e[type=allay,tag=eden.ladybug]
 kill @e[type=item_display,tag=eden.ladybug.head]
 
-kill @e[type=axolotl,tag=eden.penguin]
+kill @e[type=pillager,tag=eden.penguin]
 kill @e[type=item_display,tag=eden.penguin.head]
 
-kill @e[type=pillager,tag=eden.nautilus]
+kill @e[type=axolotl,tag=eden.nautilus]
 kill @e[type=item_display,tag=eden.nautilus.head]
 
-kill @e[type=rat,tag=eden.rat]
+kill @e[type=creeper,tag=eden.rat]
 kill @e[type=item_display,tag=eden.rat.head]
 
 kill @e[type=armadillo,tag=eden.snail]
