@@ -1,6 +1,6 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"fallback":"Rat","italic":false,"translate":"entity.nice_mobs.rat"}',\
+CustomName:{"bold":false,"fallback":"Rat","italic":false,"translate":"entity.nice_mobs.rat"},\
 DeathLootTable:"eden:entity/rat",\
 Silent:1b,\
 PersistenceRequired:1b,\

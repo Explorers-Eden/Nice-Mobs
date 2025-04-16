@@ -1,6 +1,6 @@
 summon pillager ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"italic":false,"text":"Glare"}',\
+CustomName:{"bold":false,"italic":false,"text":"Glare"},\
 DeathLootTable:"eden:entity/glare",\
 Silent:1b,\
 PersistenceRequired:1b,\

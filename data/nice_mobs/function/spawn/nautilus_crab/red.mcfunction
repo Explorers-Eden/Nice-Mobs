@@ -1,6 +1,6 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"fallback":"Nautilus Crab","italic":false,"translate":"entity.nice_mobs.nautilus_crab"}',\
+CustomName:{"bold":false,"fallback":"Nautilus Crab","italic":false,"translate":"entity.nice_mobs.nautilus_crab"},\
 DeathLootTable:"eden:entity/nautilus_crab",\
 Silent:1b,\
 PersistenceRequired:1b,\

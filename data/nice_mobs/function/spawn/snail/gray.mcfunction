@@ -1,6 +1,6 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"fallback":"Snail","italic":false,"translate":"entity.nice_mobs.snail"}',\
+CustomName:{"bold":false,"fallback":"Snail","italic":false,"translate":"entity.nice_mobs.snail"},\
 DeathLootTable:"eden:entity/snail",\
 Silent:1b,\
 PersistenceRequired:1b,\

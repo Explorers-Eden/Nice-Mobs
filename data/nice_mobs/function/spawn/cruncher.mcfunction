@@ -1,6 +1,6 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"fallback":"cruncher","italic":false,"translate":"entity.nice_mobs.cruncher"}',\
+CustomName:{"bold":false,"fallback":"cruncher","italic":false,"translate":"entity.nice_mobs.cruncher"},\
 DeathLootTable:"eden:entity/cruncher",\
 Silent:1b,\
 PersistenceRequired:1b,\

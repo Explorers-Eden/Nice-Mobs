@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 61,
+		"pack_format": 71,
 		"description": [
 			{
 				"text": "Nice Mobs by NiceRon",
@@ -12,7 +12,7 @@
 		"entries": [
 			{
 				"directory": "animated_java",
-				"formats": 61
+				"formats": 71
 			}
 		]
 	}

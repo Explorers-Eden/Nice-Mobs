@@ -1,6 +1,6 @@
 summon vex ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"fallback":"Pufftail","italic":false,"translate":"entity.nice_mobs.pufftail"}',\
+CustomName:{"bold":false,"fallback":"Pufftail","italic":false,"translate":"entity.nice_mobs.pufftail"},\
 DeathLootTable:"eden:entity/pufftail",\
 Silent:1b,\
 PersistenceRequired:1b,\

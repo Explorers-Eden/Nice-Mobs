@@ -1,6 +1,6 @@
 summon creeper ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:'{"bold":false,"fallback":"Bloomer","italic":false,"translate":"entity.nice_mobs.bloomer"}',\
+CustomName:{"bold":false,"fallback":"Bloomer","italic":false,"translate":"entity.nice_mobs.bloomer"},\
 CanPickUpLoot:0b,\
 powered:0b,\
 ExplosionRadius:0b,\
