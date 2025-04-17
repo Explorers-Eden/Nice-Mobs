@@ -1,3 +1,4 @@
+execute if entity @e[tag=nice_mobs.base,distance=..64] run return run tag @s add nice_mobs.exclude_spawning
 execute if predicate eden:percentages/75 run return run tag @s add nice_mobs.exclude_spawning
 execute unless data entity @s {"Age": 0} run return run tag @s add nice_mobs.exclude_spawning
 execute unless predicate eden:location/stepping_on_sand run return run tag @s add nice_mobs.exclude_spawning
