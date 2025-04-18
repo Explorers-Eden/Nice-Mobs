@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"fallback\":\"Nautilus Helmet\",\"translate\":\"item.nice_mobs.nautilus_helmet\"}",
+                  "minecraft:item_name": {"fallback":"Nautilus Helmet","translate":"item.nice_mobs.nautilus_helmet"},
                   "minecraft:custom_data": "{nice_mobs:nautilus_helmet}",
                   "minecraft:item_model": "nice_mobs:nautilus_helmet",
                   "minecraft:max_stack_size": 1,

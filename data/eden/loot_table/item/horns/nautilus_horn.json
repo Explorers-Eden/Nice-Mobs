@@ -12,7 +12,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                     "minecraft:item_model": "nice_mobs:nautilus_horn",
-			        "minecraft:item_name": "{\"fallback\":\"Nautilus Horn\",\"translate\":\"item.nice_mobs.nautilus_horn\"}",
+			        "minecraft:item_name": {"fallback":"Nautilus Horn","translate":"item.nice_mobs.nautilus_horn"},
 			        "minecraft:instrument": "nice_mobs:pufftail_calling",
 			        "minecraft:custom_data": "{nice_mobs:nautilus_horn}"
                 }

@@ -1,0 +1,15 @@
+{
+  "asset_id": "nice_mobs:entity/chicken/rooster",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+                    "minecraft:sunflower_plains",
+                    "minecraft:flower_forest"
+        ]
+      },
+      "priority": 1
+    }
+  ]
+}

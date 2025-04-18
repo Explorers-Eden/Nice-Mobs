@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:carrot",
+            "name": "minecraft:egg",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -14,9 +14,13 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": {"fallback":"Cheese","translate":"item.nice_mobs.cheese"},
-        "minecraft:item_model": "nice_mobs:cheese"
-      }
+                  "minecraft:item_name": {
+                    "fallback": "Zombie Egg",
+                    "translate": "item.nice_mobs.zombie_egg"
+                  },
+                  "minecraft:item_model": "nice_mobs:zombie_egg",
+                  "minecraft:chicken/variant": "nice_mobs:zombie"
+                }
               }
             ]
           }
@@ -24,4 +28,3 @@
       }
     ]
   }
-  

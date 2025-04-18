@@ -1,0 +1,15 @@
+{
+  "asset_id": "nice_mobs:entity/chicken/duck",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+          "minecraft:mangrove_swamp",
+          "minecraft:swamp"
+        ]
+      },
+      "priority": 1
+    }
+  ]
+}
