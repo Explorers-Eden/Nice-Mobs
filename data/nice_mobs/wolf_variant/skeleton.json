@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "nice_mobs:entity/wolf/skeleton_angry",
+    "tame": "nice_mobs:entity/wolf/skeleton_tame",
+    "wild": "nice_mobs:entity/wolf/skeleton"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "minecraft:nether_fossil"
+      },
+      "priority": 1
+    }
+  ]
+}

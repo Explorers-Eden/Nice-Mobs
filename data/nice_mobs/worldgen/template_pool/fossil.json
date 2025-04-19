@@ -1,0 +1,123 @@
+{
+    "name": "nice_mobs:fossil",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 40,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:fossil/fossil_1",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:fossil/fossil_2",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:fossil/fossil_3",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:fossil/fossil_4",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:fossil/fossil_5",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/skull_1",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/skull_2",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/skull_3",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/skull_4",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/spine_1",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/spine_2",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/spine_3",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:fossil/spine_4",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 64,
+      "separation":32,
+      "salt": 439794242,
+      "spread_type": "triangular",
+      "frequency_reduction_method": "default",
+      "frequency": 0.8
+    },
+    "structures": [
+      {
+        "structure": "nice_mobs:fossil",
+        "weight": 1
+      }
+    ]
+  }

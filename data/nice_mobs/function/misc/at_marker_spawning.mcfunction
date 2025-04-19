@@ -1,5 +1,8 @@
 ## Also include tag "nice_mobs.spawner" when summoning a marker for spawning
 
+#Skeleton variants
+execute as @s[tag=nice_mobs.spawner.skeleton_variant] run function nice_mobs:spawn/skeleton_variant
+
 #Bloomer
 execute as @s[tag=nice_mobs.spawner.bloomer] run function nice_mobs:spawn/bloomer
 
