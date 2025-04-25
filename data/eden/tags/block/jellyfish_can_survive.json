@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:water",
+    "minecraft:light",
+    "minecraft:kelp_plant",
+    "minecraft:kelp",
+    "minecraft:sea_pickle",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "#minecraft:coral_plants"
+  ]
+}

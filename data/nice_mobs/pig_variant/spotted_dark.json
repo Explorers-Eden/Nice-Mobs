@@ -1,0 +1,12 @@
+{
+  "asset_id": "nice_mobs:entity/pig/spotted_dark",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_forest"
+      },
+      "priority": 1
+    }
+  ]
+}

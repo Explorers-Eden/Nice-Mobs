@@ -1,0 +1,8 @@
+{
+  "asset_id": "nice_mobs:entity/pig/spotted_pale",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

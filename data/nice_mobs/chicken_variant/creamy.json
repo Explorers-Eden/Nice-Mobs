@@ -1,0 +1,8 @@
+{
+  "asset_id": "nice_mobs:entity/chicken/creamy",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

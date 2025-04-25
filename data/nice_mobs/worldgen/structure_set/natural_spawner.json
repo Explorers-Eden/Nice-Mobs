@@ -3,14 +3,26 @@
       {
         "structure": "nice_mobs:pale_garden_spawner",
         "weight": 1
+      },
+      {
+        "structure": "nice_mobs:lush_caves_spawner",
+        "weight": 1
+      },
+      {
+        "structure": "nice_mobs:mushroom_fields_spawner",
+        "weight": 1
+      },
+      {
+        "structure": "nice_mobs:deep_ocean_spawner",
+        "weight": 1
       }
     ],
     "placement": {
       "type": "minecraft:random_spread",
       "spread_type": "triangular",
       "salt": 749894434,
-      "spacing": 18,
-      "separation": 9,
+      "spacing": 12,
+      "separation": 8,
       "frequency_reduction_method": "default",
       "frequency": 1
     }

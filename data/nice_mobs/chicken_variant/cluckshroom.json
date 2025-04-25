@@ -1,0 +1,14 @@
+{
+  "asset_id": "nice_mobs:entity/chicken/cluckshroom",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+                    "minecraft:mushroom_fields"
+        ]
+      },
+      "priority": 999
+    }
+  ]
+}

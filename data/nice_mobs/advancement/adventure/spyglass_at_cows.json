@@ -1,0 +1,286 @@
+{
+    "parent": "minecraft:adventure/spyglass_at_dragon",
+    "criteria": {
+      "spyglass_at_skeleton": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:skeleton"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_cold_dark": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:cold_dark"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_cold_white": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:cold_white"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_creamy": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:creamy"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_dark": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:dark"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_gray": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:gray"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_warm_gray": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:warm_gray"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_cold": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "minecraft:cold"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_temperate": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "minecraft:temperate"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_warm": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "minecraft:warm"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.nice_mobs.spyglass_at_cows.description",
+        "fallback": "Look at all Cow variants through a Spyglass"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:spyglass"
+      },
+      "title": {
+        "translate": "advancements.nice_mobs.spyglass_at_cows.title",
+        "fallback": "Holy Cow!"
+      },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    },
+    "requirements": [
+      ["spyglass_at_cold_dark"],
+      ["spyglass_at_cold_white"],
+      ["spyglass_at_creamy"],
+      ["spyglass_at_dark"],
+      ["spyglass_at_gray"],
+      ["spyglass_at_skeleton"],
+      ["spyglass_at_warm_gray"],
+      ["spyglass_at_temperate"],
+      ["spyglass_at_warm"],
+      ["spyglass_at_cold"]
+    ],
+    "sends_telemetry_event": false
+  }

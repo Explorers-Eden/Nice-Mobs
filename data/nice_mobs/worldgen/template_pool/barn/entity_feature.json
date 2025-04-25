@@ -1,0 +1,35 @@
+
+
+{
+    "name": "nice_mobs:barn/entity_feature",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 10,
+        "element": {
+            "location": "nice_mobs:barn/features/cow",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 10,
+        "element": {
+            "location": "nice_mobs:barn/features/chicken",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 10,
+        "element": {
+            "location": "nice_mobs:barn/features/pig",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

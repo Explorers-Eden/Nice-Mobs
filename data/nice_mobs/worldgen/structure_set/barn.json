@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 24,
+    "salt": 392975629,
+    "spread_type": "triangular",
+    "frequency_reduction_method": "default",
+    "frequency": 0.8,
+    "exclusion_zone": {
+      "other_set": "nice_mobs:copper_forge",
+      "chunk_count": 1
+    }
+  },
+  "structures": [
+    {
+      "structure": "nice_mobs:barn",
+      "weight": 8
+    }
+  ]
+}

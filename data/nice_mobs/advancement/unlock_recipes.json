@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "recipe": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "periodic_tick": 20
+          }
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "eden:crafting_shaped/copper_golem"
+      ]
+    }
+  }

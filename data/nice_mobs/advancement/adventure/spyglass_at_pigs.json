@@ -1,0 +1,546 @@
+{
+  "parent": "nice_mobs:adventure/spyglass_at_chickens",
+  "criteria": {
+    "spyglass_at_creamy": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:creamy"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_dark": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:dark"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_cold": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_cold"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_creamy": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_creamy"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_dark": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_dark"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_pale": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_pale"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_temperate": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_temperate"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_warm": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_warm"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_muddy_wild": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:muddy_wild"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_pale": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:pale"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_skeleton": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:skeleton"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_spotted_creamy": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:spotted_creamy"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_spotted_dark": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:spotted_dark"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_spotted_pale": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:spotted_pale"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_spotted_temperate": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:spotted_temperate"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_spotted_warm": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:spotted_warm"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_wild": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "nice_mobs:wild"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_cold": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "minecraft:cold"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_temperate": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "minecraft:temperate"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_warm": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:pig",
+                  "components": {
+                    "minecraft:pig/variant": "minecraft:warm"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.spyglass_at_pigs.description",
+      "fallback": "Look at all Pig variants through a Spyglass"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.spyglass_at_pigs.title",
+      "fallback": "Dirty Lenses"
+    },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+  },
+  "requirements": [
+    ["spyglass_at_creamy"],
+    ["spyglass_at_dark"],
+    ["spyglass_at_muddy_cold"],
+    ["spyglass_at_muddy_creamy"],
+    ["spyglass_at_muddy_dark"],
+    ["spyglass_at_muddy_pale"],
+    ["spyglass_at_muddy_temperate"],
+    ["spyglass_at_muddy_warm"],
+    ["spyglass_at_muddy_wild"],
+    ["spyglass_at_pale"],
+    ["spyglass_at_skeleton"],
+    ["spyglass_at_spotted_creamy"],
+    ["spyglass_at_spotted_dark"],
+    ["spyglass_at_spotted_pale"],
+    ["spyglass_at_spotted_temperate"],
+    ["spyglass_at_spotted_warm"],
+    ["spyglass_at_wild"],
+    ["spyglass_at_temperate"],
+    ["spyglass_at_warm"],
+    ["spyglass_at_cold"]
+  ],
+  "sends_telemetry_event": false
+}

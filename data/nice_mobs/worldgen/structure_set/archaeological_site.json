@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 52,
+    "separation": 32,
+    "salt": 439794242,
+    "spread_type": "triangular",
+    "frequency_reduction_method": "default",
+    "frequency": 0.8,
+    "exclusion_zone": {
+      "other_set": "minecraft:desert_pyramids",
+      "chunk_count": 1
+    }
+  },
+  "structures": [
+    {
+      "structure": "nice_mobs:archaeological_site",
+      "weight": 1
+    }
+  ]
+}

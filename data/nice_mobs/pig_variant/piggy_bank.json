@@ -1,0 +1,14 @@
+{
+  "asset_id": "nice_mobs:entity/pig/piggy_bank",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+
+        ]
+      },
+      "priority": 1
+    }
+  ]
+}

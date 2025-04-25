@@ -1,6 +1,14 @@
 {
   "asset_id": "nice_mobs:entity/chicken/rooster",
+  "model": "cold",
   "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "nice_mobs:barn"
+      },
+      "priority": 0
+    },
     {
       "condition": {
         "type": "minecraft:biome",

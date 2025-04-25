@@ -1,0 +1,286 @@
+{
+  "parent": "nice_mobs:adventure/spyglass_at_chickens",
+  "criteria": {
+    "spyglass_at_skeleton": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:skeleton"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_cluckshroom": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:cluckshroom"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_creamy": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:creamy"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_dark_brown": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:dark_brown"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_duck": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:duck"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_rooster": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:rooster"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_zombie": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "nice_mobs:zombie"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_cold": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "minecraft:cold"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_warm": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "minecraft:warm"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "spyglass_at_temperate": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:chicken",
+                  "components": {
+                    "minecraft:chicken/variant": "minecraft:temperate"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.spyglass_at_chickens.description",
+      "fallback": "Look at all Chicken variants through a Spyglass"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.spyglass_at_chickens.title",
+      "fallback": "Have a look at this ..Chicken!"
+    },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+  },
+  "requirements": [
+    ["spyglass_at_cluckshroom"],
+    ["spyglass_at_creamy"],
+    ["spyglass_at_dark_brown"],
+    ["spyglass_at_duck"],
+    ["spyglass_at_rooster"],
+    ["spyglass_at_zombie"],
+    ["spyglass_at_skeleton"],
+    ["spyglass_at_temperate"],
+    ["spyglass_at_warm"],
+    ["spyglass_at_cold"]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:egg",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": {
+                    "fallback": "Cluckshroom Egg",
+                    "translate": "item.nice_mobs.cluckshroom_egg"
+                  },
+                  "minecraft:item_model": "nice_mobs:cluckshroom_egg",
+                  "minecraft:chicken/variant": "nice_mobs:cluckshroom"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

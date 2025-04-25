@@ -1,0 +1,1 @@
+function animated_java:treasure_chest/remove/this

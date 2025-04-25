@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/jellyfish/jellyfish_pink"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [4, -5, 5],
+			"to": [12, 3, 5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 3, 5]
+			},
+			"faces": {
+				"north": {
+					"uv": [1.25, 3.25, 2.5, 4.375],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [1.25, 3.25, 1.25, 4.375],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 3.25, 1.25, 4.375],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2.5, 3.25, 2.5, 4.375],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [1.25, 3.25, 1.25, 2],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1.25, 2, 1.25, 3.25],
+					"rotation": 270,
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

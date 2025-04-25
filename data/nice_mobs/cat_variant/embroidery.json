@@ -1,0 +1,12 @@
+{
+    "asset_id": "nice_mobs:entity/cat/embroidery",
+    "spawn_conditions": [
+      {
+        "condition": {
+          "type": "minecraft:structure",
+          "structures": "nice_mobs:archaeological_site"
+        },
+        "priority": 999999
+      }
+    ]
+  }

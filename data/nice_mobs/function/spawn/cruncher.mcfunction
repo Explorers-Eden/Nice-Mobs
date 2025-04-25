@@ -1,17 +1,15 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
-CustomName:{"bold":false,"fallback":"cruncher","italic":false,"translate":"entity.nice_mobs.cruncher"},\
+CustomName:{"bold":false,"fallback":"Cruncher","italic":false,"translate":"entity.nice_mobs.cruncher"},\
 DeathLootTable:"eden:entity/cruncher",\
+variant:"nice_mobs:invis_base",\
 Silent:1b,\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:30f,\
-IsScreamingpig:0b,\
-HasLeftHorn:0b,\
-HasRightHorn:0b,\
 Age:2400,\
 Tags:["nice_mobs.base","nice_mobs.cruncher.vehicle","eden.scaled","eden.baby_mount.set"],\
-active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b},{id:"minecraft:fire_resistance",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
+active_effects:[{id:"minecraft:fire_resistance",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:30},{id:"minecraft:movement_speed",base:.10},{id:"minecraft:scale",base:0.72},{id:"minecraft:safe_fall_distance",base:1024},{id:"minecraft:burning_time",base:0}]\
 }
 

@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "triggered_skeleton_trap": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.nice_mobs.triggered_skeleton_trap.description",
+        "fallback": "Trigger a Skeleton Trap other than the Horse one"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:bone"
+      },
+      "title": {
+        "translate": "advancements.nice_mobs.triggered_skeleton_trap.title",
+        "fallback": "Spooky Surprise!"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "triggered_skeleton_trap"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

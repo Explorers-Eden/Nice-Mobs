@@ -3,7 +3,7 @@
   "adapt_noise": false,
   "spawn_overrides": {
     "creature": {
-      "bounding_box": "piece",
+      "bounding_box": "full",
       "spawns": [
         {
           "type": "minecraft:cow",

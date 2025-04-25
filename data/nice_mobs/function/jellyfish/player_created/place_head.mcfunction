@@ -1,0 +1,4 @@
+summon item_display ~ ~ ~ {billboard:"fixed",Tags:["nice_mobs.jellyfish.crafted.display"],Passengers:[{id:"minecraft:interaction",width:.6f,height:.6f,Tags:["nice_mobs.jellyfish.crafted.interaction"]}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,.55f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-1698314978,-707049337,-1294956736,421973374],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEzZjA4NmNjYjU2MzIzZjIzOGJhMzQ4OWZmMmExYTM0YzBmZGNlZWFmYzQ4M2FjZmYwZTU0ODhjZmQ2YzJmMSJ9fX0="}]}}}}
+execute store result entity @n[type=item_display,tag=nice_mobs.jellyfish.crafted.display,distance=..2] Rotation[0] float 0.0001 run data get entity @p Rotation[0] 10000
+particle minecraft:wax_off ~ ~.2 ~ .4 .3 .4 .5 10
+kill @s

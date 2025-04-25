@@ -1,0 +1,16 @@
+
+{
+    "name": "nice_mobs:graveyard/base",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:graveyard/base_1",
+            "processors": "nice_mobs:graveyard",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

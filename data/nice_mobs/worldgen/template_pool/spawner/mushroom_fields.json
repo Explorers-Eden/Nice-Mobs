@@ -1,0 +1,24 @@
+{
+    "name": "nice_mobs:spawner/mushroom_fields",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 20,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:spawner/chicken/cluckshroom",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:spawner/mushling/random",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

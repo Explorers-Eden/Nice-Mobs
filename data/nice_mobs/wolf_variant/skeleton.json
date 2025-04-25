@@ -8,9 +8,16 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "minecraft:nether_fossil"
+        "structures": "nice_mobs:fossil"
       },
-      "priority": 1
+      "priority": 999999
+    },
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "nice_mobs:graveyard"
+      },
+      "priority": 999999
     }
   ]
 }

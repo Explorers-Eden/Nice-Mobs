@@ -3,6 +3,12 @@
 #Skeleton variants
 execute as @s[tag=nice_mobs.spawner.skeleton_variant] run function nice_mobs:spawn/skeleton_variant
 
+#CLuckshroom Chicken
+execute as @s[tag=nice_mobs.spawner.chicken.cluckshroom] run function nice_mobs:chicken/cluckshroom/marker_spawning
+
+#Piggy Bank
+execute as @s[tag=nice_mobs.spawner.piggy_bank] run function nice_mobs:spawn/piggy_bank
+
 #Bloomer
 execute as @s[tag=nice_mobs.spawner.bloomer] run function nice_mobs:spawn/bloomer
 
@@ -74,6 +80,15 @@ execute as @s[tag=nice_mobs.spawner.nautilus_crab.green] run function nice_mobs:
 execute as @s[tag=nice_mobs.spawner.nautilus_crab.orange] run function nice_mobs:spawn/nautilus_crab/orange
 execute as @s[tag=nice_mobs.spawner.nautilus_crab.pink] run function nice_mobs:spawn/nautilus_crab/pink
 execute as @s[tag=nice_mobs.spawner.nautilus_crab.purple] run function nice_mobs:spawn/nautilus_crab/purple
+
+#Jellyfish
+execute as @s[tag=nice_mobs.spawner.jellyfish] run function nice_mobs:spawn/jellyfish
+execute as @s[tag=nice_mobs.spawner.jellyfish.blue] run function nice_mobs:spawn/jellyfish/blue
+execute as @s[tag=nice_mobs.spawner.jellyfish.cyan] run function nice_mobs:spawn/jellyfish/cyan
+execute as @s[tag=nice_mobs.spawner.jellyfish.orange] run function nice_mobs:spawn/jellyfish/orange
+execute as @s[tag=nice_mobs.spawner.jellyfish.pink] run function nice_mobs:spawn/jellyfish/pink
+execute as @s[tag=nice_mobs.spawner.jellyfish.white] run function nice_mobs:spawn/jellyfish/white
+execute as @s[tag=nice_mobs.spawner.jellyfish.yellow] run function nice_mobs:spawn/jellyfish/yellow
 
 #Pufftail
 execute as @s[tag=nice_mobs.spawner.pufftail] run function nice_mobs:spawn/pufftail

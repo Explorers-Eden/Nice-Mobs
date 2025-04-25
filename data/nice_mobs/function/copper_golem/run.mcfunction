@@ -1,5 +1,8 @@
 schedule function nice_mobs:copper_golem/run 5t
 
+#init function for placing crafted copper golems
+function nice_mobs:copper_golem/player_created/init
+
 #replace percentage of villager spawned iron golems with copper golems
 execute as @e[type=minecraft:iron_golem,tag=!nice_mobs.base,tag=!nice_mobs.exclude_spawning] at @s run function nice_mobs:copper_golem/spawning
 

@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "nice_mobs:pig_pen",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 30,
+    "spread_type": "triangular",
+    "salt": 436244244,
+    "frequency_reduction_method": "default",
+    "frequency": 0.8,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 12
+    }
+  }
+}

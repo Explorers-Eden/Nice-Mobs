@@ -5,7 +5,14 @@ schedule function nice_mobs:items/nautilus_helmet 3s
 schedule function nice_mobs:chicken/benny/init 1s
 schedule function nice_mobs:chicken/zombie/init 9t
 schedule function nice_mobs:skeleton_trap/init 11t
+schedule function nice_mobs:chicken/rooster/init 6s
+schedule function nice_mobs:misc/environmental_damage 2s
 
 schedule function nice_mobs:mushling/run 5t
 schedule function nice_mobs:penguin/run 5t
 schedule function nice_mobs:snail/run 5t
+
+
+
+##will be removed in a future update
+schedule function nice_mobs:misc/update_vehicle/init 11s

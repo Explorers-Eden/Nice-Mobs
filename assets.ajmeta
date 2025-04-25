@@ -139,6 +139,76 @@
 			"assets/animated_java/models/blueprint/glare/pale_hurt/lower.json"
 		]
 	},
+	"jellyfish": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/items/blueprint/jellyfish/body.json",
+			"assets/animated_java/items/blueprint/jellyfish/stingers_1.json",
+			"assets/animated_java/items/blueprint/jellyfish/stingers_2.json",
+			"assets/animated_java/items/blueprint/jellyfish/stingers_3.json",
+			"assets/animated_java/items/blueprint/jellyfish/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/default_hurt/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/default_hurt/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/default_hurt/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/default_hurt/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue_hurt/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue_hurt/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue_hurt/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue_hurt/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/blue_hurt/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange_hurt/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange_hurt/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange_hurt/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange_hurt/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/orange_hurt/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/white/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/white/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/white/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/white/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/white/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/white_hurt/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/white_hurt/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/white_hurt/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/white_hurt/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/white_hurt/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan/stingers_4.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan_hurt/body.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan_hurt/stingers_1.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan_hurt/stingers_2.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan_hurt/stingers_3.json",
+			"assets/animated_java/models/blueprint/jellyfish/cyan_hurt/stingers_4.json"
+		]
+	},
 	"mushling": {
 		"files": [
 			"assets/animated_java/models/empty.json",
@@ -583,6 +653,26 @@
 			"assets/animated_java/models/blueprint/snail/yellow_hurt/shell.json",
 			"assets/animated_java/models/blueprint/snail/yellow_hurt/left_eye.json",
 			"assets/animated_java/models/blueprint/snail/yellow_hurt/right_eye.json"
+		]
+	},
+	"treasure_chest": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/treasure_chest/treasure_chest.png",
+			"assets/animated_java/items/blueprint/treasure_chest/lid.json",
+			"assets/animated_java/items/blueprint/treasure_chest/base.json",
+			"assets/animated_java/models/blueprint/treasure_chest/lid.json",
+			"assets/animated_java/models/blueprint/treasure_chest/base.json"
+		]
+	},
+	"treasure_pig": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/treasure_pig/treasure_chest.png",
+			"assets/animated_java/items/blueprint/treasure_pig/lid.json",
+			"assets/animated_java/items/blueprint/treasure_pig/base.json",
+			"assets/animated_java/models/blueprint/treasure_pig/lid.json",
+			"assets/animated_java/models/blueprint/treasure_pig/base.json"
 		]
 	},
 	"tuff_golem": {

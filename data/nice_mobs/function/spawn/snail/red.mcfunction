@@ -2,6 +2,7 @@ summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
 CustomName:{"bold":false,"fallback":"Snail","italic":false,"translate":"entity.nice_mobs.snail"},\
 DeathLootTable:"eden:entity/snail",\
+variant:"nice_mobs:invis_base",\
 Silent:1b,\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
@@ -9,9 +10,9 @@ Health:8f,\
 Saddle:0b,\
 Age:2400,\
 Tags:["nice_mobs.base","nice_mobs.snail.vehicle","eden.scaled","eden.baby_mount.set"],\
-active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:8},{id:"minecraft:movement_speed",base:.07},{id:"minecraft:scale",base:0.35}]\
 }
+
 
 function animated_java:snail/summon {args: {variant: "red"}}
 tag @n[type=pig,tag=nice_mobs.snail.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.snail.red

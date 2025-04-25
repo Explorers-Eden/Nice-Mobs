@@ -1,0 +1,45 @@
+{
+    "parent": "nice_mobs:adventure/brushed_nautlius_crab_sand",
+    "criteria": {
+      "toot_nautilus_horn": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:goat_horn",
+            "components": {
+              "minecraft:custom_data": {
+                "nice_mobs": "nautilus_horn"
+              }
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.nice_mobs.toot_nautilus_horn.description",
+        "fallback": "Toot a Nautilus Horn"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "nice_mobs:nautilus_horn"
+        },
+        "count": 1,
+        "id": "minecraft:goat_horn"
+      },
+      "title": {
+        "translate": "advancements.nice_mobs.toot_nautilus_horn.title",
+        "fallback": "Twisty Shell-Trumpet"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "toot_nautilus_horn"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

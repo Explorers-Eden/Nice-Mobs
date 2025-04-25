@@ -1,0 +1,15 @@
+{
+    "name": "nice_mobs:archaeological_site/pit",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:archaeological_site/pit",
+                "processors": "nice_mobs:archaeological_site"
+            }
+        }
+    ]
+}

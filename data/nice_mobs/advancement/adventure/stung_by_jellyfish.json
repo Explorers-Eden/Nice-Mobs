@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "stung_by_jellyfish": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:wither_skeleton",
+              "nbt": "{Tags:[\"nice_mobs.jellyfish.vehicle\"]}"
+            }
+          }
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.nice_mobs.stung_by_jellyfish.description",
+        "fallback": "Get stung by a Jellyfish"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:phantom_membrane"
+      },
+      "title": {
+        "translate": "advancements.nice_mobs.stung_by_jellyfish.title",
+        "fallback": "A Tiny Prick"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "stung_by_jellyfish"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

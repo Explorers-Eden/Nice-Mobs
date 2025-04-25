@@ -1,12 +1,19 @@
 {
-    "asset_id": "nice_mobs:entity/pig/skeleton",
-    "spawn_conditions": [
-      {
-        "condition": {
-          "type": "minecraft:structure",
-          "structures": "minecraft:nether_fossil"
-        },
-        "priority": 1
-      }
-    ]
-  }
+  "asset_id": "nice_mobs:entity/pig/skeleton",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "nice_mobs:fossil"
+      },
+      "priority": 999999
+    },
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "nice_mobs:graveyard"
+      },
+      "priority": 999999
+    }
+  ]
+}

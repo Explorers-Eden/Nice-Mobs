@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:egg",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": {
+                    "fallback": "Creamy Egg",
+                    "translate": "item.nice_mobs.creamy_egg"
+                  },
+                  "minecraft:chicken/variant": "nice_mobs:creamy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

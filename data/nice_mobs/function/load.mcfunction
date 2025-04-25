@@ -4,6 +4,7 @@ scoreboard objectives add nice_mobs.entity.is_hurt dummy
 scoreboard objectives add nice_mobs.entity.timer dummy
 scoreboard objectives add nice_mobs.entity.action dummy
 scoreboard objectives add nice_mobs.pufftail.bossbar dummy
+scoreboard objectives add nice_mobs.item.time_since_placed dummy
 scoreboard objectives add nice_mobs.cruncher.stone_block_type dummy
 scoreboard objectives add nice_mobs.cruncher.total_ore_count dummy
 scoreboard objectives add nice_mobs.cruncher.coal dummy

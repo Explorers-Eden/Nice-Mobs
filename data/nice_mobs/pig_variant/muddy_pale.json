@@ -1,0 +1,8 @@
+{
+  "asset_id": "nice_mobs:entity/pig/muddy_pale",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

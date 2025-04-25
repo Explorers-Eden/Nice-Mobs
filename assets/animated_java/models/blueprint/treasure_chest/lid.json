@@ -1,0 +1,83 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/treasure_chest/treasure_chest",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-2, 17, 2],
+			"to": [18, 21, 14],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 13, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [6, 8.25, 11, 9.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10, 0, 13, 1],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [6, 9.25, 11, 10.25],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [10, 1, 13, 2],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [5, 3, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [5, 3, 0, 6],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [6, 14.6, 1.5],
+			"to": [10, 17.6, 2],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 15.6, 1]
+			},
+			"faces": {
+				"north": {
+					"uv": [10, 2, 11, 2.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10, 4, 10.25, 4.75],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [10, 2.75, 11, 3.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [10, 4.75, 10.25, 5.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [11, 3.75, 10, 3.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [11, 3.75, 10, 4],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

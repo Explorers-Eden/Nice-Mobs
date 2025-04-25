@@ -2,6 +2,7 @@ summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
 CustomName:{"bold":false,"fallback":"Rat","italic":false,"translate":"entity.nice_mobs.rat"},\
 DeathLootTable:"eden:entity/rat",\
+variant:"nice_mobs:invis_base",\
 Silent:1b,\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
@@ -9,7 +10,6 @@ Health:14f,\
 Saddle:0b,\
 Age:2400,\
 Tags:["nice_mobs.base","nice_mobs.rat.vehicle","eden.scaled","eden.baby_mount.set"],\
-active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:14},{id:"minecraft:movement_speed",base:.24},{id:"minecraft:scale",base:0.22}]\
 }
 

@@ -3,5 +3,12 @@
         "sounds": [
             "nice_mobs:item/nautilus_horn/pufftail_calling"
         ]
+      },
+      "entity.rooster.crowing": {
+        "sounds": [
+            "nice_mobs:entity/rooster/rooster_1",
+            "nice_mobs:entity/rooster/rooster_2",
+            "nice_mobs:entity/rooster/rooster_3"
+        ]
       }
 }

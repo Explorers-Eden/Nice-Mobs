@@ -12,5 +12,5 @@ execute as @s[tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..}] if predicate 
 
 #set lightblocks
 execute anchored eyes align xyz positioned ~ ~ ~ if block ~ ~ ~ #eden:valid_for_glare_lightblock if predicate eden:location/light_level_8_or_less run return run function nice_mobs:glare/behavior/set_lightblock
-execute anchored eyes align xyz positioned ~ ~2 ~ if block ~ ~ ~ #eden:valid_for_glare_lightblock if predicate eden:location/light_level_8_or_less run return run function nice_mobs:glare/behavior/set_lightblock
+execute anchored eyes align xyz positioned ~ ~1 ~ if block ~ ~ ~ #eden:valid_for_glare_lightblock if predicate eden:location/light_level_8_or_less run return run function nice_mobs:glare/behavior/set_lightblock
 execute anchored eyes align xyz positioned ~ ~2 ~ if block ~ ~ ~ #eden:valid_for_glare_lightblock if predicate eden:location/light_level_8_or_less run return run function nice_mobs:glare/behavior/set_lightblock

@@ -23,3 +23,6 @@ execute as @e[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!is_hurt,predicate=ede
 
 #Cruncher
 execute as @e[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.camel.ambient neutral @a ~ ~ ~ .6 .5
+
+#Jellyfish
+execute as @e[type=wither_skeleton,tag=nice_mobs.jellyfish.vehicle,tag=!is_hurt,predicate=eden:percentages/10] at @s run playsound minecraft:entity.glow_squid.ambient neutral @a ~ ~ ~ .6 1.5
