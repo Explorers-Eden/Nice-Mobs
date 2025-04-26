@@ -1,5 +1,5 @@
 {
-  "parent": "nice_mobs:adventure/spyglass_at_chickens",
+  "parent": "nice_mobs:adventure/spyglass_at_cows",
   "criteria": {
     "spyglass_at_skeleton": {
       "conditions": {
@@ -263,7 +263,7 @@
     },
     "title": {
       "translate": "advancements.nice_mobs.spyglass_at_chickens.title",
-      "fallback": "Have a look at this ..Chicken!"
+      "fallback": "Look at all those Chickens!"
     },
   "frame": "task",
   "show_toast": true,
