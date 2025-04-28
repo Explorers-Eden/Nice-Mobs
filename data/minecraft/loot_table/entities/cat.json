@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:string"
+          }
+        ],
+        "rolls": 1,
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "components": {
+                  "minecraft:cat/variant": "nice_mobs:skeleton"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:entities/skeleton_horse"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "components": {
+                "minecraft:cat/variant": "nice_mobs:skeleton"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/cat"
+  }
