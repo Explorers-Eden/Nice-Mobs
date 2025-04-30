@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 execute if score @s aj.default.frame matches -1 run function animated_java:butterfly/animations/default/zzz/zzz/0
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.default.frame
 function animated_java:butterfly/animations/default/zzz/apply_frame with storage aj:temp
-execute if score @s aj.default.frame matches 39.. run return run function animated_java:butterfly/animations/default/zzz/zzz/1
+execute if score @s aj.default.frame matches 35.. run return run function animated_java:butterfly/animations/default/zzz/zzz/1
 scoreboard players add @s aj.default.frame 1
