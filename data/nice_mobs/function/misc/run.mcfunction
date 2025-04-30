@@ -14,6 +14,7 @@ execute as @e[type=#eden:is_data_driven_mob,tag=nice_mobs.base] unless predicate
 
 #modify general behavior
 execute as @e[type=pig,tag=nice_mobs.base] run function nice_mobs:misc/modify_pig_data
+execute as @e[type=bee,tag=nice_mobs.base] run function nice_mobs:misc/modify_bee_data
 
 #remove zombified piglin
 execute as @e[type=zombified_piglin,tag=nice_mobs.base] run function nice_mobs:misc/kill

@@ -1,0 +1,1 @@
+function animated_java:butterfly/remove/this

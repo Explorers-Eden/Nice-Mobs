@@ -1,10 +1,12 @@
 {
     "values": [
-      "minecraft:pig",
+      "#eden:is_data_driven_mob",
       "minecraft:zombified_piglin",
+      "minecraft:wither_skeleton",
       "minecraft:villager",
       "minecraft:pillager",
       "minecraft:vex",
-      "minecraft:creeper"
+      "minecraft:creeper",
+      "minecraft:bee"
     ]
   }

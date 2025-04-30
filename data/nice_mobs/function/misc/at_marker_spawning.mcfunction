@@ -96,4 +96,8 @@ execute as @s[tag=nice_mobs.spawner.pufftail] run function nice_mobs:spawn/pufft
 #Cruncher
 execute as @s[tag=nice_mobs.spawner.cruncher] run function nice_mobs:spawn/cruncher
 
+#Butterfly
+execute as @s[tag=nice_mobs.spawner.butterfly] run function nice_mobs:spawn/butterfly
+execute as @s[tag=nice_mobs.spawner.butterfly.monarch] run function nice_mobs:spawn/butterfly/monarch
+
 kill @s

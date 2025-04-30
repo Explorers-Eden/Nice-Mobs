@@ -31,6 +31,22 @@
 			"assets/animated_java/models/blueprint/bloomer/default_flash/body.json"
 		]
 	},
+	"butterfly": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/butterfly/butterfly_default.png",
+			"assets/animated_java/textures/blueprint/butterfly/butterfly_default_hurt.png",
+			"assets/animated_java/items/blueprint/butterfly/body.json",
+			"assets/animated_java/items/blueprint/butterfly/wing_1.json",
+			"assets/animated_java/items/blueprint/butterfly/wing_2.json",
+			"assets/animated_java/models/blueprint/butterfly/body.json",
+			"assets/animated_java/models/blueprint/butterfly/wing_1.json",
+			"assets/animated_java/models/blueprint/butterfly/wing_2.json",
+			"assets/animated_java/models/blueprint/butterfly/default_hurt/body.json",
+			"assets/animated_java/models/blueprint/butterfly/default_hurt/wing_1.json",
+			"assets/animated_java/models/blueprint/butterfly/default_hurt/wing_2.json"
+		]
+	},
 	"copper_golem": {
 		"files": [
 			"assets/animated_java/models/empty.json",
