@@ -1,5 +1,9 @@
 schedule function nice_mobs:butterfly/run 5t
 
+#butterfly effect timer for players
+scoreboard players add @a nice_mobs.player.butterfly_effect 0
+scoreboard players remove @a[scores={nice_mobs.player.butterfly_effect=1..}] nice_mobs.player.butterfly_effect 1
+
 #cancel further functions if no butterfly vehicle exists
 execute unless entity @e[type=item_display,tag=aj.butterfly.root] run return fail
 

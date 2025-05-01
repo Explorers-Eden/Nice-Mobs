@@ -1,0 +1,30 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "can_see_sky": true
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:weather_check",
+          "raining": true
+        },
+        {
+          "condition": "minecraft:weather_check",
+          "thundering": true
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "#eden:dry_biomes"
+        }
+      }
+    }
+  ]

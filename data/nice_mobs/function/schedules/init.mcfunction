@@ -7,6 +7,7 @@ schedule function nice_mobs:chicken/benny/init 1s
 schedule function nice_mobs:chicken/zombie/init 9t
 schedule function nice_mobs:skeleton_trap/init 11t
 schedule function nice_mobs:chicken/rooster/init 6s
+schedule function nice_mobs:ender_variants/init 5t
 
 schedule function nice_mobs:mushling/run 5t
 schedule function nice_mobs:penguin/run 5t

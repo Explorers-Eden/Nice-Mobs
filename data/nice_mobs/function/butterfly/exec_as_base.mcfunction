@@ -7,4 +7,4 @@ execute as @s[tag=!is_hurt] unless predicate eden:entity/has_no_hurttime run fun
 execute as @s[tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..}] if predicate eden:entity/has_no_hurttime run function nice_mobs:butterfly/behavior/hurt/end
 
 #give player effect
-execute if data entity @s {HasNectar:1b} if entity @e[type=player,distance=..3] run function nice_mobs:butterfly/behavior/give_effect
+execute if data entity @s {HasNectar:1b} if entity @e[type=player,gamemode=survival,distance=..3,scores={nice_mobs.player.butterfly_effect=..0}] run function nice_mobs:butterfly/behavior/give_effect

@@ -1,5 +1,6 @@
 ##default technical scoreboard
 scoreboard objectives add eden.technical dummy
+scoreboard objectives add nice_mobs.player.butterfly_effect dummy
 scoreboard objectives add nice_mobs.entity.is_hurt dummy
 scoreboard objectives add nice_mobs.entity.timer dummy
 scoreboard objectives add nice_mobs.entity.action dummy
