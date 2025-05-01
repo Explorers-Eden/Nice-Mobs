@@ -31,6 +31,7 @@
     "item.nice_mobs.cluckshroom_egg": "Cluckshroom Egg",
     "item.nice_mobs.dark_brown_egg": "Dark Brown Egg",
     "item.nice_mobs.creamy_egg": "Creamy Egg",
+    "item.nice_mobs.ender_egg": "Ender Egg",
     "item.nice_mobs.dried_jellyfish": "Dried Jellyfish",
     "entity.nice_mobs.glare": "Glare",
     "entity.nice_mobs.mushling": "Mushling",
@@ -46,6 +47,7 @@
     "entity.nice_mobs.pufftail": "Pufftail",
     "entity.nice_mobs.carniflower": "Carniflower",
     "entity.nice_mobs.cruncher": "Cruncher",
-    "entity.nice_mobs.piggy_bank": "Piggy Bank"
+    "entity.nice_mobs.piggy_bank": "Piggy Bank",
+    "entity.nice_mobs.butterfly": "Butterfly"
 }
     

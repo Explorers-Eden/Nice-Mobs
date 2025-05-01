@@ -31,6 +31,7 @@
     "item.nice_mobs.cluckshroom_egg": "Cluckshroom Ei",
     "item.nice_mobs.dark_brown_egg": "Dunkelbraunes Ei",
     "item.nice_mobs.creamy_egg": "Cremiges Ei",
+    "item.nice_mobs.ender_egg": "Ender Ei",
     "item.nice_mobs.dried_jellyfish": "Getrocknete Qualle",
     "entity.nice_mobs.glare": "Blender",
     "entity.nice_mobs.mushling": "Pilzling",
@@ -46,6 +47,7 @@
     "entity.nice_mobs.pufftail": "Kugelfloße",
     "entity.nice_mobs.carniflower": "Fleischpflanze",
     "entity.nice_mobs.cruncher": "Knusperer",
-    "entity.nice_mobs.piggy_bank": "Sparschwein"
+    "entity.nice_mobs.piggy_bank": "Sparschwein",
+    "entity.nice_mobs.butterfly": "Schmetterling"
 }
     

@@ -126,6 +126,21 @@
                     }
                   }
                 ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "eden:item/eggs/ender_egg",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "components": {
+                        "minecraft:chicken/variant": "nice_mobs:ender"
+                      }
+                    }
+                  }
+                ]
               }
             ]
           }

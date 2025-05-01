@@ -32,6 +32,7 @@
     "item.nice_mobs.cluckshroom_egg": "Oeuf de cluckshroom",
     "item.nice_mobs.dark_brown_egg": "Oeuf brun fonçé",
     "item.nice_mobs.creamy_egg": "Oeuf blanc cassé",
+    "item.nice_mobs.ender_egg": "Oeuf de Ender",
     "entity.nice_mobs.glare": "Glare",
     "entity.nice_mobs.mushling": "Champignomes",
     "entity.nice_mobs.rat": "Rat",
@@ -46,6 +47,7 @@
     "entity.nice_mobs.pufftail": "Pufftail",
     "entity.nice_mobs.carniflower": "Carnifleur",
     "entity.nice_mobs.cruncher": "Croqueur",
-    "entity.nice_mobs.piggy_bank": "Tirelire"
+    "entity.nice_mobs.piggy_bank": "Tirelire",
+    "entity.nice_mobs.butterfly": "Papillon"
 }
     
