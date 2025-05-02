@@ -1,0 +1,12 @@
+{
+  "asset_id": "nice_mobs:entity/frog/sculk",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:deep_dark"
+      },
+      "priority": 999
+    }
+  ]
+}
