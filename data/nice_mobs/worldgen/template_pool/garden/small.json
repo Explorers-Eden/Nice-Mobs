@@ -1,0 +1,63 @@
+{
+    "name": "nice_mobs:garden/small",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_01",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_02",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_03",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_04",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_05",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_06",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_small_07",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 31,
+    "salt": 284489548,
+    "spread_type": "triangular",
+    "frequency_reduction_method": "default",
+    "frequency": 0.8
+  },
+  "structures": [
+    {
+      "structure": "nice_mobs:garden_nether",
+      "weight": 10
+    }
+  ]
+}

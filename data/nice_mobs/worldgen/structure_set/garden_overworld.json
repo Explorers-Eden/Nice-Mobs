@@ -1,0 +1,35 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 31,
+    "salt": 284489548,
+    "spread_type": "triangular",
+    "frequency_reduction_method": "default",
+    "frequency": 0.8
+  },
+  "structures": [
+    {
+      "structure": "nice_mobs:garden_base",
+      "weight": 10
+    },{
+      "structure": "nice_mobs:garden_greenhouse",
+      "weight": 8
+    },{
+      "structure": "nice_mobs:garden_deep_dark",
+      "weight": 4
+    },{
+      "structure": "nice_mobs:garden_desert",
+      "weight": 4
+    },{
+      "structure": "nice_mobs:garden_pale",
+      "weight": 4
+    },{
+      "structure": "nice_mobs:garden_ice",
+      "weight": 2
+    },{
+      "structure": "nice_mobs:garden_house",
+      "weight": 10
+    }
+  ]
+}

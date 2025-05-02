@@ -1,0 +1,23 @@
+{
+    "name": "nice_mobs:garden/house",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "nice_mobs:garden/garden_building_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+           "location": "nice_mobs:garden/garden_building_02",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+         "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}
