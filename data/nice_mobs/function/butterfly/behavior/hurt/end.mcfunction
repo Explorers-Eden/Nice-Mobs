@@ -25,6 +25,7 @@ execute as @s[tag=nice_mobs.wisp.tidal] on passengers run return run function an
 execute as @s[tag=nice_mobs.wisp.twisted] on passengers run return run function animated_java:butterfly/variants/wisp_twisted/apply
 execute as @s[tag=nice_mobs.wisp.umbral] on passengers run return run function animated_java:butterfly/variants/wisp_umbral/apply
 execute as @s[tag=nice_mobs.wisp.void] on passengers run return run function animated_java:butterfly/variants/wisp_void/apply
+execute as @s[tag=nice_mobs.wisp.watching] on passengers run return run function animated_java:butterfly/variants/wisp_watching/apply
 
 execute as @s[tag=nice_mobs.moth.luna] on passengers run return run function animated_java:butterfly/variants/moth_luna/apply
 execute as @s[tag=nice_mobs.moth.cecropia] on passengers run return run function animated_java:butterfly/variants/moth_cecropia/apply
