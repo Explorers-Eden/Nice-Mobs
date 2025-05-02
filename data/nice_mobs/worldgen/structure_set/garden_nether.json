@@ -10,7 +10,10 @@
   },
   "structures": [
     {
-      "structure": "nice_mobs:garden_nether",
+      "structure": "nice_mobs:garden_crimson_nether",
+      "weight": 10
+    },{
+      "structure": "nice_mobs:garden_warped_nether",
       "weight": 10
     }
   ]
