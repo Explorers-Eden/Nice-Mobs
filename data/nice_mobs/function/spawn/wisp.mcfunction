@@ -1,0 +1,10 @@
+execute store result score $wisp_type eden.technical run random value 1..9
+execute if score $wisp_type eden.technical matches 1 run function nice_mobs:spawn/wisp/arctic
+execute if score $wisp_type eden.technical matches 2 run function nice_mobs:spawn/wisp/blazing
+execute if score $wisp_type eden.technical matches 3 run function nice_mobs:spawn/wisp/ethereal
+execute if score $wisp_type eden.technical matches 4 run function nice_mobs:spawn/wisp/flourishing
+execute if score $wisp_type eden.technical matches 5 run function nice_mobs:spawn/wisp/tidal
+execute if score $wisp_type eden.technical matches 6 run function nice_mobs:spawn/wisp/twisted
+execute if score $wisp_type eden.technical matches 7 run function nice_mobs:spawn/wisp/umbral
+execute if score $wisp_type eden.technical matches 8 run function nice_mobs:spawn/wisp/void
+execute if score $wisp_type eden.technical matches 9 run function nice_mobs:spawn/wisp/watching

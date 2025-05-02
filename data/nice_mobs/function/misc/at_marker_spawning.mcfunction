@@ -99,5 +99,26 @@ execute as @s[tag=nice_mobs.spawner.cruncher] run function nice_mobs:spawn/crunc
 #Butterfly
 execute as @s[tag=nice_mobs.spawner.butterfly] run function nice_mobs:spawn/butterfly
 execute as @s[tag=nice_mobs.spawner.butterfly.monarch] run function nice_mobs:spawn/butterfly/monarch
+execute as @s[tag=nice_mobs.spawner.butterfly.blue] run function nice_mobs:spawn/butterfly/blue
+execute as @s[tag=nice_mobs.spawner.butterfly.cyan] run function nice_mobs:spawn/butterfly/cyan
+execute as @s[tag=nice_mobs.spawner.butterfly.green] run function nice_mobs:spawn/butterfly/green
+execute as @s[tag=nice_mobs.spawner.butterfly.light_blue] run function nice_mobs:spawn/butterfly/light_blue
+execute as @s[tag=nice_mobs.spawner.butterfly.pink] run function nice_mobs:spawn/butterfly/pink
+execute as @s[tag=nice_mobs.spawner.butterfly.purple] run function nice_mobs:spawn/butterfly/purple
+execute as @s[tag=nice_mobs.spawner.butterfly.red] run function nice_mobs:spawn/butterfly/red
+execute as @s[tag=nice_mobs.spawner.butterfly.white] run function nice_mobs:spawn/butterfly/white
+execute as @s[tag=nice_mobs.spawner.butterfly.yellow] run function nice_mobs:spawn/butterfly/yellow
+
+#Wisp
+execute as @s[tag=nice_mobs.spawner.wisp] run function nice_mobs:spawn/wisp
+execute as @s[tag=nice_mobs.spawner.wisp.arctic] run function nice_mobs:spawn/wisp/arctic
+execute as @s[tag=nice_mobs.spawner.wisp.blazing] run function nice_mobs:spawn/wisp/blazing
+execute as @s[tag=nice_mobs.spawner.wisp.ethereal] run function nice_mobs:spawn/wisp/ethereal
+execute as @s[tag=nice_mobs.spawner.wisp.flourishing] run function nice_mobs:spawn/wisp/flourishing
+execute as @s[tag=nice_mobs.spawner.wisp.tidal] run function nice_mobs:spawn/wisp/tidal
+execute as @s[tag=nice_mobs.spawner.wisp.twisted] run function nice_mobs:spawn/wisp/twisted
+execute as @s[tag=nice_mobs.spawner.wisp.umbral] run function nice_mobs:spawn/wisp/umbral
+execute as @s[tag=nice_mobs.spawner.wisp.void] run function nice_mobs:spawn/wisp/void
+execute as @s[tag=nice_mobs.spawner.wisp.watcher] run function nice_mobs:spawn/wisp/watcher
 
 kill @s

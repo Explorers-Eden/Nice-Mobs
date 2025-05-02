@@ -1,0 +1,12 @@
+{
+  "asset_id": "nice_mobs:entity/frog/ender",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_end"
+      },
+      "priority": 999
+    }
+  ]
+}

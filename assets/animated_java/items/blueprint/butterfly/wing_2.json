@@ -9,6 +9,258 @@
 					"type": "minecraft:model",
 					"model": "animated_java:blueprint/butterfly/default_hurt/wing_2"
 				}
+			},
+			{
+				"when": "wisp_arctic",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_arctic/wing_2"
+				}
+			},
+			{
+				"when": "wisp_blazing",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_blazing/wing_2"
+				}
+			},
+			{
+				"when": "wisp_ethereal",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_ethereal/wing_2"
+				}
+			},
+			{
+				"when": "wisp_flourishing",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_flourishing/wing_2"
+				}
+			},
+			{
+				"when": "wisp_tidal",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_tidal/wing_2"
+				}
+			},
+			{
+				"when": "wisp_twisted",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_twisted/wing_2"
+				}
+			},
+			{
+				"when": "wisp_umbral",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_umbral/wing_2"
+				}
+			},
+			{
+				"when": "wisp_void",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_void/wing_2"
+				}
+			},
+			{
+				"when": "wisp_watching",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_watching/wing_2"
+				}
+			},
+			{
+				"when": "wisp_arctic_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_arctic_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_blazing_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_blazing_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_ethereal_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_ethereal_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_flourishing_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_flourishing_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_tidal_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_tidal_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_twisted_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_twisted_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_umbral_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_umbral_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_void_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_void_hurt/wing_2"
+				}
+			},
+			{
+				"when": "wisp_watching_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/wisp_watching_hurt/wing_2"
+				}
+			},
+			{
+				"when": "yellow",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/yellow/wing_2"
+				}
+			},
+			{
+				"when": "yellow_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/yellow_hurt/wing_2"
+				}
+			},
+			{
+				"when": "blue",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/blue/wing_2"
+				}
+			},
+			{
+				"when": "blue_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/blue_hurt/wing_2"
+				}
+			},
+			{
+				"when": "cyan",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/cyan/wing_2"
+				}
+			},
+			{
+				"when": "cyan_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/cyan_hurt/wing_2"
+				}
+			},
+			{
+				"when": "green",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/green/wing_2"
+				}
+			},
+			{
+				"when": "green_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/green_hurt/wing_2"
+				}
+			},
+			{
+				"when": "light_blue",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/light_blue/wing_2"
+				}
+			},
+			{
+				"when": "light_blue_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/light_blue_hurt/wing_2"
+				}
+			},
+			{
+				"when": "pink",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/pink/wing_2"
+				}
+			},
+			{
+				"when": "pink_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/pink_hurt/wing_2"
+				}
+			},
+			{
+				"when": "purple",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/purple/wing_2"
+				}
+			},
+			{
+				"when": "purple_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/purple_hurt/wing_2"
+				}
+			},
+			{
+				"when": "red",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/red/wing_2"
+				}
+			},
+			{
+				"when": "red_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/red_hurt/wing_2"
+				}
+			},
+			{
+				"when": "white",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/white/wing_2"
+				}
+			},
+			{
+				"when": "white_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/white_hurt/wing_2"
+				}
 			}
 		],
 		"fallback": {
