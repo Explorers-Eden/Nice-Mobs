@@ -4,6 +4,8 @@ scoreboard players set @s nice_mobs.entity.is_hurt 0
 tag @s add not_hurt
 
 execute as @s[tag=nice_mobs.butterfly.monarch] on passengers run return run function animated_java:butterfly/variants/default/apply
+execute as @s[tag=nice_mobs.butterfly.tiger] on passengers run return run function animated_java:butterfly/variants/tiger/apply
+execute as @s[tag=nice_mobs.butterfly.mourning_cloak] on passengers run return run function animated_java:butterfly/variants/mourning_cloak/apply
 
 execute as @s[tag=nice_mobs.butterfly.blue] on passengers run return run function animated_java:butterfly/variants/blue/apply
 execute as @s[tag=nice_mobs.butterfly.cyan] on passengers run return run function animated_java:butterfly/variants/cyan/apply
@@ -23,3 +25,6 @@ execute as @s[tag=nice_mobs.wisp.tidal] on passengers run return run function an
 execute as @s[tag=nice_mobs.wisp.twisted] on passengers run return run function animated_java:butterfly/variants/wisp_twisted/apply
 execute as @s[tag=nice_mobs.wisp.umbral] on passengers run return run function animated_java:butterfly/variants/wisp_umbral/apply
 execute as @s[tag=nice_mobs.wisp.void] on passengers run return run function animated_java:butterfly/variants/wisp_void/apply
+
+execute as @s[tag=nice_mobs.moth.luna] on passengers run return run function animated_java:butterfly/variants/moth_luna/apply
+execute as @s[tag=nice_mobs.moth.cecropia] on passengers run return run function animated_java:butterfly/variants/moth_cecropia/apply

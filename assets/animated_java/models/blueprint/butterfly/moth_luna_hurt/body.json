@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/butterfly/body",
+	"textures": {
+		"0": "animated_java:blueprint/butterfly/moth_luna_hurt"
+	}
+}

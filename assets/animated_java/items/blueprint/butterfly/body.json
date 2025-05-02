@@ -261,6 +261,62 @@
 					"type": "minecraft:model",
 					"model": "animated_java:blueprint/butterfly/white_hurt/body"
 				}
+			},
+			{
+				"when": "tiger",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/tiger/body"
+				}
+			},
+			{
+				"when": "tiger_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/tiger_hurt/body"
+				}
+			},
+			{
+				"when": "moth_cecropia",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/moth_cecropia/body"
+				}
+			},
+			{
+				"when": "moth_cecropia_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/moth_cecropia_hurt/body"
+				}
+			},
+			{
+				"when": "moth_luna",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/moth_luna/body"
+				}
+			},
+			{
+				"when": "moth_luna_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/moth_luna_hurt/body"
+				}
+			},
+			{
+				"when": "mourning_cloak",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/mourning_cloak/body"
+				}
+			},
+			{
+				"when": "mourning_cloak_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/butterfly/mourning_cloak_hurt/body"
+				}
 			}
 		],
 		"fallback": {

@@ -1,0 +1,41 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "leashed_butterfly": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": "minecraft:lead"
+          },
+          "entity": {
+            "type": "minecraft:bee",
+            "nbt": "{Tags:[\"nice_mobs.butterfly.vehicle\"]}"
+          }
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.nice_mobs.leashed_butterfly.description",
+        "fallback": "Leash a Butterfly/Moth/Wisp variant"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:lead"
+      },
+      "title": {
+        "translate": "advancements.nice_mobs.leashed_butterfly.title",
+        "fallback": "Not A Balloon"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "leashed_butterfly"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
