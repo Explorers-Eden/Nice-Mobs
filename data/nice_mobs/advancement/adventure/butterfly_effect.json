@@ -1,0 +1,33 @@
+{
+    "parent": "nice_mobs:adventure/leashed_butterfly",
+    "criteria": {
+      "butterfly_effect": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.nice_mobs.butterfly_effect.description",
+        "fallback": "Receive an effect from a Butterfly/Moth/Wisp variant"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:blue_orchid"
+      },
+      "title": {
+        "translate": "advancements.nice_mobs.butterfly_effect.title",
+        "fallback": "Butterfly Effect"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "butterfly_effect"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

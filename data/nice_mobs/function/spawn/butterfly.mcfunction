@@ -1,4 +1,4 @@
-execute store result score $butterfly_type eden.technical run random value 1..10
+execute store result score $butterfly_type eden.technical run random value 1..12
 execute if score $butterfly_type eden.technical matches 1 run function nice_mobs:spawn/butterfly/blue
 execute if score $butterfly_type eden.technical matches 2 run function nice_mobs:spawn/butterfly/cyan
 execute if score $butterfly_type eden.technical matches 3 run function nice_mobs:spawn/butterfly/green
@@ -10,3 +10,5 @@ execute if score $butterfly_type eden.technical matches 8 run function nice_mobs
 execute if score $butterfly_type eden.technical matches 9 run function nice_mobs:spawn/butterfly/yellow
 
 execute if score $butterfly_type eden.technical matches 10 run function nice_mobs:spawn/butterfly/monarch
+execute if score $butterfly_type eden.technical matches 11 run function nice_mobs:spawn/butterfly/mourning_cloak
+execute if score $butterfly_type eden.technical matches 12 run function nice_mobs:spawn/butterfly/tiger

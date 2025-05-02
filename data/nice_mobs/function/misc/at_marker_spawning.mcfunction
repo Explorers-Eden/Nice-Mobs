@@ -1,9 +1,12 @@
 ## Also include tag "nice_mobs.spawner" when summoning a marker for spawning
 
+#Structure Spawner
+execute as @s[tag=nice_mobs.spawner.structure.garden_1] run function nice_mobs:spawn/structure/garden_1
+
 #Skeleton variants
 execute as @s[tag=nice_mobs.spawner.skeleton_variant] run function nice_mobs:spawn/skeleton_variant
 
-#CLuckshroom Chicken
+#Cluckshroom Chicken
 execute as @s[tag=nice_mobs.spawner.chicken.cluckshroom] run function nice_mobs:chicken/cluckshroom/marker_spawning
 
 #Piggy Bank
@@ -99,6 +102,8 @@ execute as @s[tag=nice_mobs.spawner.cruncher] run function nice_mobs:spawn/crunc
 #Butterfly
 execute as @s[tag=nice_mobs.spawner.butterfly] run function nice_mobs:spawn/butterfly
 execute as @s[tag=nice_mobs.spawner.butterfly.monarch] run function nice_mobs:spawn/butterfly/monarch
+execute as @s[tag=nice_mobs.spawner.butterfly.tiger] run function nice_mobs:spawn/butterfly/tiger
+execute as @s[tag=nice_mobs.spawner.butterfly.mourning_cloak] run function nice_mobs:spawn/butterfly/mourning_cloak
 execute as @s[tag=nice_mobs.spawner.butterfly.blue] run function nice_mobs:spawn/butterfly/blue
 execute as @s[tag=nice_mobs.spawner.butterfly.cyan] run function nice_mobs:spawn/butterfly/cyan
 execute as @s[tag=nice_mobs.spawner.butterfly.green] run function nice_mobs:spawn/butterfly/green
@@ -120,5 +125,10 @@ execute as @s[tag=nice_mobs.spawner.wisp.twisted] run function nice_mobs:spawn/w
 execute as @s[tag=nice_mobs.spawner.wisp.umbral] run function nice_mobs:spawn/wisp/umbral
 execute as @s[tag=nice_mobs.spawner.wisp.void] run function nice_mobs:spawn/wisp/void
 execute as @s[tag=nice_mobs.spawner.wisp.watcher] run function nice_mobs:spawn/wisp/watcher
+
+#Moth
+execute as @s[tag=nice_mobs.spawner.moth] run function nice_mobs:spawn/moth
+execute as @s[tag=nice_mobs.spawner.moth.cecropia] run function nice_mobs:spawn/moth/cecropia
+execute as @s[tag=nice_mobs.spawner.moth.luna] run function nice_mobs:spawn/moth/luna
 
 kill @s
