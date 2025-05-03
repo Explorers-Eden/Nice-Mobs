@@ -4,330 +4,469 @@
 		"property": "minecraft:custom_model_data",
 		"cases": [
 			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:empty"
+				}
+			},
+			{
 				"when": "default_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/default_hurt/body"
+					"model": "animated_java:blueprint/butterfly/default_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_arctic",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_arctic/body"
+					"model": "animated_java:blueprint/butterfly/wisp_arctic/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_blazing",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_blazing/body"
+					"model": "animated_java:blueprint/butterfly/wisp_blazing/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_ethereal",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_ethereal/body"
+					"model": "animated_java:blueprint/butterfly/wisp_ethereal/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_flourishing",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_flourishing/body"
+					"model": "animated_java:blueprint/butterfly/wisp_flourishing/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_tidal",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_tidal/body"
+					"model": "animated_java:blueprint/butterfly/wisp_tidal/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_twisted",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_twisted/body"
+					"model": "animated_java:blueprint/butterfly/wisp_twisted/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_umbral",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_umbral/body"
+					"model": "animated_java:blueprint/butterfly/wisp_umbral/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_void",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_void/body"
+					"model": "animated_java:blueprint/butterfly/wisp_void/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_watching",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_watching/body"
+					"model": "animated_java:blueprint/butterfly/wisp_watching/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_arctic_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_arctic_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_arctic_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_blazing_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_blazing_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_blazing_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_ethereal_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_ethereal_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_ethereal_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_flourishing_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_flourishing_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_flourishing_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_tidal_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_tidal_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_tidal_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_twisted_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_twisted_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_twisted_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_umbral_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_umbral_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_umbral_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_void_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_void_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_void_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "wisp_watching_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/wisp_watching_hurt/body"
+					"model": "animated_java:blueprint/butterfly/wisp_watching_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "yellow",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/yellow/body"
+					"model": "animated_java:blueprint/butterfly/yellow/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "yellow_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/yellow_hurt/body"
+					"model": "animated_java:blueprint/butterfly/yellow_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "blue",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/blue/body"
+					"model": "animated_java:blueprint/butterfly/blue/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "blue_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/blue_hurt/body"
+					"model": "animated_java:blueprint/butterfly/blue_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "cyan",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/cyan/body"
+					"model": "animated_java:blueprint/butterfly/cyan/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "cyan_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/cyan_hurt/body"
+					"model": "animated_java:blueprint/butterfly/cyan_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "green",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/green/body"
+					"model": "animated_java:blueprint/butterfly/green/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "green_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/green_hurt/body"
+					"model": "animated_java:blueprint/butterfly/green_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "light_blue",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/light_blue/body"
+					"model": "animated_java:blueprint/butterfly/light_blue/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "light_blue_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/light_blue_hurt/body"
+					"model": "animated_java:blueprint/butterfly/light_blue_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pink",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/pink/body"
+					"model": "animated_java:blueprint/butterfly/pink/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pink_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/pink_hurt/body"
+					"model": "animated_java:blueprint/butterfly/pink_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "purple",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/purple/body"
+					"model": "animated_java:blueprint/butterfly/purple/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "purple_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/purple_hurt/body"
+					"model": "animated_java:blueprint/butterfly/purple_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "red",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/red/body"
+					"model": "animated_java:blueprint/butterfly/red/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "red_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/red_hurt/body"
+					"model": "animated_java:blueprint/butterfly/red_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "white",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/white/body"
+					"model": "animated_java:blueprint/butterfly/white/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "white_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/white_hurt/body"
+					"model": "animated_java:blueprint/butterfly/white_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "tiger",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/tiger/body"
+					"model": "animated_java:blueprint/butterfly/tiger/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "tiger_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/tiger_hurt/body"
+					"model": "animated_java:blueprint/butterfly/tiger_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "moth_cecropia",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/moth_cecropia/body"
+					"model": "animated_java:blueprint/butterfly/moth_cecropia/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "moth_cecropia_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/moth_cecropia_hurt/body"
+					"model": "animated_java:blueprint/butterfly/moth_cecropia_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "moth_luna",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/moth_luna/body"
+					"model": "animated_java:blueprint/butterfly/moth_luna/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "moth_luna_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/moth_luna_hurt/body"
+					"model": "animated_java:blueprint/butterfly/moth_luna_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "mourning_cloak",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/mourning_cloak/body"
+					"model": "animated_java:blueprint/butterfly/mourning_cloak/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "mourning_cloak_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/butterfly/mourning_cloak_hurt/body"
+					"model": "animated_java:blueprint/butterfly/mourning_cloak_hurt/body",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "animated_java:blueprint/butterfly/body"
-		},
-		"tints": [
-			{
-				"type": "minecraft:dye",
-				"default": [1, 1, 1]
-			}
-		]
+			"model": "animated_java:blueprint/butterfly/body",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
 	}
 }

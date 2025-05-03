@@ -4,36 +4,49 @@
 		"property": "minecraft:custom_model_data",
 		"cases": [
 			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:empty"
+				}
+			},
+			{
 				"when": "pale",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/glare/pale/mid"
+					"model": "animated_java:blueprint/glare/pale/mid",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "default_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/glare/default_hurt/mid"
+					"model": "animated_java:blueprint/glare/default_hurt/mid",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pale_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/glare/pale_hurt/mid"
+					"model": "animated_java:blueprint/glare/pale_hurt/mid",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "animated_java:blueprint/glare/mid"
-		},
-		"tints": [
-			{
-				"type": "minecraft:dye",
-				"default": [1, 1, 1]
-			}
-		]
+			"model": "animated_java:blueprint/glare/mid",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
 	}
 }

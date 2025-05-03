@@ -4,36 +4,49 @@
 		"property": "minecraft:custom_model_data",
 		"cases": [
 			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:empty"
+				}
+			},
+			{
 				"when": "brown",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/mushling/brown/leg_right"
+					"model": "animated_java:blueprint/mushling/brown/leg_right",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "default_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/mushling/default_hurt/leg_right"
+					"model": "animated_java:blueprint/mushling/default_hurt/leg_right",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "brown_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/mushling/brown_hurt/leg_right"
+					"model": "animated_java:blueprint/mushling/brown_hurt/leg_right",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "animated_java:blueprint/mushling/leg_right"
-		},
-		"tints": [
-			{
-				"type": "minecraft:dye",
-				"default": [1, 1, 1]
-			}
-		]
+			"model": "animated_java:blueprint/mushling/leg_right",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
 	}
 }

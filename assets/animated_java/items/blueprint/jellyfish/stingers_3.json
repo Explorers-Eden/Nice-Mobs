@@ -4,92 +4,129 @@
 		"property": "minecraft:custom_model_data",
 		"cases": [
 			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:empty"
+				}
+			},
+			{
 				"when": "default_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/default_hurt/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/default_hurt/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "blue",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/blue/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/blue/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "blue_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/blue_hurt/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/blue_hurt/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "orange",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/orange/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/orange/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "orange_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/orange_hurt/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/orange_hurt/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "white",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/white/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/white/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "white_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/white_hurt/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/white_hurt/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "yellow",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/yellow/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/yellow/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "yellow_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/yellow_hurt/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/yellow_hurt/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "cyan",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/cyan/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/cyan/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "cyan_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/jellyfish/cyan_hurt/stingers_3"
+					"model": "animated_java:blueprint/jellyfish/cyan_hurt/stingers_3",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "animated_java:blueprint/jellyfish/stingers_3"
-		},
-		"tints": [
-			{
-				"type": "minecraft:dye",
-				"default": [1, 1, 1]
-			}
-		]
+			"model": "animated_java:blueprint/jellyfish/stingers_3",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
 	}
 }

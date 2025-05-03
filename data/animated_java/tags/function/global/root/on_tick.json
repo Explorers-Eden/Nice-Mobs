@@ -1,1 +1,19 @@
-{"values":["animated_java:butterfly/root/on_tick","animated_java:jellyfish/root/on_tick","animated_java:treasure_chest/root/on_tick","animated_java:cruncher/root/on_tick","animated_java:pufftail/root/on_tick","animated_java:tuff_golem/root/on_tick","animated_java:snail/root/on_tick","animated_java:rat/root/on_tick","animated_java:penguin/root/on_tick","animated_java:mushling/root/on_tick","animated_java:glare/root/on_tick","animated_java:dirt_golem/root/on_tick","animated_java:copper_golem/root/on_tick","animated_java:bloomer/root/on_tick","animated_java:nautilus_crab/root/on_tick"]}
+{
+	"values": [
+		"animated_java:bloomer/root/on_tick",
+		"animated_java:butterfly/root/on_tick",
+		"animated_java:copper_golem/root/on_tick",
+		"animated_java:cruncher/root/on_tick",
+		"animated_java:dirt_golem/root/on_tick",
+		"animated_java:glare/root/on_tick",
+		"animated_java:jellyfish/root/on_tick",
+		"animated_java:mushling/root/on_tick",
+		"animated_java:nautilus_crab/root/on_tick",
+		"animated_java:penguin/root/on_tick",
+		"animated_java:pufftail/root/on_tick",
+		"animated_java:rat/root/on_tick",
+		"animated_java:snail/root/on_tick",
+		"animated_java:treasure_chest/root/on_tick",
+		"animated_java:tuff_golem/root/on_tick"
+	]
+}

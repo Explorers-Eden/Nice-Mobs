@@ -4,260 +4,369 @@
 		"property": "minecraft:custom_model_data",
 		"cases": [
 			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:empty"
+				}
+			},
+			{
 				"when": "black",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/black/nose"
+					"model": "animated_java:blueprint/tuff_golem/black/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "brown",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/brown/nose"
+					"model": "animated_java:blueprint/tuff_golem/brown/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "cyan",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/cyan/nose"
+					"model": "animated_java:blueprint/tuff_golem/cyan/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "gray",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/gray/nose"
+					"model": "animated_java:blueprint/tuff_golem/gray/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "green",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/green/nose"
+					"model": "animated_java:blueprint/tuff_golem/green/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "light_blue",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/light_blue/nose"
+					"model": "animated_java:blueprint/tuff_golem/light_blue/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "light_gray",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/light_gray/nose"
+					"model": "animated_java:blueprint/tuff_golem/light_gray/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "lime",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/lime/nose"
+					"model": "animated_java:blueprint/tuff_golem/lime/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "magenta",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/magenta/nose"
+					"model": "animated_java:blueprint/tuff_golem/magenta/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "moss",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/moss/nose"
+					"model": "animated_java:blueprint/tuff_golem/moss/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "orange",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/orange/nose"
+					"model": "animated_java:blueprint/tuff_golem/orange/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pale_moss",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/pale_moss/nose"
+					"model": "animated_java:blueprint/tuff_golem/pale_moss/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pink",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/pink/nose"
+					"model": "animated_java:blueprint/tuff_golem/pink/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "purple",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/purple/nose"
+					"model": "animated_java:blueprint/tuff_golem/purple/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "red",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/red/nose"
+					"model": "animated_java:blueprint/tuff_golem/red/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "white",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/white/nose"
+					"model": "animated_java:blueprint/tuff_golem/white/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "yellow",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/yellow/nose"
+					"model": "animated_java:blueprint/tuff_golem/yellow/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "default_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/default_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/default_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "black_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/black_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/black_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "brown_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/brown_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/brown_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "cyan_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/cyan_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/cyan_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "gray_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/gray_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/gray_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "green_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/green_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/green_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "light_blue_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/light_blue_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/light_blue_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "light_gray_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/light_gray_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/light_gray_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "lime_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/lime_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/lime_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "magenta_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/magenta_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/magenta_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "moss_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/moss_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/moss_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "orange_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/orange_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/orange_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pale_moss_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/pale_moss_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/pale_moss_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "pink_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/pink_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/pink_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "purple_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/purple_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/purple_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "red_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/red_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/red_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "white_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/white_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/white_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			},
 			{
 				"when": "yellow_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/tuff_golem/yellow_hurt/nose"
+					"model": "animated_java:blueprint/tuff_golem/yellow_hurt/nose",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "animated_java:blueprint/tuff_golem/nose"
-		},
-		"tints": [
-			{
-				"type": "minecraft:dye",
-				"default": [1, 1, 1]
-			}
-		]
+			"model": "animated_java:blueprint/tuff_golem/nose",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
 	}
 }
