@@ -7,6 +7,7 @@ PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:80f,\
 Willing:0b,\
+data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"default"}},\
 VillagerData:{level:99,profession:"minecraft:nitwit"},\
 Tags:["nice_mobs.base","nice_mobs.dirt_golem.vehicle","eden.scaled","eden.baby_mount.set","eden.quest.set","eden.name.set"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\

@@ -1,0 +1,5 @@
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:1b} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Jellyfish spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"disabled"},{"bold":false,"color":"white","italic":false,"text":"."}]
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:1b} run return run data modify storage eden:gamerule nice_mobs.spawning.jellyfish set value 0b
+
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:0b} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Jellyfish spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"enabled"},{"bold":false,"color":"white","italic":false,"text":"."}]
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:0b} run return run data modify storage eden:gamerule nice_mobs.spawning.jellyfish set value 1b

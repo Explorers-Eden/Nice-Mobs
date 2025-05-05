@@ -1,10 +1,2 @@
-tag @s remove is_walking
-tag @s remove is_idle
-tag @s remove is_walking_angry
-
-execute on passengers run function animated_java:copper_golem/animations/walk/stop
-execute on passengers run function animated_java:copper_golem/animations/idle/stop
-execute on passengers run function animated_java:copper_golem/animations/walk_angry/stop
-execute on passengers run function animated_java:copper_golem/animations/idle_angry/play
-
-tag @s add is_idle_angry
+execute on passengers run function #nice_mobs:animation/copper_golem/idle_angry
+data modify entity @s data.nice_mobs.animation set value "idle_angry"

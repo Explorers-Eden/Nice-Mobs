@@ -9,6 +9,7 @@ CanPickUpLoot:0b,\
 Health:18f,\
 Saddle:0b,\
 Age:2400,\
+data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.penguin.vehicle","eden.scaled","eden.baby_mount.set"],\
 attributes:[{id:"minecraft:max_health",base:18},{id:"minecraft:movement_speed",base:.11},{id:"minecraft:scale",base:0.78}]\
 }

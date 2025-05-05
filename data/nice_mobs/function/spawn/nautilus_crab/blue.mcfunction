@@ -9,12 +9,12 @@ CanPickUpLoot:0b,\
 Health:30f,\
 Saddle:0b,\
 Age:2400,\
+data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"blue"}},\
 Tags:["nice_mobs.base","nice_mobs.nautilus_crab.vehicle","eden.scaled","eden.baby_mount.set"],\
 attributes:[{id:"minecraft:max_health",base:30},{id:"minecraft:movement_speed",base:.12},{id:"minecraft:scale",base:0.34}]\
 }
 
 function animated_java:nautilus_crab/summon {args: {variant: "blue"}}
-tag @n[type=pig,tag=nice_mobs.nautilus_crab.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.nautilus_crab.blue
 
 ride @n[type=item_display,tag=aj.nautilus_crab.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.nautilus_crab.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

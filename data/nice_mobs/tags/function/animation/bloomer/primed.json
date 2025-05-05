@@ -1,0 +1,7 @@
+{
+	"values": [
+        "animated_java:bloomer/animations/idle/stop",
+        "animated_java:bloomer/animations/walk/stop",
+        "animated_java:bloomer/animations/explode/play"
+    ]
+}

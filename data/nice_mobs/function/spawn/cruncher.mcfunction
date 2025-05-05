@@ -8,6 +8,7 @@ PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:30f,\
 Age:2400,\
+data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"default",ore_type_last_eaten:"none",inventory:{coal:0,copper:0,iron:0,redstone:0,lapis:0,diamond:0,gold:0,emerald:0}}},\
 Tags:["nice_mobs.base","nice_mobs.cruncher.vehicle","eden.scaled","eden.baby_mount.set"],\
 active_effects:[{id:"minecraft:fire_resistance",amplifier:255,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:30},{id:"minecraft:movement_speed",base:.10},{id:"minecraft:scale",base:0.72},{id:"minecraft:safe_fall_distance",base:1024},{id:"minecraft:burning_time",base:0}]\
@@ -18,16 +19,7 @@ function animated_java:cruncher/summon {args: {}}
 ride @n[type=item_display,tag=aj.cruncher.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
 scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.timer 0
-
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.total_ore_count 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.coal 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.copper 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.iron 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.redstone 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.lapis 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.diamond 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.gold 0
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.emerald 0
+scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.ores_holding 0
 
 tag @n[type=item_display,tag=aj.cruncher.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

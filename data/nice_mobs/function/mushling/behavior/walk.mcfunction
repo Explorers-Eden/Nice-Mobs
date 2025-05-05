@@ -1,7 +1,2 @@
-tag @s remove is_idle
-
-execute on passengers run function animated_java:mushling/animations/idle/stop
-execute on passengers run function animated_java:mushling/animations/dig/stop
-execute on passengers run function animated_java:mushling/animations/walk/play
-
-tag @s add is_walking
+execute on passengers run function #nice_mobs:animation/mushling/walk
+data modify entity @s data.nice_mobs.animation set value "walk"

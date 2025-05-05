@@ -9,13 +9,13 @@ CanPickUpLoot:0b,\
 Health:8f,\
 Saddle:0b,\
 Age:2400,\
+data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.snail.vehicle","eden.scaled","eden.baby_mount.set"],\
 attributes:[{id:"minecraft:max_health",base:8},{id:"minecraft:movement_speed",base:.07},{id:"minecraft:scale",base:0.35}]\
 }
 
 
 function animated_java:snail/summon {args: {}}
-tag @n[type=pig,tag=nice_mobs.snail.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.snail.brown
 
 ride @n[type=item_display,tag=aj.snail.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.snail.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

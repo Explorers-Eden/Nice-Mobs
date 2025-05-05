@@ -1,0 +1,29 @@
+{
+	"values": [
+        "nice_mobs:copper_golem/run",
+        "nice_mobs:tuff_golem/run",
+        "nice_mobs:cruncher/run",
+        "nice_mobs:dirt_golem/run",
+        "nice_mobs:glare/run",
+        "nice_mobs:piggy_bank/run",
+        "nice_mobs:rat/run",
+        "nice_mobs:bloomer/run",
+        "nice_mobs:jellyfish/run",
+        "nice_mobs:nautilus_crab/run",
+        "nice_mobs:pufftail/run",
+        "nice_mobs:butterfly/run",
+        "nice_mobs:mushling/run",
+        "nice_mobs:penguin/run",
+        "nice_mobs:snail/run",
+        "nice_mobs:misc/scheduled_spawning",
+        "nice_mobs:misc/run",
+        "nice_mobs:misc/ambient_sounds",
+        "nice_mobs:misc/environmental_damage",
+        "nice_mobs:items/nautilus_helmet",
+        "nice_mobs:chicken/benny/init",
+        "nice_mobs:chicken/zombie/init",
+        "nice_mobs:skeleton_trap/init",
+        "nice_mobs:chicken/rooster/init",
+        "nice_mobs:ender_variants/init"
+    ]
+}

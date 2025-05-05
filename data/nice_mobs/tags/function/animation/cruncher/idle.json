@@ -1,0 +1,8 @@
+{
+	"values": [
+        "animated_java:cruncher/animations/eat/stop",
+        "animated_java:cruncher/animations/walk/stop",
+        "animated_java:cruncher/animations/fall/stop",
+        "animated_java:cruncher/animations/idle/play"
+    ]
+}

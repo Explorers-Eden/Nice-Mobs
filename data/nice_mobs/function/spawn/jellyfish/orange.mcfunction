@@ -6,13 +6,13 @@ PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Silent:1b,\
 Health:16f,\
+data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"orange"}},\
 Tags:["nice_mobs.base","nice_mobs.jellyfish.vehicle","eden.scaled","eden.baby_mount.set","eden.equipped","eden.rarity_mob"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:attack_damage",base:0.001},{id:"minecraft:knockback_resistance",base:0},{id:"minecraft:max_health",base:16},{id:"minecraft:movement_speed",base:0},{id:"minecraft:scale",base:0.35}]\
 }
 
 function animated_java:jellyfish/summon {args: {variant: "orange"}}
-tag @n[type=wither_skeleton,tag=nice_mobs.jellyfish.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.jellyfish.orange
 
 ride @n[type=item_display,tag=aj.jellyfish.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=wither_skeleton,tag=nice_mobs.jellyfish.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

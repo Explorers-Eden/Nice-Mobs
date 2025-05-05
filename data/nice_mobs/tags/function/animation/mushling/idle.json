@@ -1,0 +1,7 @@
+{
+	"values": [
+        "animated_java:mushling/animations/walk/stop",
+        "animated_java:mushling/animations/dig/stop",
+        "animated_java:mushling/animations/idle/play"
+    ]
+}

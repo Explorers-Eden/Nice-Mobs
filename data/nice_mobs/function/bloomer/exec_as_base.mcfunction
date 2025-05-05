@@ -3,15 +3,15 @@ execute store result entity @n[type=item_display,tag=aj.bloomer.root,distance=..
 execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #play walk/idle animations
-execute as @s[tag=!is_idle,tag=!is_exploding] if predicate eden:entity/is_idle run function nice_mobs:bloomer/behavior/idle
-execute as @s[tag=!is_walking] if predicate eden:entity/is_walking run function nice_mobs:bloomer/behavior/walk
+execute if data entity @s data.nice_mobs{action: 0b} unless data entity @s data.nice_mobs{animation:"idle"} if predicate eden:entity/is_idle run function nice_mobs:bloomer/behavior/idle
+execute if data entity @s data.nice_mobs{action: 0b} unless data entity @s data.nice_mobs{animation:"walk"} if predicate eden:entity/is_walking run function nice_mobs:bloomer/behavior/walk
 
 #do explosion actions
-execute as @s[tag=!is_exploding,scores={nice_mobs.entity.action=..0}] if predicate eden:entity/targeted_player_within_3_blocks run function nice_mobs:bloomer/behavior/primed
-execute as @s[tag=!is_exploding,scores={nice_mobs.entity.action=..0}] if data entity @s {"ignited":1b} run function nice_mobs:bloomer/behavior/primed
-execute as @s[scores={nice_mobs.entity.action=1}] run function nice_mobs:bloomer/behavior/flashing
-execute unless entity @e[type=player,distance=..3] run function nice_mobs:bloomer/behavior/score_reset
+execute if data entity @s data.nice_mobs{action: 0b} if predicate eden:entity/targeted_player_within_3_blocks run function nice_mobs:bloomer/behavior/primed
+execute if data entity @s data.nice_mobs{action: 0b} if data entity @s {"ignited":1b} run function nice_mobs:bloomer/behavior/primed
+execute if data entity @s data.nice_mobs{action: 1b} on passengers run function nice_mobs:bloomer/behavior/flashing
+execute unless entity @e[type=player,distance=..3] run function nice_mobs:bloomer/behavior/reset
 
 #apply textures when hurt or not
-execute as @s[tag=!is_hurt] unless predicate eden:entity/has_no_hurttime run function nice_mobs:bloomer/behavior/hurt/start
-execute as @s[tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..}] if predicate eden:entity/has_no_hurttime run function nice_mobs:bloomer/behavior/hurt/end
+execute if data entity @s data.nice_mobs{hurt:0b} unless predicate eden:entity/has_no_hurttime run function nice_mobs:bloomer/behavior/hurt/start with entity @s data.nice_mobs
+execute if data entity @s data.nice_mobs{hurt:1b} if predicate eden:entity/has_no_hurttime run function nice_mobs:bloomer/behavior/hurt/end with entity @s data.nice_mobs

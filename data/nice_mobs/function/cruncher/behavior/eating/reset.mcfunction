@@ -1,3 +1,2 @@
-tag @s remove is_eating
-scoreboard players reset @s nice_mobs.entity.action
+data modify entity @s data.nice_mobs.action set value 0b
 scoreboard players reset @s nice_mobs.entity.timer

@@ -3,16 +3,16 @@ execute store result entity @n[type=item_display,tag=aj.copper_golem.root,distan
 execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #play default walk/idle animations
-execute as @s[tag=!is_idle,predicate=eden:entity/has_no_angertime] if predicate eden:entity/is_idle run function nice_mobs:copper_golem/behavior/idle
-execute as @s[tag=!is_walking,predicate=eden:entity/has_no_angertime] if predicate eden:entity/is_walking run function nice_mobs:copper_golem/behavior/walk
+execute as @s unless data entity @s data.nice_mobs{animation:"idle"} if predicate eden:entity/has_no_angertime if predicate eden:entity/is_idle run function nice_mobs:copper_golem/behavior/idle
+execute as @s unless data entity @s data.nice_mobs{animation:"walk"} if predicate eden:entity/has_no_angertime if predicate eden:entity/is_walking run function nice_mobs:copper_golem/behavior/walk
 
 #play anger walk/idle animations
-execute as @s[tag=!is_idle_angry,predicate=!eden:entity/has_no_angertime] if predicate eden:entity/is_idle run function nice_mobs:copper_golem/behavior/idle_angry
-execute as @s[tag=!is_walking_angry,predicate=!eden:entity/has_no_angertime] if predicate eden:entity/is_walking run function nice_mobs:copper_golem/behavior/walk_angry
+execute as @s unless data entity @s data.nice_mobs{animation:"idle_angry"} unless predicate eden:entity/has_no_angertime if predicate eden:entity/is_idle run function nice_mobs:copper_golem/behavior/idle_angry
+execute as @s unless data entity @s data.nice_mobs{animation:"walk_angry"} unless predicate eden:entity/has_no_angertime if predicate eden:entity/is_walking run function nice_mobs:copper_golem/behavior/walk_angry
 
 #apply textures when hurt or not
-execute as @s[tag=!is_hurt] unless predicate eden:entity/has_no_hurttime run function nice_mobs:copper_golem/behavior/hurt/start
-execute as @s[tag=!not_hurt,scores={nice_mobs.entity.is_hurt=1..}] if predicate eden:entity/has_no_hurttime run function nice_mobs:copper_golem/behavior/hurt/end
+execute if data entity @s data.nice_mobs{hurt:0b} unless predicate eden:entity/has_no_hurttime run function nice_mobs:copper_golem/behavior/hurt/start with entity @s data.nice_mobs
+execute if data entity @s data.nice_mobs{hurt:1b} if predicate eden:entity/has_no_hurttime run function nice_mobs:copper_golem/behavior/hurt/end with entity @s data.nice_mobs
 
 #switch copper bulb on/off when walking on it
 execute if block ~ ~-1 ~ #eden:copper_bulbs[lit=false] if predicate eden:time/night_time run function nice_mobs:copper_golem/behavior/copper_bulb/switch_on

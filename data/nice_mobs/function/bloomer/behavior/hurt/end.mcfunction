@@ -1,5 +1,2 @@
-tag @s remove is_hurt
-
-execute on passengers run function animated_java:bloomer/variants/default/apply
-
-tag @s add not_hurt
+data modify entity @s data.nice_mobs.hurt set value 0b
+$execute on passengers run function animated_java:bloomer/variants/$(variant)/apply
