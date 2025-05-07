@@ -1,5 +1,2 @@
-tag @s add is_idle
-tag @s remove is_walking
-
-execute on passengers run function animated_java:rat/animations/walk/stop
-execute on passengers run function animated_java:rat/animations/idle/play
+execute on passengers run function #nice_mobs:animation/rat/idle
+data modify entity @s data.nice_mobs.animation set value "idle"

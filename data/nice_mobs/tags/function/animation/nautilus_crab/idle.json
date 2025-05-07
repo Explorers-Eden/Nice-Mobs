@@ -1,0 +1,7 @@
+{
+	"values": [
+        "animated_java:nautilus_crab/animations/walk/stop",
+        "animated_java:nautilus_crab/animations/dig/stop",
+        "animated_java:nautilus_crab/animations/idle/play"
+    ]
+}

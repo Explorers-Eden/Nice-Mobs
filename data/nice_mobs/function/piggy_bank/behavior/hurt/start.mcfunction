@@ -1,8 +1,4 @@
-tag @s remove not_hurt
-
 loot spawn ~ ~ ~ loot eden:entity/piggy_bank
 execute anchored eyes run particle minecraft:wax_on ~ ~.6 ~ .5 .5 .5 10 25
 playsound minecraft:block.trial_spawner.eject_item neutral @a ~ ~ ~ 1 1
-
-scoreboard players set @s nice_mobs.entity.is_hurt 1
-tag @s add is_hurt
+data modify entity @s data.nice_mobs.hurt set value 1b

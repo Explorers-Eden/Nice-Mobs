@@ -1,0 +1,7 @@
+{
+	"values": [
+        "animated_java:snail/animations/walk/stop",
+        "animated_java:snail/animations/hide/stop",
+        "animated_java:snail/animations/idle/play"
+    ]
+}

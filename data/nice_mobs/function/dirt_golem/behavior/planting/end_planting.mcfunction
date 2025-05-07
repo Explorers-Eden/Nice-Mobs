@@ -1,4 +1,2 @@
-tag @s remove is_idle
-tag @s remove is_planting
-
-scoreboard players set @s nice_mobs.entity.timer 0
+data modify entity @s data.nice_mobs.action set value 0b
+scoreboard players set @s nice_mobs.entity.generic_timer 0

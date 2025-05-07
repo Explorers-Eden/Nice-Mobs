@@ -1,5 +1,2 @@
-tag @s remove is_idle
-
-execute on passengers run function animated_java:treasure_chest/animations/walk/play
-
-tag @s add is_walking
+execute on passengers run function #nice_mobs:animation/piggy_bank/walk
+data modify entity @s data.nice_mobs.animation set value "walk"

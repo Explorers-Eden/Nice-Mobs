@@ -18,7 +18,7 @@ function animated_java:mushling/summon {args: {variant: "brown"}}
 
 ride @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
-scoreboard players set @n[type=pig,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.timer 0
+scoreboard players set @n[type=pig,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.generic_timer 0
 
 execute as @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f
 

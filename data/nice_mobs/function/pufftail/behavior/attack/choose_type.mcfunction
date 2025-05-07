@@ -1,4 +1,4 @@
-execute on vehicle run scoreboard players set @s nice_mobs.entity.timer 0
+execute on vehicle run scoreboard players set @s nice_mobs.entity.generic_timer 0
 
 execute store result score $nice_mobs.pufftail.effect eden.technical run random value 1..15
 

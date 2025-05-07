@@ -1,9 +1,2 @@
-tag @s add is_returning
-tag @s remove is_walking
-tag @s remove is_idle
-tag @s remove is_holding
-
-execute on passengers run function animated_java:tuff_golem/animations/walk/stop
-execute on passengers run function animated_java:tuff_golem/animations/idle/stop
-execute on passengers run function animated_java:tuff_golem/animations/start_holding/stop
-execute on passengers run function animated_java:tuff_golem/animations/end_holding/play
+execute on passengers run function #nice_mobs:animation/tuff_golem/end_holding
+data modify entity @s data.nice_mobs.animation set value "end_holding"

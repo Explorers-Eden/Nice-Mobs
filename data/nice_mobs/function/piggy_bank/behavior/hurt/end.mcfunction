@@ -1,4 +1,1 @@
-tag @s remove is_hurt
-
-scoreboard players set @s nice_mobs.entity.is_hurt 0
-tag @s add not_hurt
+data modify entity @s data.nice_mobs.hurt set value 0b

@@ -18,7 +18,7 @@ function animated_java:cruncher/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.cruncher.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
-scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.timer 0
+scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.generic_timer 0
 scoreboard players set @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.cruncher.ores_holding 0
 
 tag @n[type=item_display,tag=aj.cruncher.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle

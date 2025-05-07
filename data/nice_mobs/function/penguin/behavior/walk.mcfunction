@@ -1,8 +1,2 @@
-tag @s remove is_idle
-tag @s remove is_falling
-
-execute on passengers run function animated_java:penguin/animations/idle/stop
-execute on passengers run function animated_java:penguin/animations/fall/stop
-execute on passengers run function animated_java:penguin/animations/walk/play
-
-tag @s add is_walking
+execute on passengers run function #nice_mobs:animation/penguin/walk
+data modify entity @s data.nice_mobs.animation set value "walk"

@@ -1,63 +1,74 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
-      {
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:constant",
-                  "value": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:red_mushroom",
-            "conditions": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{Tags:[\"nice_mobs.mushling.red\"]}"
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_mushroom",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "nice_mobs": {
+                      "variant": "default"
+                    }
+                  }
                 }
               }
-            ]
-          }
-        ],
-        "rolls": 1
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:constant",
-                  "value": 1
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:brown_mushroom",
-            "conditions": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{Tags:[\"nice_mobs.mushling.brown\"]}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brown_mushroom",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "nice_mobs": {
+                      "variant": "brown"
+                    }
+                  }
                 }
               }
-            ]
-          }
-        ]
-      }
-    ],
-    "random_sequence": "minecraft:entities/blaze"
-  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

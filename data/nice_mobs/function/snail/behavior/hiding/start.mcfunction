@@ -1,7 +1,2 @@
-tag @s add is_hiding
-tag @s remove is_walking
-tag @s remove is_idle
-
-execute on passengers run function animated_java:snail/animations/walk/stop
-execute on passengers run function animated_java:snail/animations/idle/stop
-execute on passengers run function animated_java:snail/animations/hide/play
+execute on passengers run function #nice_mobs:animation/snail/hide
+data modify entity @s data.nice_mobs.action set value 1b

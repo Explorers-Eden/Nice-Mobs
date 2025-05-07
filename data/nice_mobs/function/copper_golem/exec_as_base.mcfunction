@@ -19,7 +19,7 @@ execute if block ~ ~-1 ~ #eden:copper_bulbs[lit=false] if predicate eden:time/ni
 execute if block ~ ~-1 ~ #eden:copper_bulbs[lit=true] unless predicate eden:time/night_time run function nice_mobs:copper_golem/behavior/copper_bulb/switch_off
 
 #increase timer when on oxidization target block
-execute if block ~ ~-1 ~ #eden:can_oxidize_by_copper_golem run scoreboard players add @s nice_mobs.entity.timer 1
+execute if block ~ ~-1 ~ #eden:can_oxidize_by_copper_golem run scoreboard players add @s nice_mobs.entity.generic_timer 1
 
 #oxidize copper block when timer reached its goal and golem is on block
-execute if block ~ ~-1 ~ #eden:can_oxidize_by_copper_golem if score @s nice_mobs.entity.timer matches 480.. run function nice_mobs:copper_golem/behavior/oxidize_copper_block
+execute if block ~ ~-1 ~ #eden:can_oxidize_by_copper_golem if score @s nice_mobs.entity.generic_timer matches 480.. run function nice_mobs:copper_golem/behavior/oxidize_copper_block

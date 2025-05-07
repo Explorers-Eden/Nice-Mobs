@@ -20,7 +20,7 @@ execute as @n[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!nice_mobs.has_passeng
 
 ride @n[type=item_display,tag=aj.pufftail.root,tag=!nice_mobs.has_vehicle,distance=..5] mount @n[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!nice_mobs.has_passenger,distance=..5]
 
-scoreboard players set @n[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!nice_mobs.has_passenger,distance=..5] nice_mobs.entity.timer 0
+scoreboard players set @n[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!nice_mobs.has_passenger,distance=..5] nice_mobs.entity.generic_timer 0
 
 execute as @n[type=item_display,tag=aj.pufftail.root,tag=!nice_mobs.has_vehicle,distance=..5] run function nice_mobs:pufftail/bossbar/create/init
 

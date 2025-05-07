@@ -1,0 +1,8 @@
+{
+	"values": [
+       "animated_java:tuff_golem/animations/walk/stop",
+       "animated_java:tuff_golem/animations/idle/stop",
+       "animated_java:tuff_golem/animations/start_holding/stop",
+       "animated_java:tuff_golem/animations/end_holding/play"
+    ]
+}

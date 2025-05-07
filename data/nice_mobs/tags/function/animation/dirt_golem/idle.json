@@ -1,0 +1,7 @@
+{
+	"values": [
+        "animated_java:dirt_golem/animations/walk/stop",
+        "animated_java:dirt_golem/animations/plant/stop",
+        "animated_java:dirt_golem/animations/idle/play"
+    ]
+}

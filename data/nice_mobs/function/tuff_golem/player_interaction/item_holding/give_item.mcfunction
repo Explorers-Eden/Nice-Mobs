@@ -5,4 +5,4 @@ data modify entity @n[type=item_display,tag=aj.tuff_golem.node.tuff_golem_holdin
 
 item modify entity @p[tag=interacted_tuff_golem] weapon.mainhand eden:detract_item
 
-scoreboard players set @s nice_mobs.entity.action 1
+data modify entity @s data.nice_mobs.action set value 1b

@@ -1,0 +1,7 @@
+{
+	"values": [
+        "animated_java:rat/animations/walk/stop",
+        "animated_java:rat/animations/idle/stop",
+        "animated_java:rat/animations/eat/play"
+    ]
+}

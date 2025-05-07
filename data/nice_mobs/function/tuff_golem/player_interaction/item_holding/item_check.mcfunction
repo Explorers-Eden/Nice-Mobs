@@ -1,3 +1,3 @@
-execute as @s[tag=is_holding] unless items entity @p[tag=interacted_tuff_golem] weapon.mainhand * run return run function nice_mobs:tuff_golem/player_interaction/item_holding/take_item
-execute as @s[tag=is_holding] if items entity @p[tag=interacted_tuff_golem] weapon.mainhand * run return run function nice_mobs:tuff_golem/player_interaction/item_holding/swap_item
-execute as @s[tag=!is_holding] if items entity @p[tag=interacted_tuff_golem] weapon.mainhand * run return run function nice_mobs:tuff_golem/player_interaction/item_holding/give_item
+execute as @s if data entity @s data.nice_mobs{holds_item: 1b} unless items entity @p[tag=interacted_tuff_golem] weapon.mainhand * run return run function nice_mobs:tuff_golem/player_interaction/item_holding/take_item
+execute as @s if data entity @s data.nice_mobs{holds_item: 1b} if items entity @p[tag=interacted_tuff_golem] weapon.mainhand * run return run function nice_mobs:tuff_golem/player_interaction/item_holding/swap_item
+execute as @s if data entity @s data.nice_mobs{holds_item: 0b} if items entity @p[tag=interacted_tuff_golem] weapon.mainhand * run return run function nice_mobs:tuff_golem/player_interaction/item_holding/give_item

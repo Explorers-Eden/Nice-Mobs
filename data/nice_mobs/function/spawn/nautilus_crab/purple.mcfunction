@@ -18,7 +18,7 @@ function animated_java:nautilus_crab/summon {args: {variant: "purple"}}
 
 ride @n[type=item_display,tag=aj.nautilus_crab.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.nautilus_crab.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
-scoreboard players set @n[type=pig,tag=nice_mobs.nautilus_crab.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.timer 0
+scoreboard players set @n[type=pig,tag=nice_mobs.nautilus_crab.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.generic_timer 0
 
 tag @n[type=item_display,tag=aj.nautilus_crab.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=pig,tag=nice_mobs.nautilus_crab.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

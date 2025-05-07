@@ -1,0 +1,6 @@
+{
+	"values": [
+        "animated_java:glare/animations/idle/stop",
+        "animated_java:glare/animations/walk/play"
+    ]
+}

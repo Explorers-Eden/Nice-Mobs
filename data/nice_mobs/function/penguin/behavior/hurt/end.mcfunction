@@ -1,6 +1,2 @@
-tag @s remove is_hurt
-
-execute on passengers run function animated_java:penguin/variants/default/apply
-
-scoreboard players set @s nice_mobs.entity.is_hurt 0
-tag @s add not_hurt
+data modify entity @s data.nice_mobs.hurt set value 1b
+$execute on passengers run return run function animated_java:penguin/variants/$(variant)/apply

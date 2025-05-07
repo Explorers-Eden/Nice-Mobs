@@ -5,7 +5,7 @@ data remove storage eden:temp nice_mobs
 scoreboard objectives add eden.technical dummy
 
 ##additional scoreboards
-scoreboard objectives add nice_mobs.entity.timer dummy
+scoreboard objectives add nice_mobs.entity.generic_timer dummy
 scoreboard objectives add nice_mobs.player.butterfly_effect dummy
 scoreboard objectives add nice_mobs.pufftail.bossbar dummy
 scoreboard objectives add nice_mobs.item.time_since_placed dummy

@@ -1,7 +1,2 @@
-tag @s add is_idle
-tag @s remove is_walking
-tag @s remove is_planting
-
-execute on passengers run function animated_java:dirt_golem/animations/walk/stop
-execute on passengers run function animated_java:dirt_golem/animations/plant/stop
-execute on passengers run function animated_java:dirt_golem/animations/idle/play
+execute on passengers run function #nice_mobs:animation/dirt_golem/idle
+data modify entity @s data.nice_mobs.animation set value "idle"
