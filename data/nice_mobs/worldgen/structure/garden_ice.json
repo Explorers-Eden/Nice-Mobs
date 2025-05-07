@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:frozen_peaks",
+    "biomes": "#minecraft:has_structure/village_snowy",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

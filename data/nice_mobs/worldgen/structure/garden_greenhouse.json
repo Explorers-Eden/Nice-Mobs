@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:flower_forest",
+    "biomes": "#eden:dirt_golem_spawnable",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

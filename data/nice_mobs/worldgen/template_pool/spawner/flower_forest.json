@@ -1,0 +1,15 @@
+{
+    "name": "nice_mobs:spawner/flower_forest",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:spawner/butterfly_moth",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

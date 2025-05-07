@@ -15,6 +15,10 @@
       {
         "structure": "nice_mobs:deep_ocean_spawner",
         "weight": 1
+      },
+      {
+        "structure": "nice_mobs:flower_forest_spawner",
+        "weight": 1
       }
     ],
     "placement": {

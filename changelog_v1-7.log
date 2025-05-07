@@ -1,0 +1,65 @@
+## Changes:
+### Added New Structures
+    - End Farm: Generates in all End biomes
+    - Gardens: Generates in a variety of different biomes that reflect the Butterfly/Wisp/Moth it spawns
+
+### Added Butterfly/Wisp/Moth
+    - 12 Butterfly / 9 Wisp / 2 Moth variants
+    - Spawns in new Garden Structures
+    - Some Gardens spawn Moths when discovering the structure at night and Butterflies at day
+    - Moths/Butterflies can also be found in Flower Forests
+    - Players get a small effect when the entity has gathered Nectar from Flowers
+    - Effect is different for each variant
+    - Only one effect can be applied simultaneously
+
+### Added Ender variants
+    - Mob types: Chicken, Pig, Cow, Frog
+    - Spawn in new End Farm structures
+    - Takes damage when in rain/water
+    - Teleports when taking damage
+    - Frog type drops Crying Obsidian when eating
+
+### Added Frog variants
+    - Sculk: Spawns in Deep Dark Biomes. Drops Sculk when eating
+    - Dry: Spawns in Desert Biomes. Drops Sand when eating
+
+### Added Advancements
+    - **Not A Balloon**: Leash a Butterfly/Moth/Wisp variant
+    - **Butterfly Effect**: Receive an effect from a Butterfly/Moth/Wisp variant
+
+
+
+## Technical Changes
+- Data Pack is now using latest [Animated Java](https://github.com/Animated-Java/animated-java/releases/tag/v1.7.0) version for it's models
+- Removed update function for custom mobs with data driven vehicles from previous version
+- Scoreboards no longer needed get removed when loading the current data pack version
+- Animation functions are now being run via function tag lists instead of executing each one individually
+- Custom Mobs spawned in earlier versions do not work properly anymore and get replaced automatically. **Before updating it is advised to clear out Inventories of Crunchers & Dirt/Tuff Golems**
+- Cruncher now rolls ore counts depending on the type of ore being eaten instead of it being a constant
+- Mushlings, Nautilus Crabs & Dirt Golems no longer need to be idle in order for their timer to increase
+- Reduced spacing of natural spawner structures from 12 to 8
+- Renamed functions/folders for spawning entities to "summon"
+
+### Added Gamerule functions
+    - Apply default settings: /function nice_mobs:gamerule/default_settings
+    - En-/disabling of custom mob spawns: /function nice_mobs:gamerule/spawning/..
+    - En-/disabling of Villagers being able to summon Copper Golems: /function nice_mobs:gamerule/behavior/villager_copper_golem
+    - En-/disabling of Butterflies/Wisps/Moths giving effects: /function nice_mobs:gamerule/behavior/butterfly_effect
+    - En-/disabling of Ender variants teleporting when damaged: /function nice_mobs:gamerule/behavior/ender_variant_teleporting
+
+### Added functions to remove custom entities
+    - Remove a specific mob type: /function nice_mobs:remove/entity_type/..
+    - Remove all custom entities: /function nice_mobs:remove/all_entities
+    - Nearest entity: /function nice_mobs:remove/nearest_entity
+
+### Most values for custom mobs are now stored as custom data instead of using tags and/or scoreboards
+    - Variants are now stored as custom data (data.nice_mobs.variant)
+    - Hurt value is now stored as custom data (data.nice_mobs.hurt)
+    - Animation value is now stored as custom data (data.nice_mobs.animation)
+    - Action value is now stored as custom data (data.nice.mobs.action)
+    - Value for Roosters if it has crowd is now stored as custom data (data.nice_mobs.has_crowd)
+    - Inventory of Cruncher is now stored as custom data (data.nice_mobs.inventory)
+
+
+
+## Fixes:

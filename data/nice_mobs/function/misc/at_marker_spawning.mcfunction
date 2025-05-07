@@ -1,7 +1,7 @@
 ## Also include tag "nice_mobs.spawner" when summoning a marker for spawning
 
 #Structure Spawner
-execute as @s[tag=nice_mobs.spawner.structure.garden_1] if data storage eden:gamerule nice_mobs.spawning{butterfly:1b} if data storage eden:gamerule nice_mobs.spawning{moth:1b} run function nice_mobs:summon/structure/garden_1
+execute as @s[tag=nice_mobs.spawner.garden_1] if data storage eden:gamerule nice_mobs.spawning{butterfly:1b} if data storage eden:gamerule nice_mobs.spawning{moth:1b} run function nice_mobs:summon/structure/garden_1
 
 #Piggy Bank
 execute as @s[tag=nice_mobs.spawner.piggy_bank] if data storage eden:gamerule nice_mobs.spawning{piggy_bank:1b} run function nice_mobs:summon/piggy_bank
