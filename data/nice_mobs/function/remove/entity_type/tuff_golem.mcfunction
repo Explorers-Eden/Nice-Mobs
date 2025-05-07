@@ -1,2 +1,2 @@
 execute as @e[tag=nice_mobs.tuff_golem.vehicle] run function nice_mobs:misc/kill
-tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Removed all loaded Tuff Golem Entities"}]
+tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Removed loaded Tuff Golem Entities"}]

@@ -1,2 +1,2 @@
 execute as @e[tag=nice_mobs.bloomer.vehicle] run function nice_mobs:misc/kill
-tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Removed all loaded Bloomer Entities"}]
+tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Removed loaded Bloomer Entities"}]

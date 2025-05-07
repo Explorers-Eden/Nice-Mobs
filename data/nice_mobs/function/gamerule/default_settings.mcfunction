@@ -1,4 +1,4 @@
-tellraw @a [{"bold":false,"color":"gray","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Nice Mobs default settings applied"}]
+tellraw @s [{"bold":false,"color":"gray","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Nice Mobs default settings applied"}]
 
 data modify storage eden:gamerule nice_mobs.spawning.bloomer set value 1b
 data modify storage eden:gamerule nice_mobs.spawning.butterfly set value 1b

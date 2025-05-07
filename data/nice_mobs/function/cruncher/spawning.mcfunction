@@ -4,7 +4,7 @@ execute unless biome ~ ~ ~ #eden:cruncher_spawnable run return run tag @s add ni
 execute unless data entity @s {"Age": 0} run return run tag @s add nice_mobs.exclude_spawning
 execute if data storage eden:gamerule nice_mobs.spawning{cruncher:0b} run return run tag @s add nice_mobs.exclude_spawning
 
-function nice_mobs:spawn/cruncher
+function nice_mobs:summon/cruncher
 spreadplayers ~ ~ 25 25 false @n[type=pig,tag=nice_mobs.cruncher.vehicle,distance=..4]
 
 tag @s add nice_mobs.exclude_spawning
