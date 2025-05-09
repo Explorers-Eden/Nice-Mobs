@@ -4,7 +4,14 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:is_end"
+        "biomes": "#eden:mob_variant_spawnable/pig/ender"
+      },
+      "priority": 999
+    },
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/pig/ender"
       },
       "priority": 999
     }

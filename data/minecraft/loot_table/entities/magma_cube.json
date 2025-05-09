@@ -158,6 +158,30 @@
                   "source_entity": {
                     "type": "minecraft:frog",
                     "components": {
+                      "minecraft:frog/variant": "nice_mobs:guardian"
+                    }
+                  }
+                }
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": 1,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sea_lantern"
+          },
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "source_entity": {
+                    "type": "minecraft:frog",
+                    "components": {
                       "minecraft:frog/variant": "minecraft:cold"
                     }
                   }

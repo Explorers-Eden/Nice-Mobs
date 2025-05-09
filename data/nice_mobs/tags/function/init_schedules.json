@@ -21,7 +21,7 @@
         "nice_mobs:misc/environmental_damage",
         "nice_mobs:items/nautilus_helmet",
         "nice_mobs:chicken/benny/init",
-        "nice_mobs:chicken/zombie/init",
+        "nice_mobs:chicken/chicken_jockey/init",
         "nice_mobs:skeleton_trap/init",
         "nice_mobs:chicken/rooster/init",
         "nice_mobs:ender_variants/init"

@@ -7,17 +7,17 @@
   "spawn_conditions": [
     {
       "condition": {
-        "type": "minecraft:structure",
-        "structures": "nice_mobs:fossil"
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/wolf/skeleton"
       },
-      "priority": 999999
+      "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "nice_mobs:graveyard"
+        "structures": "#eden:mob_variant_spawnable/wolf/skeleton"
       },
-      "priority": 999999
+      "priority": 999
     }
   ]
 }

@@ -2,6 +2,20 @@
   "asset_id": "nice_mobs:entity/pig/muddy_creamy",
   "spawn_conditions": [
     {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/pig/muddy_creamy"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/pig/muddy_creamy"
+      },
+      "priority": 1
+    },
+    {
       "priority": 0
     }
   ]

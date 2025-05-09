@@ -4,8 +4,15 @@
   "spawn_conditions": [
     {
       "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cow/cold_dark"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:spawns_cold_variant_farm_animals"
+        "biomes": "#eden:mob_variant_spawnable/cow/cold_dark"
       },
       "priority": 1
     }

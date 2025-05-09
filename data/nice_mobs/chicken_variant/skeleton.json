@@ -4,16 +4,16 @@
       {
         "condition": {
           "type": "minecraft:structure",
-          "structures": "nice_mobs:fossil"
+          "structures": "#eden:mob_variant_spawnable/chicken/skeleton"
         },
-        "priority": 999999
+        "priority": 999
       },
       {
         "condition": {
-          "type": "minecraft:structure",
-          "structures": "nice_mobs:graveyard"
+          "type": "minecraft:biome",
+          "biomes": "#eden:mob_variant_spawnable/chicken/skeleton"
         },
-        "priority": 999999
+        "priority": 999
       }
     ]
   }

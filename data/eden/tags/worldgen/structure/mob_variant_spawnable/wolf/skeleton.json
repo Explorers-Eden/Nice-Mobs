@@ -1,0 +1,7 @@
+{
+    "values": [
+      {"id": "nice_mobs:fossil","required": false},
+      {"id": "nice_mobs:graveyard","required": false},
+      {"id": "minecraft:nether_fossil","required": false}
+    ]
+  }

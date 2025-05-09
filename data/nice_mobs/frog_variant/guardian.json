@@ -1,0 +1,19 @@
+{
+  "asset_id": "nice_mobs:entity/frog/guardian",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/frog/guardian"
+      },
+      "priority": 999
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/frog/guardian"
+      },
+      "priority": 999
+    }
+  ]
+}

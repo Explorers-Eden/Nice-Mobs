@@ -3,12 +3,17 @@
   "spawn_conditions": [
     {
       "condition": {
-        "type": "minecraft:biome",
-        "biomes": [
-
-        ]
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/chicken/zombie"
       },
-      "priority": 1
+      "priority": 999
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/chicken/zombie"
+      },
+      "priority": 999
     }
   ]
 }

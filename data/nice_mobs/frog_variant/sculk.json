@@ -3,8 +3,15 @@
   "spawn_conditions": [
     {
       "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/frog/sculk"
+      },
+      "priority": 999
+    },
+    {
+      "condition": {
         "type": "minecraft:biome",
-        "biomes": "minecraft:deep_dark"
+        "biomes": "#eden:mob_variant_spawnable/frog/sculk"
       },
       "priority": 999
     }

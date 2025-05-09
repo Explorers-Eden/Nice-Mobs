@@ -3,8 +3,15 @@
   "spawn_conditions": [
     {
       "condition": {
-        "type": "minecraft:biome",
-        "biomes": "#minecraft:is_end"
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cow/ender"
+      },
+      "priority": 999
+    },
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cow/ender"
       },
       "priority": 999
     }

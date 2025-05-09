@@ -3,13 +3,17 @@
   "spawn_conditions": [
     {
       "condition": {
-        "type": "minecraft:biome",
-        "biomes": [
-          "minecraft:mangrove_swamp",
-          "minecraft:swamp"
-        ]
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/chicken/duck"
       },
-      "priority": 1
+      "priority": 999
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/chicken/duck"
+      },
+      "priority": 999
     }
   ]
 }

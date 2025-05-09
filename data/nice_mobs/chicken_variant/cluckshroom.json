@@ -3,10 +3,15 @@
   "spawn_conditions": [
     {
       "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/chicken/cluckshroom"
+      },
+      "priority": 999
+    },
+    {
+      "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-                    "minecraft:mushroom_fields"
-        ]
+        "biomes": "#eden:mob_variant_spawnable/chicken/cluckshroom"
       },
       "priority": 999
     }

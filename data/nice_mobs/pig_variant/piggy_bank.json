@@ -4,9 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-
-        ]
+        "biomes": []
       },
       "priority": 1
     }

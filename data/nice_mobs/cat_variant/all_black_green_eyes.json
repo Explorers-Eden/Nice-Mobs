@@ -4,7 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#minecraft:cats_spawn_as_black"
+        "structures": "#eden:mob_variant_spawnable/cat/all_black_green_eyes"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/cat/all_black_green_eyes"
       },
       "priority": 1
     },

@@ -5,17 +5,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "nice_mobs:barn"
+        "structures": "#eden:mob_variant_spawnable/chicken/rooster"
       },
-      "priority": 0
+      "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": [
-                    "minecraft:sunflower_plains",
-                    "minecraft:flower_forest"
-        ]
+        "biomes": "#eden:mob_variant_spawnable/chicken/rooster"
       },
       "priority": 1
     }
