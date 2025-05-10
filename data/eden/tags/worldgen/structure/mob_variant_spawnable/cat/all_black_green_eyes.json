@@ -1,5 +1,6 @@
 {
     "values": [
-      {"id": "#minecraft:cats_spawn_as_black","required": false}
+      {"id": "#minecraft:cats_spawn_as_black","required": false},
+      {"id": "kattersstructures:witch_circle","required": false}
     ]
   }

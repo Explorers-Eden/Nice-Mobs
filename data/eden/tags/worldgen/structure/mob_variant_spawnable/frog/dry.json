@@ -1,5 +1,7 @@
 {
     "values": [
-      {"id": "minecraft:desert_pyramid","required": false}
+      {"id": "minecraft:desert_pyramid","required": false},
+      {"id": "kattersstructures:village_mesa","required": false},
+      {"id": "kattersstructures:desert_dungeon","required": false}
     ]
   }
