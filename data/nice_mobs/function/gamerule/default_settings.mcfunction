@@ -21,3 +21,5 @@ data modify storage eden:gamerule nice_mobs.spawning.wisp set value 1b
 data modify storage eden:gamerule nice_mobs.behavior.villagercoppergolem set value 1b
 data modify storage eden:gamerule nice_mobs.behavior.butterflyeffect set value 1b
 data modify storage eden:gamerule nice_mobs.behavior.enderteleport set value 1b
+data modify storage eden:gamerule nice_mobs.behavior.chickenjockeyvariants set value 1b
+data modify storage eden:gamerule nice_mobs.behavior.roostercrowing set value 1b

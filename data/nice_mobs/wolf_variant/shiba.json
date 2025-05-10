@@ -1,0 +1,23 @@
+{
+    "assets": {
+      "angry": "nice_mobs:entity/wolf/shiba_angry",
+      "tame": "nice_mobs:entity/wolf/shiba_tame",
+      "wild": "nice_mobs:entity/wolf/shiba"
+    },
+    "spawn_conditions": [
+      {
+        "condition": {
+          "type": "minecraft:biome",
+          "biomes": "#eden:mob_variant_spawnable/wolf/shiba"
+        },
+        "priority": 999
+      },
+      {
+        "condition": {
+          "type": "minecraft:structure",
+          "structures": "#eden:mob_variant_spawnable/wolf/shiba"
+        },
+        "priority": 999
+      }
+    ]
+  }

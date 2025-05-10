@@ -18,6 +18,9 @@
     - Teleports when taking damage
     - Frog type drops Crying Obsidian when eating
 
+### Added Wolf variants
+    - Shiba: Spawns in Cherry Grove Biomes
+
 ### Added Frog variants
     - Sculk: Spawns in Deep Dark Biomes. Drops Sculk when eating
     - Dry: Spawns in Desert Biomes. Drops Sand when eating
@@ -54,6 +57,8 @@
     - En-/disabling of Villagers being able to summon Copper Golems: `/function nice_mobs:gamerule/behavior/villager_copper_golem`
     - En-/disabling of Butterflies/Wisps/Moths giving effects: `/function nice_mobs:gamerule/behavior/butterfly_effect`
     - En-/disabling of Ender variants teleporting when damaged: `/function nice_mobs:gamerule/behavior/ender_variant_teleporting`
+    - En-/disabling of Roosters crowing in the morning: `/function nice_mobs:gamerule/behavior/rooster_crowing`
+    - En-/disabling of Chicken Jockey variants: `/function nice_mobs:gamerule/behavior/chicken_jockey_variants`
 
 ### Added functions to remove custom entities
     - Remove a specific mob type: `/function nice_mobs:remove/entity_type/<mob_name>`

@@ -1,0 +1,15 @@
+{
+    "name": "nice_mobs:spawner/cherry_grove",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:spawner/wolf/shiba",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}
