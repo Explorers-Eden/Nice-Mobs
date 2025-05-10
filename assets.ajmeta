@@ -414,18 +414,7 @@
 				"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_2.json",
 				"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_3.json",
 				"assets/animated_java/models/blueprint/jellyfish/yellow_hurt/stingers_4.json",
-				"assets/animated_java/models/empty.json",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_blue.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_blue_hurt.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_cyan.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_cyan_hurt.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_orange.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_orange_hurt.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_pink_hurt.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_white.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_white_hurt.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_yellow.png",
-				"assets/animated_java/textures/blueprint/jellyfish/jellyfish_yellow_hurt.png"
+				"assets/animated_java/models/empty.json"
 			]
 		},
 		"mushling": {

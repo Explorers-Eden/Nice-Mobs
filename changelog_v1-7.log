@@ -41,7 +41,7 @@
 
 
 ## Technical Changes
-- Data Pack is now using latest [Animated Java](https://github.com/Animated-Java/animated-java/releases/tag/v1.7.0) version for it's models
+- Data Pack is now using latest [Animated Java](https://github.com/Animated-Java/animated-java/releases/tag/v1.7.3) version for it's models
 - Removed update function for custom mobs with data driven vehicles from previous version
 - Scoreboards no longer needed get removed when loading the current data pack version
 - Animation functions are now being run via function tag lists instead of executing each one individually

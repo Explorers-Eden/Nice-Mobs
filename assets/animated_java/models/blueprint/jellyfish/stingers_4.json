@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"0": "animated_java:blueprint/jellyfish/jellyfish_pink"
+		"0": "minecraft:mob/fish/jellyfish_pink",
+		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
 		"head": {
