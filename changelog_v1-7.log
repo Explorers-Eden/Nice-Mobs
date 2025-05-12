@@ -2,6 +2,12 @@
 ### Added New Structures
     - Gardens: Generates in a variety of different biomes that reflect the Butterfly/Wisp/Moth it spawns
 
+### Added Hedgehog
+    - Has 2 variants
+    - Spawns in most Forest Biomes
+    - Rolls up when an Undead Mob is close to it
+    - Undead Mobs take Thorns damage when coming too close to it
+
 ### Added Butterfly/Wisp/Moth
     - 12 Butterfly / 9 Wisp / 2 Moth variants
     - Spawns in new Garden Structures
@@ -80,3 +86,4 @@
 
 
 ## Fixes:
+- invisibility effect can be removed from non data driven vehicles

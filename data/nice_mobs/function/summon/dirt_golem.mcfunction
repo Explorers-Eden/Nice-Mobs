@@ -14,7 +14,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:max_health",base:80},{id:"minecraft:movement_speed",base:.17},{id:"minecraft:scale",base:0.55}]\
 }
 
-function animated_java:dirt_golem/summon {args: {}}
+function animated_java:dirt_golem/summon {args: {variant: "default"}}
 
 ride @n[type=item_display,tag=aj.dirt_golem.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=villager,tag=nice_mobs.dirt_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

@@ -13,6 +13,7 @@
         "nice_mobs:pufftail/run",
         "nice_mobs:butterfly/run",
         "nice_mobs:mushling/run",
+        "nice_mobs:hedgehog/run",
         "nice_mobs:penguin/run",
         "nice_mobs:snail/run",
         "nice_mobs:misc/scheduled_spawning",

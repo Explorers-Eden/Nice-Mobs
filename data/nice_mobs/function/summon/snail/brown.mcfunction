@@ -15,7 +15,7 @@ attributes:[{id:"minecraft:max_health",base:8},{id:"minecraft:movement_speed",ba
 }
 
 
-function animated_java:snail/summon {args: {}}
+function animated_java:snail/summon {args: {variant: "default"}}
 
 ride @n[type=item_display,tag=aj.snail.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.snail.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

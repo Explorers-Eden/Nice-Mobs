@@ -12,7 +12,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:max_health",base:60},{id:"minecraft:scale",base:0.58},{id:"minecraft:attack_damage",base:5},{id:"minecraft:movement_speed",base:0.2}]\
 }
 
-function animated_java:copper_golem/summon {args: {}}
+function animated_java:copper_golem/summon {args: {variant: "default"}}
 
 tag @n[type=iron_golem,tag=nice_mobs.copper_golem.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.copper_golem
 

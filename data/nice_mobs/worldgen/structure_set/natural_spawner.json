@@ -23,6 +23,10 @@
       {
         "structure": "nice_mobs:cherry_grove_spawner",
         "weight": 1
+      },
+      {
+        "structure": "nice_mobs:forest_spawner",
+        "weight": 1
       }
     ],
     "placement": {

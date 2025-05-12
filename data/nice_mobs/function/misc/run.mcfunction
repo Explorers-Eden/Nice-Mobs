@@ -27,3 +27,6 @@ execute as @e[type=creeper,tag=nice_mobs.bloomer.vehicle] run data modify entity
 
 #modify age
 execute as @e[type=#eden:is_nice_mobs_vehicle,tag=nice_mobs.base] run data modify entity @s Age set value 2400
+
+#give non data driven vehicles invisible effect in case they lost it
+effect give @e[type=!#eden:is_data_driven_mob,tag=nice_mobs.base] invisibility infinite 0 true

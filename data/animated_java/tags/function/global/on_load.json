@@ -6,6 +6,7 @@
 		"animated_java:cruncher/on_load",
 		"animated_java:dirt_golem/on_load",
 		"animated_java:glare/on_load",
+		"animated_java:hedgehog/on_load",
 		"animated_java:jellyfish/on_load",
 		"animated_java:mushling/on_load",
 		"animated_java:nautilus_crab/on_load",

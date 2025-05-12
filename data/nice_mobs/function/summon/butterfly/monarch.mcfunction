@@ -13,7 +13,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:attack_speed",base:0},{id:"minecraft:max_health",base:10},{id:"minecraft:scale",base:0.58}]\
 }
 
-function animated_java:butterfly/summon {args: {}}
+function animated_java:butterfly/summon {args: {variant: "default"}}
 
 ride @n[type=item_display,tag=aj.butterfly.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=bee,tag=nice_mobs.butterfly.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

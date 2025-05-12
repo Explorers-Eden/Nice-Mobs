@@ -17,6 +17,7 @@ data modify storage eden:gamerule nice_mobs.spawning.rat set value 1b
 data modify storage eden:gamerule nice_mobs.spawning.snail set value 1b
 data modify storage eden:gamerule nice_mobs.spawning.tuff_golem set value 1b
 data modify storage eden:gamerule nice_mobs.spawning.wisp set value 1b
+data modify storage eden:gamerule nice_mobs.spawning.hedgehog set value 1b
 
 data modify storage eden:gamerule nice_mobs.behavior.villagercoppergolem set value 1b
 data modify storage eden:gamerule nice_mobs.behavior.butterflyeffect set value 1b

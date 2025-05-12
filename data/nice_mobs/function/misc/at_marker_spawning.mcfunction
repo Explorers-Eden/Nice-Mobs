@@ -20,6 +20,11 @@ execute as @s[tag=nice_mobs.spawner.glare] if data storage eden:gamerule nice_mo
 execute as @s[tag=nice_mobs.spawner.glare.pale_moss] if data storage eden:gamerule nice_mobs.spawning{glare:1b} run function nice_mobs:summon/glare/pale_moss
 execute as @s[tag=nice_mobs.spawner.glare.moss] if data storage eden:gamerule nice_mobs.spawning{glare:1b} run function nice_mobs:summon/glare/moss
 
+#Glare
+execute as @s[tag=nice_mobs.spawner.hedgehog] if data storage eden:gamerule nice_mobs.spawning{hedgehog:1b} run function nice_mobs:summon/hedgehog
+execute as @s[tag=nice_mobs.spawner.hedgehog.black] if data storage eden:gamerule nice_mobs.spawning{hedgehog:1b} run function nice_mobs:summon/hedgehog/black
+execute as @s[tag=nice_mobs.spawner.hedgehog.brown] if data storage eden:gamerule nice_mobs.spawning{hedgehog:1b} run function nice_mobs:summon/hedgehog/brown
+
 #Mushling
 execute as @s[tag=nice_mobs.spawner.mushling] if data storage eden:gamerule nice_mobs.spawning{mushling:1b} run function nice_mobs:summon/mushling
 execute as @s[tag=nice_mobs.spawner.mushling.red] if data storage eden:gamerule nice_mobs.spawning{mushling:1b} run function nice_mobs:summon/mushling/red

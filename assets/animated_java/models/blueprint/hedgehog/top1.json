@@ -1,0 +1,118 @@
+{
+	"textures": {
+		"1": "animated_java:blueprint/hedgehog/default_ball",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, 13.7, 6],
+			"to": [11, 13.7, 8],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "x",
+				"origin": [8, 12.7, 5]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 3, 0],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 0, 1, 0],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 3, 0],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 1, 0],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [6, 7, 3, 6],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [9, 3, 6, 4],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [5, 13.7, 8],
+			"to": [11, 13.7, 10],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "x",
+				"origin": [8, 12.7, 7]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 3, 0],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 0, 1, 0],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 3, 0],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 1, 0],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [9, 5, 6, 4],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [9, 5, 6, 6],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [5, 13.7, 10],
+			"to": [11, 13.7, 12],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "x",
+				"origin": [8, 12.7, 9]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 3, 0],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 0, 1, 0],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 3, 0],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 1, 0],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [9, 7, 6, 6],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [6, 7, 3, 8],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

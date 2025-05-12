@@ -12,7 +12,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:max_health",base:350},{id:"minecraft:scale",base:5},{id:"minecraft:armor",base:10},{id:"minecraft:follow_range",base:40}]\
 }
 
-function animated_java:pufftail/summon {args: {}}
+function animated_java:pufftail/summon {args: {variant: "default"}}
 
 execute as @n[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!nice_mobs.has_passenger,distance=..5] positioned ~ ~5 ~ run data modify entity @s BoundX set from entity @s Pos[0]
 execute as @n[type=vex,tag=nice_mobs.pufftail.vehicle,tag=!nice_mobs.has_passenger,distance=..5] positioned ~ ~5 ~ run data modify entity @s BoundY set from entity @s Pos[1]

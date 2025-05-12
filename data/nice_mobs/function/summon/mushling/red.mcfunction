@@ -14,7 +14,7 @@ Tags:["nice_mobs.base","nice_mobs.mushling.vehicle","eden.scaled","eden.baby_mou
 attributes:[{id:"minecraft:max_health",base:14},{id:"minecraft:movement_speed",base:.12},{id:"minecraft:scale",base:0.65}]\
 }
 
-function animated_java:mushling/summon {args: {}}
+function animated_java:mushling/summon {args: {variant: "default"}}
 
 ride @n[type=item_display,tag=aj.mushling.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.mushling.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

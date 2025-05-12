@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:blueprint/hedgehog/left",
+	"textures": {
+		"0": "animated_java:blueprint/hedgehog/default_hurt",
+		"1": "animated_java:blueprint/hedgehog/default_ball_hurt"
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"textures": {
+		"1": "animated_java:blueprint/hedgehog/default_ball",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5.5, 9, 6.2],
+			"to": [5.5, 13, 8.2],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "y",
+				"origin": [4.5, 12, 5.2]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 9, 1, 11],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [9, 0, 10, 2],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [5.5, 9, 8.2],
+			"to": [5.5, 13, 10.2],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "y",
+				"origin": [4.5, 12, 7.2]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [1, 9, 2, 11],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [2, 9, 3, 11],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [5.5, 9, 10.2],
+			"to": [5.5, 13, 12.2],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "y",
+				"origin": [4.5, 12, 9.2]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [9, 2, 10, 4],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [9, 4, 10, 6],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}
