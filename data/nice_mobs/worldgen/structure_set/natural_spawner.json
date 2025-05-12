@@ -27,6 +27,14 @@
       {
         "structure": "nice_mobs:forest_spawner",
         "weight": 1
+      },
+      {
+        "structure": "nice_mobs:warped_forest_spawner",
+        "weight": 1
+      },
+      {
+        "structure": "nice_mobs:crimson_forest_spawner",
+        "weight": 1
       }
     ],
     "placement": {

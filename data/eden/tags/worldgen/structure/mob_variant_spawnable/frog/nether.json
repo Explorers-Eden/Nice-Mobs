@@ -1,0 +1,6 @@
+{
+    "values": [
+      {"id": "nice_mobs:crimson_forest_spawner","required": false},
+      {"id": "nice_mobs:warped_forest_spawner","required": false}
+    ]
+  }

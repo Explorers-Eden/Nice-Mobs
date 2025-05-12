@@ -26,11 +26,13 @@
 
 ### Added Wolf variants
     - Shiba: Spawns in Cherry Grove Biomes
+    - White Black: Spawns in Taiga Biomes
 
 ### Added Frog variants
-    - Sculk: Spawns in Deep Dark Biomes. Drops Sculk when eating
-    - Dry: Spawns in Desert Biomes. Drops Sand when eating
-    - Guardian: Spawns in Monuments. Drops Sea Lanterns when eating
+    - Sculk: Breedable in Deep Dark Biomes. Drops Sculk when eating
+    - Dry: Breedable in Desert Biomes. Drops Sand when eating
+    - Guardian: Breedable in Monuments. Drops Sea Lanterns when eating
+    - Nether: Spawns in Warped/Crimson Forests. Breedable in the Nether. Drops Shroomlights when eating
 
 ### Added Chicken variants
     - Strider: Can only be found as a vehicle for Chicken Jockeys in the Nether

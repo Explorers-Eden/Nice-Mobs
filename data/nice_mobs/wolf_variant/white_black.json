@@ -1,0 +1,23 @@
+{
+    "assets": {
+      "angry": "nice_mobs:entity/wolf/white_black_angry",
+      "tame": "nice_mobs:entity/wolf/white_black_tame",
+      "wild": "nice_mobs:entity/wolf/white_black"
+    },
+    "spawn_conditions": [
+      {
+        "condition": {
+          "type": "minecraft:biome",
+          "biomes": "#eden:mob_variant_spawnable/wolf/white_black"
+        },
+        "priority": 1
+      },
+      {
+        "condition": {
+          "type": "minecraft:structure",
+          "structures": "#eden:mob_variant_spawnable/wolf/white_black"
+        },
+        "priority": 1
+      }
+    ]
+  }
