@@ -9,7 +9,7 @@ CanPickUpLoot:0b,\
 Health:14f,\
 Saddle:0b,\
 Age:2400,\
-data:{nice_mobs:{action:0b,animation:"default",hurt:0b,variant:"light_brown",is_eating:0b}},\
+data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"light_brown",is_eating:0b}},\
 Tags:["nice_mobs.base","nice_mobs.rat.vehicle","eden.scaled","eden.baby_mount.set"],\
 attributes:[{id:"minecraft:max_health",base:14},{id:"minecraft:movement_speed",base:.24},{id:"minecraft:scale",base:0.22}]\
 }

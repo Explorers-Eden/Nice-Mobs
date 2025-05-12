@@ -1,3 +1,6 @@
+##update old mobs pre v1.7
+schedule function nice_mobs:update_mobs/init 6s
+
 ##purge temp storage
 data remove storage eden:temp nice_mobs
 
