@@ -1,0 +1,19 @@
+{
+  "asset_id": "nice_mobs:entity/frog/muddy",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/frog/muddy"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/frog/muddy"
+      },
+      "priority": 1
+    }
+  ]
+}

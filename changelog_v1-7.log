@@ -39,6 +39,7 @@
     - Sculk: Breedable in Deep Dark Biomes. Drops Sculk when eating
     - Dry: Breedable in Desert Biomes. Drops Sand when eating
     - Guardian: Breedable in Monuments. Drops Sea Lanterns when eating
+    - Muddy: Spawns & is breedable in Mangrove Swamps. Drops Mud when eating
     - Nether: Spawns in Warped/Crimson Forests. Breedable in the Nether. Drops Shroomlights when eating
 
 ### Added Chicken variants
