@@ -1,3 +1,3 @@
 {
-	"values": ["#nice_mobs:init_schedules", "animated_java:global/internal/gu/load", "animated_java:global/on_load", "nice_mobs:load"]
+	"values": ["#nice_mobs:init", "animated_java:global/internal/gu/load", "animated_java:global/on_load", "nice_mobs:load"]
 }

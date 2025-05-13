@@ -1,4 +1,7 @@
 ## Changes:
+- Duck variants now drop Lily Pads & Feathers on death
+- Muddy Pig variants now have a 50% chance to drop Mud on death
+
 ### Added New Structures
     - Gardens: Generates in a variety of different biomes that reflect the Butterfly/Wisp/Moth it spawns
 
@@ -27,6 +30,10 @@
 ### Added Wolf variants
     - Shiba: Spawns in Cherry Grove Biomes
     - White Black: Spawns in Taiga Biomes
+
+### Added Cow variants
+    - Yellow Moobloom: Spawns in Sunflower Plains
+    - Pink Moobloom: Spawns in Sunflower Plains
 
 ### Added Frog variants
     - Sculk: Breedable in Deep Dark Biomes. Drops Sculk when eating
@@ -58,6 +65,7 @@
 - Mushlings, Nautilus Crabs & Dirt Golems no longer need to be idle in order for their timer to increase
 - Reduced spacing of natural spawner structures from 12 to 8
 - Renamed functions/folders for spawning entities to "summon"
+- Vanilla Variants with different loot no longer use the vanilla entity loot table for it
 
 ### Added Gamerule functions
     - Apply default settings: `/function nice_mobs:gamerule/default_settings`
@@ -80,6 +88,7 @@
     - Action value is now stored as custom data `data.nice.mobs.action`
     - Value for Roosters if it has crowd is now stored as custom data `data.nice_mobs.has_crowd`
     - Inventory of Cruncher is now stored as custom data `data.nice_mobs.inventory`
+    - Custom Mobs now store the data pack version in which they spawned `data.spawned_in_version`
 
 ### Vanilla mob variant spawning is now controlled by biome & structure tag lists
     - Biome tag lists are located in `/data/eden/tags/worldgen/biome/mob_variant_spawnable/<mobtype>/<variant>`

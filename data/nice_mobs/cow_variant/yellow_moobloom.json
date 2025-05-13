@@ -1,0 +1,19 @@
+{
+  "asset_id": "nice_mobs:entity/cow/yellow_moobloom",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cow/yellow_moobloom"
+      },
+      "priority": 0.1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/cow/yellow_moobloom"
+      },
+      "priority": 0.1
+    }
+  ]
+}

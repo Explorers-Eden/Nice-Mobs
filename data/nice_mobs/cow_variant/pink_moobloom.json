@@ -1,0 +1,19 @@
+{
+  "asset_id": "nice_mobs:entity/cow/pink_moobloom",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cow/pink_moobloom"
+      },
+      "priority": 0.1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/cow/pink_moobloom"
+      },
+      "priority": 0.1
+    }
+  ]
+}
