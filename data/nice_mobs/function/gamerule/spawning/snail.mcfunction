@@ -1,5 +1,5 @@
-execute if data storage eden:gamerule nice_mobs.spawning{snail:1b} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Snail spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"disabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{snail:1b} run return run data modify storage eden:gamerule nice_mobs.spawning.snail set value 0b
+execute if data storage eden:gamerule nice_mobs.spawning{snail:"enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Snail spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"disabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{snail:"enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.snail set value "disabled"
 
-execute if data storage eden:gamerule nice_mobs.spawning{snail:0b} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Snail spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"enabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{snail:0b} run return run data modify storage eden:gamerule nice_mobs.spawning.snail set value 1b
+execute if data storage eden:gamerule nice_mobs.spawning{snail:"disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Snail spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"enabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{snail:"disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.snail set value "enabled"
