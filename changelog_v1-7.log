@@ -3,7 +3,8 @@
 - Muddy Pig variants now have a 50% chance to drop Mud on death
 
 ### Added New Structures
-    - Gardens: Generates in a variety of different biomes that reflect the Butterfly/Wisp/Moth it spawns
+    - Garden: Generates in a variety of different biomes that reflect the Butterfly/Wisp/Moth it spawns
+    - End Farm: Generates in the same Biomes End Cities do
 
 ### Added Hedgehog
     - Has 2 variants
@@ -20,9 +21,12 @@
     - Effect is different for each variant
     - Only one effect can be applied simultaneously
 
+### Added Enderkin
+    - Spawns in new End Farm structures
+
 ### Added Ender variants
     - Mob types: Chicken, Pig, Cow, Frog
-    - Spawn in new End Farm structures
+    - Spawns in new End Farm structures
     - Takes damage when in rain/water
     - Teleports when taking damage
     - Frog type drops Crying Obsidian when eating

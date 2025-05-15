@@ -1,0 +1,33 @@
+{
+    "name": "nice_mobs:end_farm/entity",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:end_farm/cow",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:end_farm/pig",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "nice_mobs:end_farm/chicken",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

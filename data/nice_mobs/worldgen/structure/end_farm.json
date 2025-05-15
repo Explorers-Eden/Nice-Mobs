@@ -1,0 +1,16 @@
+{
+    "biomes": "#minecraft:has_structure/end_city",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "nice_mobs:end_farm/base",
+    "size": 20,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 116,
+    "terrain_adaptation": "none",
+    "use_expansion_hack": false
+}
