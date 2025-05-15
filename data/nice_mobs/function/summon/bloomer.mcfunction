@@ -12,7 +12,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:scale",base:.95}]\
 }
 
-function animated_java:bloomer/summon {args: {variant: "default"}}
+function animated_java:bloomer/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.bloomer.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=creeper,tag=nice_mobs.bloomer.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 scoreboard players set @n[type=creeper,tag=nice_mobs.bloomer.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.action 0

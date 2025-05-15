@@ -35,6 +35,10 @@
       {
         "structure": "nice_mobs:crimson_forest_spawner",
         "weight": 1
+      },
+      {
+        "structure": "nice_mobs:end_spawner",
+        "weight": 1
       }
     ],
     "placement": {

@@ -1,0 +1,6 @@
+{
+	"values": [
+        "animated_java:enderkin/animations/walk/stop",
+        "animated_java:enderkin/animations/idle/play"
+    ]
+}

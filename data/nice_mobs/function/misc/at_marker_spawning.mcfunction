@@ -130,4 +130,12 @@ execute as @s[tag=nice_mobs.spawner.moth] if data storage eden:gamerule nice_mob
 execute as @s[tag=nice_mobs.spawner.moth.cecropia] if data storage eden:gamerule nice_mobs.spawning{moth:"enabled"} run function nice_mobs:summon/moth/cecropia
 execute as @s[tag=nice_mobs.spawner.moth.luna] if data storage eden:gamerule nice_mobs.spawning{moth:"enabled"} run function nice_mobs:summon/moth/luna
 
+#Enderkin
+execute as @s[tag=nice_mobs.spawner.enderkin] if data storage eden:gamerule nice_mobs.spawning{enderkin:"enabled"} run function nice_mobs:summon/enderkin
+execute as @s[tag=nice_mobs.spawner.enderkin.pink] if data storage eden:gamerule nice_mobs.spawning{enderkin:"enabled"} run function nice_mobs:summon/enderkin/pink
+execute as @s[tag=nice_mobs.spawner.enderkin.yellow] if data storage eden:gamerule nice_mobs.spawning{enderkin:"enabled"} run function nice_mobs:summon/enderkin/yellow
+execute as @s[tag=nice_mobs.spawner.enderkin.green] if data storage eden:gamerule nice_mobs.spawning{enderkin:"enabled"} run function nice_mobs:summon/enderkin/green
+execute as @s[tag=nice_mobs.spawner.enderkin.red] if data storage eden:gamerule nice_mobs.spawning{enderkin:"enabled"} run function nice_mobs:summon/enderkin/red
+execute as @s[tag=nice_mobs.spawner.enderkin.blue] if data storage eden:gamerule nice_mobs.spawning{enderkin:"enabled"} run function nice_mobs:summon/enderkin/blue
+
 kill @s

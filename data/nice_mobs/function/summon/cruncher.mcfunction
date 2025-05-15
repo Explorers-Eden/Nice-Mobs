@@ -14,7 +14,7 @@ active_effects:[{id:"minecraft:fire_resistance",amplifier:255,duration:-1,show_p
 attributes:[{id:"minecraft:max_health",base:30},{id:"minecraft:movement_speed",base:.10},{id:"minecraft:scale",base:0.72},{id:"minecraft:safe_fall_distance",base:1024},{id:"minecraft:burning_time",base:0}]\
 }
 
-function animated_java:cruncher/summon {args: {variant: "default"}}
+function animated_java:cruncher/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.cruncher.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.cruncher.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

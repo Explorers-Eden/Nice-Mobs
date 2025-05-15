@@ -5,6 +5,7 @@
 		"animated_java:copper_golem/on_load",
 		"animated_java:cruncher/on_load",
 		"animated_java:dirt_golem/on_load",
+		"animated_java:enderkin/on_load",
 		"animated_java:glare/on_load",
 		"animated_java:hedgehog/on_load",
 		"animated_java:jellyfish/on_load",
@@ -14,7 +15,6 @@
 		"animated_java:pufftail/on_load",
 		"animated_java:rat/on_load",
 		"animated_java:snail/on_load",
-		"animated_java:treasure_chest/on_load",
-		"animated_java:tuff_golem/on_load"
+		"animated_java:treasure_chest/on_load"
 	]
 }

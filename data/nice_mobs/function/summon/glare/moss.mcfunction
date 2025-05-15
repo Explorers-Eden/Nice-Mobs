@@ -14,7 +14,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:follow_range",base:64},{id:"minecraft:tempt_range",base:64},{id:"minecraft:attack_damage",base:0},{id:"minecraft:attack_knockback",base:0},{id:"minecraft:attack_speed",base:0},{id:"minecraft:max_health",base:75},{id:"minecraft:movement_speed",base:.22},{id:"minecraft:scale",base:.85},{id:"minecraft:gravity",base:0.03},{id:"minecraft:step_height",base:3},{id:"minecraft:safe_fall_distance",base:1024}]\
 }
 
-function animated_java:glare/summon {args: {variant: "default"}}
+function animated_java:glare/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.glare.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pillager,tag=nice_mobs.glare.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

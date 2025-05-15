@@ -1,6 +1,0 @@
-{
-	"parent": "animated_java:blueprint/tuff_golem/right_arm",
-	"textures": {
-		"2": "animated_java:blueprint/tuff_golem/clothing_orange"
-	}
-}

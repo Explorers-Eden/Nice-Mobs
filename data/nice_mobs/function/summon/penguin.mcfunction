@@ -14,7 +14,7 @@ Tags:["nice_mobs.base","nice_mobs.penguin.vehicle","eden.scaled","eden.baby_moun
 attributes:[{id:"minecraft:max_health",base:18},{id:"minecraft:movement_speed",base:.11},{id:"minecraft:scale",base:0.78}]\
 }
 
-function animated_java:penguin/summon {args: {variant: "default"}}
+function animated_java:penguin/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.penguin.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=chicken,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

@@ -12,7 +12,7 @@ active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_partic
 attributes:[{id:"minecraft:attack_damage",base:0.001},{id:"minecraft:knockback_resistance",base:0},{id:"minecraft:max_health",base:16},{id:"minecraft:movement_speed",base:0},{id:"minecraft:scale",base:0.35}]\
 }
 
-function animated_java:jellyfish/summon {args: {variant: "default"}}
+function animated_java:jellyfish/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.jellyfish.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=wither_skeleton,tag=nice_mobs.jellyfish.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

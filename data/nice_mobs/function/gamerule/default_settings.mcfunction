@@ -18,6 +18,7 @@ data modify storage eden:gamerule nice_mobs.spawning.snail set value "enabled"
 data modify storage eden:gamerule nice_mobs.spawning.tuff_golem set value "enabled"
 data modify storage eden:gamerule nice_mobs.spawning.wisp set value "enabled"
 data modify storage eden:gamerule nice_mobs.spawning.hedgehog set value "enabled"
+data modify storage eden:gamerule nice_mobs.spawning.enderkin set value "enabled"
 
 data modify storage eden:gamerule nice_mobs.behavior.villagercoppergolem set value "enabled"
 data modify storage eden:gamerule nice_mobs.behavior.butterflyeffect set value "enabled"
