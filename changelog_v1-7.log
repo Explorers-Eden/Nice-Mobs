@@ -22,7 +22,11 @@
     - Only one effect can be applied simultaneously
 
 ### Added Enderkin
-    - Spawns in new End Farm structures
+    - Spawns in new End Farm structures & sometimes random in the end
+    - Has 4 variants
+    - Can be bartered with by throuwing it a Diamond
+    - Takes damage when in rain/water
+    - Teleports when taking damage
 
 ### Added Ender variants
     - Mob types: Chicken, Pig, Cow, Frog

@@ -13,6 +13,8 @@ execute as @s unless data entity @s data.nice_mobs{animation:"walk"} if data ent
 execute if data entity @s data.nice_mobs{hurt: 0b} unless predicate eden:entity/has_no_hurttime run function nice_mobs:enderkin/behavior/hurt/start with entity @s data.nice_mobs
 execute if data entity @s data.nice_mobs{hurt: 1b} if predicate eden:entity/has_no_hurttime run function nice_mobs:enderkin/behavior/hurt/end with entity @s data.nice_mobs
 
+#damage when wet
+execute if predicate eden:entity/is_wet run damage @s 0.25
 
 #bartering functions
 #execute as @s if data entity @s data.nice_mobs{action: 1b} run scoreboard players add @s nice_mobs.entity.generic_timer 1
