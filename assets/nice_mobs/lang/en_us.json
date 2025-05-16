@@ -37,6 +37,7 @@
     "item.nice_mobs.creamy_egg": "Creamy Egg",
     "item.nice_mobs.ender_egg": "Ender Egg",
     "item.nice_mobs.dried_jellyfish": "Dried Jellyfish",
+    "item.nice_mobs.golden_chorus_fruit": "Golden Chorus Fruit",
     "entity.nice_mobs.glare": "Glare",
     "entity.nice_mobs.mushling": "Mushling",
     "entity.nice_mobs.rat": "Rat",
@@ -55,6 +56,7 @@
     "entity.nice_mobs.butterfly": "Butterfly",
     "entity.nice_mobs.wisp": "Wisp",
     "entity.nice_mobs.moth": "Moth",
-    "entity.nice_mobs.hedgehog": "Hedgehog"
+    "entity.nice_mobs.hedgehog": "Hedgehog",
+    "entity.nice_mobs.enderkin": "Enderkin"
 }
     

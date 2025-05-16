@@ -1,6 +1,7 @@
 {
 	"parent": "animated_java:blueprint/enderkin/left_arm",
 	"textures": {
-		"0": "animated_java:blueprint/enderkin/enderkin_yellow"
+		"0": "animated_java:blueprint/enderkin/enderkin_default",
+		"2": "animated_java:blueprint/enderkin/enderkin_yellow"
 	}
 }

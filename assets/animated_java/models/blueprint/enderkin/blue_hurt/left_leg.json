@@ -1,6 +1,7 @@
 {
 	"parent": "animated_java:blueprint/enderkin/left_leg",
 	"textures": {
-		"0": "animated_java:blueprint/enderkin/enderkin_blue_hurt"
+		"0": "animated_java:blueprint/enderkin/enderkin_base_hurt",
+		"2": "animated_java:blueprint/enderkin/enderkin_blue"
 	}
 }

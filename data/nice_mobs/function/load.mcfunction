@@ -13,6 +13,7 @@ scoreboard objectives add nice_mobs.player.butterfly_effect dummy
 scoreboard objectives add nice_mobs.pufftail.bossbar dummy
 scoreboard objectives add nice_mobs.item.time_since_placed dummy
 scoreboard objectives add nice_mobs.cruncher.ores_holding dummy
+scoreboard objectives add nice_mobs.enderkin.chorus_timer dummy
 
 ##Migration from previous versions
 scoreboard objectives remove nice_mobs.cruncher.stone_block_type

@@ -2,3 +2,4 @@
 execute unless entity @s[type=minecraft:item_display,tag=aj.enderkin.root] run return run function animated_java:global/errors/function_not_executed_as_root_entity {'export_namespace': 'enderkin', 'function_path': 'animated_java:enderkin/animations/pause_all'}
 tag @s remove aj.enderkin.animation.idle.playing
 tag @s remove aj.enderkin.animation.walk.playing
+tag @s remove aj.enderkin.animation.bartering.playing

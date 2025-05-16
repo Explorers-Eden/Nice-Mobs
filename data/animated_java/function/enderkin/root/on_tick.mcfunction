@@ -3,4 +3,5 @@ execute unless entity @s[tag=aj.enderkin.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 execute if entity @s[tag=aj.enderkin.animation.idle.playing] run function animated_java:enderkin/animations/idle/zzz/on_tick
 execute if entity @s[tag=aj.enderkin.animation.walk.playing] run function animated_java:enderkin/animations/walk/zzz/on_tick
+execute if entity @s[tag=aj.enderkin.animation.bartering.playing] run function animated_java:enderkin/animations/bartering/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~

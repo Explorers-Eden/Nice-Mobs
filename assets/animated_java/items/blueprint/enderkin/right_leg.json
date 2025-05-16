@@ -11,10 +11,30 @@
 				}
 			},
 			{
-				"when": "blue",
+				"when": "default_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/enderkin/blue/right_leg",
+					"model": "animated_java:blueprint/enderkin/default_hurt/right_leg",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "white",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/enderkin/white/right_leg",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "white_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/enderkin/white_hurt/right_leg",
 					"tints": [
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]
@@ -31,10 +51,10 @@
 				}
 			},
 			{
-				"when": "green",
+				"when": "yellow_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/enderkin/green/right_leg",
+					"model": "animated_java:blueprint/enderkin/yellow_hurt/right_leg",
 					"tints": [
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]
@@ -51,30 +71,20 @@
 				}
 			},
 			{
-				"when": "default_hurt",
+				"when": "red_hurt",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/enderkin/default_hurt/right_leg",
+					"model": "animated_java:blueprint/enderkin/red_hurt/right_leg",
 					"tints": [
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]
 				}
 			},
 			{
-				"when": "blue_hurt",
+				"when": "green",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/enderkin/blue_hurt/right_leg",
-					"tints": [
-						{"type": "minecraft:dye", "default": [1, 1, 1]}
-					]
-				}
-			},
-			{
-				"when": "yellow_hurt",
-				"model": {
-					"type": "minecraft:model",
-					"model": "animated_java:blueprint/enderkin/yellow_hurt/right_leg",
+					"model": "animated_java:blueprint/enderkin/green/right_leg",
 					"tints": [
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]
@@ -91,10 +101,20 @@
 				}
 			},
 			{
-				"when": "red_hurt",
+				"when": "blue",
 				"model": {
 					"type": "minecraft:model",
-					"model": "animated_java:blueprint/enderkin/red_hurt/right_leg",
+					"model": "animated_java:blueprint/enderkin/blue/right_leg",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "blue_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/enderkin/blue_hurt/right_leg",
 					"tints": [
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]

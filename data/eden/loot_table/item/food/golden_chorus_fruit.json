@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                "minecraft:item_name": {"fallback":"Golden Chorus Fruit","translate":"item.nice_mobs.golden_chorus_fruit"},
+                "minecraft:item_model": "nice_mobs:golden_chorus_fruit"
+      }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

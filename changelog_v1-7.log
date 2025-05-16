@@ -23,8 +23,9 @@
 
 ### Added Enderkin
     - Spawns in new End Farm structures & sometimes random in the end
-    - Has 4 variants
+    - Has 6 variants
     - Can be bartered with by throuwing it a Diamond
+    - Harvests & replants Chorus plants sometimes
     - Takes damage when in rain/water
     - Teleports when taking damage
 
@@ -75,6 +76,8 @@
 - Reduced spacing of natural spawner structures from 12 to 8
 - Renamed functions/folders for spawning entities to "summon"
 - Vanilla Variants with different loot no longer use the vanilla entity loot table for it
+- Animations of custom mobs are now a bit smoother
+- Jellyfish are now rendered brighter
 
 ### Added Gamerule functions
     - Apply default settings: `/function nice_mobs:gamerule/default_settings`

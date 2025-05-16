@@ -15,6 +15,7 @@
 		"animated_java:pufftail/on_load",
 		"animated_java:rat/on_load",
 		"animated_java:snail/on_load",
-		"animated_java:treasure_chest/on_load"
+		"animated_java:treasure_chest/on_load",
+		"animated_java:tuff_golem/on_load"
 	]
 }

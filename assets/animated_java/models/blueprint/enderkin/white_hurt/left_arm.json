@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:blueprint/enderkin/left_arm",
+	"textures": {
+		"0": "animated_java:blueprint/enderkin/enderkin_base_hurt",
+		"2": "animated_java:blueprint/enderkin/enderkin_white"
+	}
+}

@@ -37,6 +37,7 @@
     "item.nice_mobs.creamy_egg": "Cremiges Ei",
     "item.nice_mobs.ender_egg": "Ender Ei",
     "item.nice_mobs.dried_jellyfish": "Getrocknete Qualle",
+    "item.nice_mobs.golden_chorus_fruit": "Goldene Chorus Frucht",
     "entity.nice_mobs.glare": "Blender",
     "entity.nice_mobs.mushling": "Pilzling",
     "entity.nice_mobs.rat": "Ratte",
@@ -55,6 +56,7 @@
     "entity.nice_mobs.butterfly": "Schmetterling",
     "entity.nice_mobs.wisp": "Irrlicht",
     "entity.nice_mobs.moth": "Motte",
-    "entity.nice_mobs.hedgehog": "Igel"
+    "entity.nice_mobs.hedgehog": "Igel",
+    "entity.nice_mobs.enderkin": "Enderkin"
 }
     

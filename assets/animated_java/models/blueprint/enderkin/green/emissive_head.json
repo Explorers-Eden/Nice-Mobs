@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:blueprint/enderkin/emissive_head",
+	"textures": {
+		"0": "animated_java:blueprint/enderkin/enderkin_default",
+		"2": "animated_java:blueprint/enderkin/enderkin_green"
+	}
+}

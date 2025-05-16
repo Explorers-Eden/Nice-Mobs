@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"3": "animated_java:blueprint/tuff_golem/arms",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [13, 9, 6],
+			"to": [16, 19, 10],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [14.5, 14, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [5.5, 0, 4, 5],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [4, 0, 2, 5],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [1.5, 5, 0, 10],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [2, 0, 0, 5],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [1.5, 7, 3, 5],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [3, 5, 4.5, 7],
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}
