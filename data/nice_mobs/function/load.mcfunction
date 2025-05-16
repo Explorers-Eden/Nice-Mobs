@@ -1,6 +1,3 @@
-##update old mobs pre v1.7
-schedule function nice_mobs:update_mobs/init 6s
-
 ##purge temp storage
 data remove storage eden:temp nice_mobs
 
@@ -15,7 +12,7 @@ scoreboard objectives add nice_mobs.item.time_since_placed dummy
 scoreboard objectives add nice_mobs.cruncher.ores_holding dummy
 scoreboard objectives add nice_mobs.enderkin.chorus_timer dummy
 
-##Migration from previous versions
+##Remove old scoreboards
 scoreboard objectives remove nice_mobs.cruncher.stone_block_type
 scoreboard objectives remove nice_mobs.cruncher.total_ore_count
 scoreboard objectives remove nice_mobs.cruncher.coal
@@ -28,6 +25,9 @@ scoreboard objectives remove nice_mobs.cruncher.gold
 scoreboard objectives remove nice_mobs.cruncher.emerald
 scoreboard objectives remove nice_mobs.entity.action
 scoreboard objectives remove nice_mobs.entity.is_hurt
+
+##update old mobs pre v1.7
+schedule function nice_mobs:update_mobs/init 6s
 
 ##add storage for gamerules
 execute unless data storage eden:gamerule nice_mobs run return run function nice_mobs:gamerule/default_settings

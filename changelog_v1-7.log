@@ -6,6 +6,11 @@
     - Garden: Generates in a variety of different biomes that reflect the Butterfly/Wisp/Moth it spawns
     - End Farm: Generates in the same Biomes End Cities do
 
+### Added new items
+    - Golden Chorus Fruit
+    - Ender Horn
+    - Music Disc: Broken Heart of Ender
+
 ### Added Hedgehog
     - Has 2 variants
     - Spawns in most Forest Biomes
@@ -24,7 +29,7 @@
 ### Added Enderkin
     - Spawns in new End Farm structures & sometimes random in the end
     - Has 6 variants
-    - Can be bartered with by throuwing it a Diamond
+    - Can be bartered with by throwing it a Diamond
     - Harvests & replants Chorus plants sometimes
     - Takes damage when in rain/water
     - Teleports when taking damage
@@ -73,7 +78,7 @@
 - Custom Mobs spawned in earlier versions do not work properly anymore and get replaced automatically. **Before updating it is advised to clear out Inventories of Crunchers & Dirt/Tuff Golems**
 - Cruncher now rolls ore counts depending on the type of ore being eaten instead of it being a constant
 - Mushlings, Nautilus Crabs & Dirt Golems no longer need to be idle in order for their timer to increase
-- Reduced spacing of natural spawner structures from 12 to 8
+- Reduced spacing of natural spawner structures from 12 to 10
 - Renamed functions/folders for spawning entities to "summon"
 - Vanilla Variants with different loot no longer use the vanilla entity loot table for it
 - Animations of custom mobs are now a bit smoother
@@ -88,9 +93,9 @@
     - En-/disabling of Roosters crowing in the morning: `/function nice_mobs:gamerule/behavior/rooster_crowing`
     - En-/disabling of Chicken Jockey variants: `/function nice_mobs:gamerule/behavior/chicken_jockey_variants`
 
-### Added functions to remove custom entities
-    - Remove a specific mob type: `/function nice_mobs:remove/entity_type/<mob_name>`
-    - Remove all custom entities: `/function nice_mobs:remove/all_entities`
+### Added functions to remove custom mobs
+    - Remove every mob of a specific type: `/function nice_mobs:remove/entity_type/<mob_name>`
+    - Remove all custom mobs: `/function nice_mobs:remove/all_entities`
     - Nearest entity: `/function nice_mobs:remove/nearest_entity`
 
 ### Most values for custom mobs are now stored as custom data instead of using tags and/or scoreboards

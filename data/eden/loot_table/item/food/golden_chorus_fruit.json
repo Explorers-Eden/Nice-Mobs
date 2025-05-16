@@ -12,7 +12,7 @@
                 "components": {
                 "minecraft:item_name": {"fallback":"Golden Chorus Fruit","translate":"item.nice_mobs.golden_chorus_fruit"},
                 "minecraft:item_model": "nice_mobs:golden_chorus_fruit"
-      }
+                 }
               }
             ]
           }

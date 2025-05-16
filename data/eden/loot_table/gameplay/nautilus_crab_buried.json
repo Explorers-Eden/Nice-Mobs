@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "eden:item/horns/nautilus_horn",
+            "value": "eden:item/horn/nautilus_horn",
             "weight": 5
           },
           {

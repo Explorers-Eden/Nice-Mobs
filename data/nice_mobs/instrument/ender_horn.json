@@ -1,0 +1,11 @@
+{
+  "description": {
+    "translate": "instrument.nice_mobs.ender_dragon_growl",
+      "fallback": "Growl of an Ender Dragon"
+  },
+  "range": 196,
+  "sound_event": {
+    "sound_id": "minecraft:entity.ender_dragon.growl"
+  },
+  "use_duration": 7.0
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:gold_nugget"
+    ],
+    "X": [
+      "minecraft:chorus_fruit"
+    ]
+  },
+  "result": {
+    "id": "minecraft:golden_carrot",
+    "count": 1,
+    "components": {
+                "minecraft:item_name": {"fallback":"Golden Chorus Fruit","translate":"item.nice_mobs.golden_chorus_fruit"},
+                "minecraft:item_model": "nice_mobs:golden_chorus_fruit"
+    }
+  }
+}

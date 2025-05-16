@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "nice_mobs:music_disc.broken_heart_of_ender"
+  },
+    "description": {
+      "text": "Peter Hont - Broken Heart Of Ender"
+    },
+    "length_in_seconds": 175.0,
+    "comparator_output": 5
+  }
+  

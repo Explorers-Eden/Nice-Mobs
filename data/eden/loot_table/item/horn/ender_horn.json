@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:goat_horn",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:item_model": "nice_mobs:ender_horn",
+			        "minecraft:item_name": {"fallback":"Ender Horn","translate":"item.nice_mobs.ender_horn"},
+			        "minecraft:instrument": "nice_mobs:ender_horn",
+			        "minecraft:custom_data": "{nice_mobs:ender_horn}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

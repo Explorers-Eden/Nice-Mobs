@@ -11,7 +11,8 @@
     },
     "rewards": {
       "recipes": [
-        "eden:crafting_shaped/copper_golem"
+        "eden:crafting_shaped/copper_golem",
+        "eden:crafting_shaped/golden_chorus_fruit"
       ]
     }
   }

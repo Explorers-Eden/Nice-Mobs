@@ -10,5 +10,12 @@
             "nice_mobs:entity/rooster/rooster_2",
             "nice_mobs:entity/rooster/rooster_3"
         ]
-      }
+      },
+      "music_disc.broken_heart_of_ender": {
+        "sounds": [
+            {
+                "name": "nice_mobs:records/broken_heart_of_ender_peter_hont"
+            }
+        ]
+    }
 }
