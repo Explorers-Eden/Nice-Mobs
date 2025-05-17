@@ -179,6 +179,11 @@
           "type": "minecraft:loot_table",
           "value": "eden:item/food/golden_chorus_fruit",
           "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:item/eggs/ender_egg",
+          "weight": 5
         }
       ]
     }

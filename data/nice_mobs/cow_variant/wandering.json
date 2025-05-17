@@ -1,0 +1,19 @@
+{
+  "asset_id": "nice_mobs:entity/cow/wandering",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/cow/wandering"
+      },
+      "priority": 999
+    },
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cow/wandering"
+      },
+      "priority": 999
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "parent": "nice_mobs:adventure/find_end_farm",
+  "criteria": {
+    "cow": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "components": {
+                "minecraft:cow/variant": "nice_mobs:ender"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:lead"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "pig": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pig",
+              "components": {
+                "minecraft:pig/variant": "nice_mobs:ender"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:lead"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "chicken": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:chicken",
+              "components": {
+                "minecraft:chicken/variant": "nice_mobs:ender"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:lead"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "frog": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "nice_mobs:ender"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:lead"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.leash_ender_variants.description",
+      "fallback": "Get each Ender Animal Variant on a Lead"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.leash_ender_variants.title",
+      "fallback": "Catch of the Century!"
+    }
+  },
+  "requirements": [
+    [
+      "cow"
+    ],
+    [
+      "chicken"
+    ],
+    [
+      "pig"
+    ],
+    [
+      "frog"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

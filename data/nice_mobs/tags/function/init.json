@@ -27,6 +27,7 @@
         "nice_mobs:vanilla_variants/skeleton_trap/init",
         "nice_mobs:vanilla_variants/chicken/rooster/init",
         "nice_mobs:vanilla_variants/ender/init",
-        "nice_mobs:vanilla_variants/loot_table/init"
+        "nice_mobs:vanilla_variants/loot_table/init",
+        "nice_mobs:vanilla_variants/wandering/init"
     ]
 }

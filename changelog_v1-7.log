@@ -7,6 +7,7 @@
     - End Farm: Generates in the same Biomes End Cities do
 
 ### Added new items
+    - Golden Egg
     - Golden Chorus Fruit
     - Ender Horn
     - Music Disc: Broken Heart of Ender
@@ -48,6 +49,10 @@
 ### Added Cow variants
     - Yellow Moobloom: Spawns in Sunflower Plains
     - Pink Moobloom: Spawns in Sunflower Plains
+    - Wandering: Has a chance to spawn with a Wandering Trader
+
+### Added Pig variants
+    - Wandering: Has a chance to spawn with a Wandering Trader
 
 ### Added Frog variants
     - Sculk: Breedable in Deep Dark Biomes. Drops Sculk when eating
@@ -58,15 +63,19 @@
 
 ### Added Chicken variants
     - Strider: Can only be found as a vehicle for Chicken Jockeys in the Nether
+    - Golden: Spawns in Villages & Savanna Biomes
 
 ### Chicken Jockeys
     - Zombie Chickens for Jockeys now only spawn outside the Nether
     - Added Strider Chicken variant which spawns only as vehicle for Chicken Jockeys in the Nether
 
 ### Advancements
-    - Advancements for looking at all Cow, Pig, Chicken variants now also require to look at the Ender variants
+    - Advancements for looking at all Cow, Pig, Chicken variants now also require to look at the Ender & Wandering variants
     - Added **Not A Balloon**: Leash a Butterfly/Moth/Wisp variant
     - Added **Butterfly Effect**: Receive an effect from a Butterfly/Moth/Wisp variant
+    - Added **The Farm at the End of the Game**: Go on in, who will you meet?
+    - Added **Best I can do is an Ender Pearl**: Barter with an Enderkin
+    - Added **Catch of the Century!**: Get each Ender Animal Variant on a Lead
 
 
 

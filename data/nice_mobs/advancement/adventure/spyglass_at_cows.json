@@ -275,6 +275,31 @@
           ]
         },
         "trigger": "minecraft:using_item"
+      },
+      "spyglass_at_wandering": {
+        "conditions": {
+          "item": {
+            "items": "minecraft:spyglass"
+          },
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:cow",
+                    "components": {
+                      "minecraft:cow/variant": "nice_mobs:wandering"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:using_item"
       }
     },
     "display": {
@@ -306,7 +331,8 @@
       ["spyglass_at_temperate"],
       ["spyglass_at_warm"],
       ["spyglass_at_cold"],
-      ["spyglass_at_ender"]
+      ["spyglass_at_ender"],
+      ["spyglass_at_wandering"]
     ],
     "sends_telemetry_event": false
   }

@@ -1,0 +1,28 @@
+{
+  "parent": "nice_mobs:adventure/find_end_farm",
+  "criteria": {
+    "barter_with_enderkin": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.barter_with_enderkin.description",
+      "fallback": "Barter with an Enderkin"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.barter_with_enderkin.title",
+      "fallback": "Best I can do is an Ender Pearl"
+    }
+  },
+  "requirements": [
+    [
+      "barter_with_enderkin"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
