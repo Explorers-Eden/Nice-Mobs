@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:adventure/root",
+  "criteria": {
+    "barter_with_penguin": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.barter_with_penguin.description",
+      "fallback": "Barter with a Penguin"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.barter_with_penguin.title",
+      "fallback": "Cool Prices!"
+    }
+  },
+  "requirements": [
+    [
+      "barter_with_penguin"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -17,5 +17,12 @@
                 "name": "nice_mobs:records/broken_heart_of_ender_peter_hont"
             }
         ]
+    },
+      "music_disc.o2": {
+        "sounds": [
+            {
+                "name": "nice_mobs:records/o2_grant_kirkhope"
+            }
+        ]
     }
 }

@@ -1,0 +1,19 @@
+{
+  "asset_id": "nice_mobs:entity/cat/simba",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#eden:mob_variant_spawnable/cat/simba"
+      },
+      "priority": 0
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#eden:mob_variant_spawnable/cat/simba"
+      },
+      "priority": 0
+    }
+  ]
+}

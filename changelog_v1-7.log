@@ -7,10 +7,11 @@
     - End Farm: Generates in the same Biomes End Cities do
 
 ### Added new items
-    - Golden Egg
-    - Golden Chorus Fruit
-    - Ender Horn
-    - Music Disc: Broken Heart of Ender
+    - Golden Egg: Can be obtained from Golden Chicken variant
+    - Golden Chorus Fruit: Can be found inside End Farm chests or obtained by bartering with an Enderkin
+    - Ender Horn: Rare chance to get by bartering with an Enderkin
+    - Music Disc - Broken Heart of Ender: Rare chance to get by bartering with an Enderkin
+    - Muisc Disc - O2: Chance to drop from defeating Pufftail with a Trident
 
 ### Added Hedgehog
     - Has 2 variants
@@ -46,13 +47,17 @@
     - Shiba: Spawns in Cherry Grove Biomes
     - White Black: Spawns in Taiga Biomes
 
+### Added Cat variants
+    - Simba: Spawns in Badland & Savanna Biomes
+    - Tiger: Spawns in Badland & Savanna Biomes
+
 ### Added Cow variants
     - Yellow Moobloom: Spawns in Sunflower Plains
     - Pink Moobloom: Spawns in Sunflower Plains
-    - Wandering: Has a chance to spawn with a Wandering Trader
+    - Wandering: Has a chance to spawn leashed to a Wandering Trader
 
 ### Added Pig variants
-    - Wandering: Has a chance to spawn with a Wandering Trader
+    - Wandering: Has a chance to spawn leashed to a Wandering Trader
 
 ### Added Frog variants
     - Sculk: Breedable in Deep Dark Biomes. Drops Sculk when eating
@@ -76,6 +81,7 @@
     - Added **The Farm at the End of the Game**: Go on in, who will you meet?
     - Added **Best I can do is an Ender Pearl**: Barter with an Enderkin
     - Added **Catch of the Century!**: Get each Ender Animal Variant on a Lead
+    - Added **Cool Prices!**: Barter with a Penguin
 
 
 
@@ -101,6 +107,7 @@
     - En-/disabling of Ender variants teleporting when damaged: `/function nice_mobs:gamerule/behavior/ender_variant_teleporting`
     - En-/disabling of Roosters crowing in the morning: `/function nice_mobs:gamerule/behavior/rooster_crowing`
     - En-/disabling of Chicken Jockey variants: `/function nice_mobs:gamerule/behavior/chicken_jockey_variants`
+    - En-/disabling of Wandering Trader companion variants: `/function nice_mobs:gamerule/behavior/wandering_companion_variants`
 
 ### Added functions to remove custom mobs
     - Remove every mob of a specific type: `/function nice_mobs:remove/entity_type/<mob_name>`

@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "nice_mobs:music_disc.o2"
+  },
+    "description": {
+      "text": "O2 - Grant Kirkhope"
+    },
+    "length_in_seconds": 93.0,
+    "comparator_output": 2
+  }
+  
