@@ -1,0 +1,53 @@
+{
+  "parent": "nice_mobs:adventure/barter_with_enderkin",
+  "criteria": {
+    "play_broken_heart_of_ender": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {
+                  "song": "nice_mobs:broken_heart_of_ender"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.play_broken_heart_of_ender.description",
+      "fallback": "Play the Music Disc obtained from bartering with an Enderkin"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "nice_mobs:music_disc_broken_heart_of_ender"
+      },
+      "count": 1,
+      "id": "minecraft:music_disc_5"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.play_broken_heart_of_ender.title",
+      "fallback": "Dancing in the Dark"
+    }
+  },
+  "requirements": [
+    [
+      "play_broken_heart_of_ender"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

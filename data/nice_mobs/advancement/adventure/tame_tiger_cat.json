@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "tame_tiger_cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "nice_mobs:tiger"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.tame_tiger_cat.description",
+      "fallback": "Tame a Tiger Cat variant"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.tame_tiger_cat.title",
+      "fallback": "Tiger King"
+    }
+  },
+  "requirements": [
+    [
+      "tame_tiger_cat"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

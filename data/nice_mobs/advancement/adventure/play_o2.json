@@ -1,0 +1,53 @@
+{
+  "parent": "nice_mobs:adventure/obtained_nautilus_helmet",
+  "criteria": {
+    "play_o2": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {
+                  "song": "nice_mobs:o2"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.play_o2.description",
+      "fallback": "Play the Music Disc obtained from defeating Pufftail"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "nice_mobs:music_disc_o2"
+      },
+      "count": 1,
+      "id": "minecraft:music_disc_5"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.play_o2.title",
+      "fallback": "Synchronized Swimming"
+    }
+  },
+  "requirements": [
+    [
+      "play_o2"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
