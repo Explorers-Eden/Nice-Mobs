@@ -1,0 +1,1 @@
+function animated_java:vulture/remove/this

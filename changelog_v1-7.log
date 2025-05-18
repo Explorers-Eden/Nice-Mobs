@@ -19,6 +19,11 @@
     - Rolls up when an Undead Mob is close to it
     - Undead Mobs take Thorns damage when coming too close to it
 
+### Added Vulture
+    - Spawn at daytime near a player when their to long exposed to the sky in Savanna & Badland Biomes at daytime and have max 6 Health (3 Hearts)
+    - Is hostile towards player
+    - Takes damage when it is exposed to the sky at night or when flying in rain
+
 ### Added Butterfly/Wisp/Moth
     - 12 Butterfly / 9 Wisp / 2 Moth variants
     - Spawns in new Garden Structures
@@ -85,6 +90,7 @@
     - Added **Tiger King**: Tame a Tiger Cat variant
     - Added **Dancing in the Dark**: Play the Music Disc obtained from bartering with an Enderkin
     - Added **Synchronized Swimming**: Play the Music Disc obtained from defeating Pufftail
+    - Added **Get killed by a Vulture**: Get killed by a Vulture
 
 
 

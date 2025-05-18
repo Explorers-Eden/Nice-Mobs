@@ -1496,6 +1496,45 @@
 				"assets/animated_java/textures/blueprint/tuff_golem/nose.png",
 				"assets/animated_java/textures/blueprint/tuff_golem/nose_hurt.png"
 			]
+		},
+		"vulture": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/vulture/body.json",
+				"assets/animated_java/items/blueprint/vulture/body2.json",
+				"assets/animated_java/items/blueprint/vulture/body3.json",
+				"assets/animated_java/items/blueprint/vulture/head2.json",
+				"assets/animated_java/items/blueprint/vulture/left_tip.json",
+				"assets/animated_java/items/blueprint/vulture/left_wing.json",
+				"assets/animated_java/items/blueprint/vulture/right_tip.json",
+				"assets/animated_java/items/blueprint/vulture/right_wing.json",
+				"assets/animated_java/items/blueprint/vulture/tail.json",
+				"assets/animated_java/items/blueprint/vulture/vulture.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/vulture/body.json",
+				"assets/animated_java/models/blueprint/vulture/body2.json",
+				"assets/animated_java/models/blueprint/vulture/body3.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/body.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/body2.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/body3.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/head2.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/left_tip.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/left_wing.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/right_tip.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/right_wing.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/tail.json",
+				"assets/animated_java/models/blueprint/vulture/default_hurt/vulture.json",
+				"assets/animated_java/models/blueprint/vulture/head2.json",
+				"assets/animated_java/models/blueprint/vulture/left_tip.json",
+				"assets/animated_java/models/blueprint/vulture/left_wing.json",
+				"assets/animated_java/models/blueprint/vulture/right_tip.json",
+				"assets/animated_java/models/blueprint/vulture/right_wing.json",
+				"assets/animated_java/models/blueprint/vulture/tail.json",
+				"assets/animated_java/models/blueprint/vulture/vulture.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/vulture/vulture.png",
+				"assets/animated_java/textures/blueprint/vulture/vulture_hurt.png"
+			]
 		}
 	}
 }

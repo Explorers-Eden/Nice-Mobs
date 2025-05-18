@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/vulture/left_wing",
+	"textures": {
+		"1": "animated_java:blueprint/vulture/vulture_hurt"
+	}
+}

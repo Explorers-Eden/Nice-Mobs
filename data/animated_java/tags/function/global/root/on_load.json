@@ -16,6 +16,7 @@
 		"animated_java:rat/root/on_load",
 		"animated_java:snail/root/on_load",
 		"animated_java:treasure_chest/root/on_load",
-		"animated_java:tuff_golem/root/on_load"
+		"animated_java:tuff_golem/root/on_load",
+		"animated_java:vulture/root/on_load"
 	]
 }

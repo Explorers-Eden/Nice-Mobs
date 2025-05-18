@@ -6,6 +6,9 @@ execute as @s[tag=nice_mobs.spawner.garden_1] if data storage eden:gamerule nice
 #Piggy Bank
 execute as @s[tag=nice_mobs.spawner.piggy_bank] if data storage eden:gamerule nice_mobs.spawning{piggy_bank:"enabled"} run function nice_mobs:summon/piggy_bank
 
+#Vulture
+execute as @s[tag=nice_mobs.spawner.vulture] if data storage eden:gamerule nice_mobs.spawning{vulture:"enabled"} run function nice_mobs:summon/vulture
+
 #Bloomer
 execute as @s[tag=nice_mobs.spawner.bloomer] if data storage eden:gamerule nice_mobs.spawning{bloomer:"enabled"} run function nice_mobs:summon/bloomer
 

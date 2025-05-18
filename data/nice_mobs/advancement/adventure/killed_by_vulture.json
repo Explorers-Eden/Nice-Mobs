@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "killed_by_vulture": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:phantom",
+          "nbt": "{Tags:[\"nice_mobs.vulture.vehicle\"]}"
+        }
+      },
+      "trigger": "minecraft:entity_killed_player"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nice_mobs.killed_by_vulture.description",
+      "fallback": "Get killed by a Vulture"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "advancements.nice_mobs.killed_by_vulture.title",
+      "fallback": "Rotten Flesh"
+    }
+  },
+  "requirements": [
+    [
+      "killed_by_vulture"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

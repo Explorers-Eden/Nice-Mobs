@@ -17,6 +17,7 @@
         "nice_mobs:penguin/run",
         "nice_mobs:snail/run",
         "nice_mobs:enderkin/run",
+        "nice_mobs:vulture/run",
         "nice_mobs:misc/scheduled_spawning",
         "nice_mobs:misc/run",
         "nice_mobs:misc/ambient_sounds",
@@ -28,6 +29,7 @@
         "nice_mobs:vanilla_variants/chicken/rooster/init",
         "nice_mobs:vanilla_variants/ender/init",
         "nice_mobs:vanilla_variants/loot_table/init",
-        "nice_mobs:vanilla_variants/wandering/init"
+        "nice_mobs:vanilla_variants/wandering/init",
+        "nice_mobs:misc/get_player_health"
     ]
 }

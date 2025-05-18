@@ -16,6 +16,7 @@
 		"animated_java:rat/root/on_tick",
 		"animated_java:snail/root/on_tick",
 		"animated_java:treasure_chest/root/on_tick",
-		"animated_java:tuff_golem/root/on_tick"
+		"animated_java:tuff_golem/root/on_tick",
+		"animated_java:vulture/root/on_tick"
 	]
 }

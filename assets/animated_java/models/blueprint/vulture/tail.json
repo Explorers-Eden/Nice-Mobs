@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"1": "animated_java:blueprint/vulture/vulture",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, 5, 8],
+			"to": [11, 7, 14],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, -18, 7]
+			},
+			"faces": {
+				"north": {
+					"uv": [11.5, 12.25, 13, 12.75],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [10, 12.25, 11.5, 12.75],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [14.5, 12.25, 16, 12.75],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [13, 12.25, 14.5, 12.75],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [13, 12.25, 11.5, 10.75],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [14.5, 10.75, 13, 12.25],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}
