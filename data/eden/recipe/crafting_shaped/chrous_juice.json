@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    " X ",
+    " # "
+  ],
+  "key": {
+    "#": [
+      "minecraft:glass_bottle"
+    ],
+    "X": [
+      "minecraft:chorus_fruit"
+    ],
+    "P": [
+      "minecraft:popped_chorus_fruit"
+    ]
+  },
+  "result": {
+    "id": "minecraft:honey_bottle",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "fallback": "Chorus Juice",
+        "translate": "item.nice_mobs.chorus_juice"
+      },
+      "minecraft:item_model": "nice_mobs:chorus_juice"
+    }
+  }
+}

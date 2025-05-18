@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    " X ",
+    " # "
+  ],
+  "key": {
+    "#": [
+      "minecraft:stick"
+    ],
+    "X": [
+      "minecraft:chorus_fruit"
+    ]
+  },
+  "result": {
+    "id": "minecraft:cooked_porkchop",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "fallback": "Chorus Kebab",
+        "translate": "item.nice_mobs.chorus_kebab"
+      },
+      "minecraft:item_model": "nice_mobs:chorus_kebab",
+      "minecraft:use_remainder": {
+        "id": "minecraft:stick"
+      }
+    }
+  }
+}

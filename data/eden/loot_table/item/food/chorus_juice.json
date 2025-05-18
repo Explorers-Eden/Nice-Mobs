@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:honey_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+        "minecraft:item_name": {"fallback":"Chorus Juice","translate":"item.nice_mobs.chorus_juice"},
+        "minecraft:item_model": "nice_mobs:chorus_juice"
+      }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

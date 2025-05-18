@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BCC",
+    "CCC",
+    "C  "
+  ],
+  "key": {
+    "C": "minecraft:chorus_fruit",
+    "B": "minecraft:bowl"
+  },
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "fallback": "Chorus Salad",
+        "translate": "item.nice_mobs.chorus_salad"
+      },
+      "minecraft:item_model": "nice_mobs:chorus_salad"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ESE",
+    "CCC",
+    "   "
+  ],
+  "key": {
+    "E": "#minecraft:eggs",
+    "S": "minecraft:sugar",
+    "C": "minecraft:chorus_fruit"
+  },
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "fallback": "Chorus Pie",
+        "translate": "item.nice_mobs.chorus_pie"
+      },
+      "minecraft:item_model": "nice_mobs:chorus_pie"
+    }
+  }
+}
