@@ -113,32 +113,32 @@
 - Jellyfish are now rendered brighter
 
 ### Added Gamerule functions
-    - Apply default settings: `/function nice_mobs:gamerule/default_settings`
-    - En-/disabling of custom mob spawns: `/function nice_mobs:gamerule/spawning/<mob_name>`
-    - En-/disabling of Villagers being able to summon Copper Golems: `/function nice_mobs:gamerule/behavior/villager_copper_golem`
-    - En-/disabling of Butterflies/Wisps/Moths giving effects: `/function nice_mobs:gamerule/behavior/butterfly_effect`
-    - En-/disabling of Ender variants teleporting when damaged: `/function nice_mobs:gamerule/behavior/ender_variant_teleporting`
-    - En-/disabling of Roosters crowing in the morning: `/function nice_mobs:gamerule/behavior/rooster_crowing`
-    - En-/disabling of Chicken Jockey variants: `/function nice_mobs:gamerule/behavior/chicken_jockey_variants`
-    - En-/disabling of Wandering Trader companion variants: `/function nice_mobs:gamerule/behavior/wandering_companion_variants`
+    - Apply default settings: /function nice_mobs:gamerule/default_settings
+    - En-/disabling of custom mob spawns: /function nice_mobs:gamerule/spawning/<mob_name>
+    - En-/disabling of Villagers being able to summon Copper Golems: /function nice_mobs:gamerule/behavior/villager_copper_golem
+    - En-/disabling of Butterflies/Wisps/Moths giving effects: /function nice_mobs:gamerule/behavior/butterfly_effect
+    - En-/disabling of Ender variants teleporting when damaged: /function nice_mobs:gamerule/behavior/ender_variant_teleporting
+    - En-/disabling of Roosters crowing in the morning: /function nice_mobs:gamerule/behavior/rooster_crowing
+    - En-/disabling of Chicken Jockey variants: /function nice_mobs:gamerule/behavior/chicken_jockey_variants
+    - En-/disabling of Wandering Trader companion variants: /function nice_mobs:gamerule/behavior/wandering_companion_variants
 
 ### Added functions to remove custom mobs
-    - Remove every mob of a specific type: `/function nice_mobs:remove/entity_type/<mob_name>`
-    - Remove all custom mobs: `/function nice_mobs:remove/all_entities`
-    - Nearest entity: `/function nice_mobs:remove/nearest_entity`
+    - Remove every mob of a specific type: /function nice_mobs:remove/entity_type/<mob_name>
+    - Remove all custom mobs: /function nice_mobs:remove/all_entities
+    - Nearest entity: /function nice_mobs:remove/nearest_entity
 
 ### Most values for custom mobs are now stored as custom data instead of using tags and/or scoreboards
-    - Variants are now stored as custom data `data.nice_mobs.variant`
-    - Hurt value is now stored as custom data `data.nice_mobs.hurt`
-    - Animation value is now stored as custom data `data.nice_mobs.animation`
-    - Action value is now stored as custom data `data.nice.mobs.action`
-    - Value for Roosters if it has crowd is now stored as custom data `data.nice_mobs.has_crowd`
-    - Inventory of Cruncher is now stored as custom data `data.nice_mobs.inventory`
-    - Custom Mobs now store the data pack version in which they spawned `data.spawned_in_version`
+    - Variants are now stored as custom data data.nice_mobs.variant
+    - Hurt value is now stored as custom data data.nice_mobs.hurt
+    - Animation value is now stored as custom data data.nice_mobs.animation
+    - Action value is now stored as custom data data.nice.mobs.action
+    - Value for Roosters if it has crowd is now stored as custom data data.nice_mobs.has_crowd
+    - Inventory of Cruncher is now stored as custom data data.nice_mobs.inventory
+    - Custom Mobs now store the data pack version in which they spawned data.spawned_in_version
 
 ### Vanilla mob variant spawning is now controlled by biome & structure tag lists
-    - Biome tag lists are located in `/data/eden/tags/worldgen/biome/mob_variant_spawnable/<mobtype>/<variant>`
-    - Structure tag lists are located in `/data/eden/tags/worldgen/structure/mob_variant_spawnable/<mobtype>/<variant>`
+    - Biome tag lists are located in /data/eden/tags/worldgen/biome/mob_variant_spawnable/<mobtype>/<variant>
+    - Structure tag lists are located in /data/eden/tags/worldgen/structure/mob_variant_spawnable/<mobtype>/<variant>
 
 
 
