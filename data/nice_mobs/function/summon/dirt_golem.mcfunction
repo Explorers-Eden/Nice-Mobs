@@ -9,7 +9,7 @@ Health:80f,\
 Willing:0b,\
 data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"default"}},\
 VillagerData:{level:99,profession:"minecraft:nitwit"},\
-Tags:["nice_mobs.base","nice_mobs.dirt_golem.vehicle","eden.scaled","eden.baby_mount.set","eden.quest.set","eden.name.set"],\
+Tags:["nice_mobs.base","nice_mobs.dirt_golem.vehicle","eden.settings.applied","eden.equipped","eden.rarity_mob","eden.name.set"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:80},{id:"minecraft:movement_speed",base:.17},{id:"minecraft:scale",base:0.55}]\
 }

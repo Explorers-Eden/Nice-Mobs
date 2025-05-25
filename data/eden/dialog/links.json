@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "menu.eden.links.description",
+        "fallback": "Curious about our work? Head to the links below to explore more.",
+        "italic": true
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "columns": 2,
+  "external_title": {
+    "translate": "menu.eden.links.title",
+    "fallback": "Explorer's Eden"
+  },
+  "title": {
+    "translate": "menu.eden.links.title",
+    "fallback": "Explorer's Eden"
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "menu.eden.links.wiki",
+        "fallback": "Wiki"
+      },
+      "on_click": {
+        "action": "open_url",
+        "url": "https://wiki.explorerseden.eu/doku.php?id=Home"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.eden.enchantments",
+        "fallback": "Enchantment Overview"
+      },
+      "on_click": {
+        "action": "open_url",
+        "url": "https://explorerseden.eu"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.eden.links.website",
+        "fallback": "Website"
+      },
+      "on_click": {
+        "action": "open_url",
+        "url": "https://explorerseden.eu"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.eden.links.modrinth",
+        "fallback": "Modrinth"
+      },
+      "on_click": {
+        "action": "open_url",
+        "url": "https://modrinth.com/organization/explorers-eden"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.eden.links.discord",
+        "fallback": "Join Our Discord"
+      },
+      "on_click": {
+        "action": "open_url",
+        "url": "https://discord.com/invite/f2pMggfgVv"
+      }
+    }
+  ]
+}

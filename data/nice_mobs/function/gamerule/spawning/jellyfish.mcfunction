@@ -1,5 +1,5 @@
-execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Jellyfish spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"disabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.jellyfish set value "disabled"
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"Enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Jellyfish spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"Disabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"Enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.jellyfish set value "Disabled"
 
-execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Jellyfish spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"enabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.jellyfish set value "enabled"
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"Disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Jellyfish spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"Enabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{jellyfish:"Disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.jellyfish set value "Enabled"

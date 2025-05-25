@@ -1,5 +1,5 @@
-execute if data storage eden:gamerule nice_mobs.spawning{glare:"enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Glare spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"disabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{glare:"enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.glare set value "disabled"
+execute if data storage eden:gamerule nice_mobs.spawning{glare:"Enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Glare spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"Disabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{glare:"Enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.glare set value "Disabled"
 
-execute if data storage eden:gamerule nice_mobs.spawning{glare:"disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Glare spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"enabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{glare:"disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.glare set value "enabled"
+execute if data storage eden:gamerule nice_mobs.spawning{glare:"Disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Glare spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"Enabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{glare:"Disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.glare set value "Enabled"

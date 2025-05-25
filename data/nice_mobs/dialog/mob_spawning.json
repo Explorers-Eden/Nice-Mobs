@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:multi_action",
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.nice_mobs.mob_spawning.title.external",
+    "fallback": "Mob Spawning"
+  },
+  "title": {
+    "translate": "menu.nice_mobs.mob_spawning.title",
+    "fallback": "Nice Mobs: Mob Spawning"
+  },
+  "columns": 3,
+  "actions": [
+    {
+      "label": [
+        {
+          "translate": "entity.nice_mobs.bloomer",
+          "fallback": "Bloomer"
+        },
+        {
+          "text": ": "
+        },
+        {
+          "nbt": "nice_mobs.spawning.bloomer",
+          "storage": "eden:gamerule"
+        }
+      ],
+      "on_click": {
+        "action": "run_command",
+        "command": "function nice_mobs:gamerule/spawning/bloomer"
+      }
+    }
+  ]
+}

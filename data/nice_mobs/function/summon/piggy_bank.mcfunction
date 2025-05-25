@@ -8,7 +8,7 @@ Health:50f,\
 Age:2400,\
 variant:"nice_mobs:piggy_bank",\
 data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"default"}},\
-Tags:["nice_mobs.base","nice_mobs.piggy_bank.vehicle","eden.scaled","eden.baby_mount.set"],\
+Tags:["nice_mobs.base","nice_mobs.piggy_bank.vehicle","eden.settings.applied","eden.equipped","eden.rarity_mob"],\
 attributes:[{id:"minecraft:max_absorption",base:2},{id:"minecraft:max_health",base:50},{id:"minecraft:movement_speed",base:.40},{id:"minecraft:scale",base:1},{id:"minecraft:safe_fall_distance",base:1024}]\
 }
 

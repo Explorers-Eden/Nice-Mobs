@@ -1,4 +1,4 @@
-execute if data storage eden:gamerule nice_mobs.behavior{wanderingvariants:"disabled"} run return run tag @s add nice_mobs.companions.done
+execute if data storage eden:gamerule nice_mobs.behavior{wanderingvariants:"Disabled"} run return run tag @s add nice_mobs.companions.done
 execute if predicate eden:percentages/60 run return run tag @s add nice_mobs.companions.done
 
 tag @s add nice_mobs.companions.done

@@ -1,5 +1,5 @@
 execute if entity @e[tag=nice_mobs.vulture.vehicle,distance=..64] run return fail
-execute if data storage eden:gamerule nice_mobs.spawning{vulture:"disabled"} run return fail
+execute if data storage eden:gamerule nice_mobs.spawning{vulture:"Disabled"} run return fail
 execute unless predicate eden:entity/can_spawn_vulture run return fail
 
 execute positioned ~ ~25 ~5 run function nice_mobs:summon/vulture

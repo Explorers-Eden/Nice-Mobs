@@ -10,7 +10,7 @@ Health:74f,\
 Saddle:0b,\
 Age:2400,\
 data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"blue",is_bartering:0b}},\
-Tags:["nice_mobs.base","nice_mobs.enderkin.vehicle","eden.scaled","eden.baby_mount.set"],\
+Tags:["nice_mobs.base","nice_mobs.enderkin.vehicle","eden.settings.applied","eden.equipped","eden.rarity_mob"],\
 attributes:[{id:"minecraft:max_health",base:74},{id:"minecraft:movement_speed",base:.15},{id:"minecraft:scale",base:0.9},{id:"minecraft:safe_fall_distance",base:32}]\
 }
 

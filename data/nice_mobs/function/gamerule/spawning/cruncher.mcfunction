@@ -1,5 +1,5 @@
-execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Cruncher spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"disabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.cruncher set value "disabled"
+execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"Enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Cruncher spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"Disabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"Enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.cruncher set value "Disabled"
 
-execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Cruncher spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"enabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.cruncher set value "enabled"
+execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"Disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Cruncher spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"Enabled"}]
+execute if data storage eden:gamerule nice_mobs.spawning{cruncher:"Disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.cruncher set value "Enabled"
