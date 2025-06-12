@@ -7,8 +7,8 @@ PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:10f,\
 CannotEnterHiveTicks:9999,\
-data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"moth_luna",effect:"minecraft:luck"}},\
-Tags:["nice_mobs.base","nice_mobs.butterfly.vehicle","eden.settings.applied","eden.equipped","eden.rarity_mob","nice_mobs.moth.vehicle"],\
+data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"moth_luna",effect:"minecraft:luck"}},\
+Tags:["nice_mobs.base","nice_mobs.butterfly.vehicle","mob_manager.settings.exclude","nice_mobs.moth.vehicle"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:attack_speed",base:0},{id:"minecraft:max_health",base:10},{id:"minecraft:scale",base:0.58}]\
 }

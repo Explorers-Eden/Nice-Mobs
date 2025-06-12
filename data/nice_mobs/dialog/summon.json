@@ -1,0 +1,240 @@
+{
+  "type": "minecraft:multi_action",
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:tooltip_display": {
+          "hide_tooltip": true
+        }
+      }
+    },
+    "description": {
+      "translate": "menu.nice_mobs.summon.description",
+      "fallback": "Summon A Mob:"
+    }
+  },
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.nice_mobs.summon.title",
+    "fallback": "Summon"
+  },
+  "title": {
+    "translate": "menu.nice_mobs.main.title",
+    "fallback": "Nice Mobs"
+  },
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "nice_mobs:main"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "translate": "entity.nice_mobs.bloomer",
+        "fallback": "Bloomer"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/bloomer"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.butterfly",
+        "fallback": "Butterfly"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/butterfly"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.copper_golem",
+        "fallback": "Copper Golem"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/copper_golem"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.cruncher",
+        "fallback": "Cruncher"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/cruncher"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.dirt_golem",
+        "fallback": "Dirt Golem"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/dirt_golem"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.glare",
+        "fallback": "Glare"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/glare"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.jellyfish",
+        "fallback": "jellyfish"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/jellyfish"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.moth",
+        "fallback": "Moth"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/moth"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.mushling",
+        "fallback": "Mushling"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/mushling"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.nautilus_crab",
+        "fallback": "Nautilus Crab"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/nautilus_crab"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.penguin",
+        "fallback": "Penguin"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/penguin"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.piggy_bank",
+        "fallback": "Piggy Bank"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/piggy_bank"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.pufftail",
+        "fallback": "pufftail"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/pufftail"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.rat",
+        "fallback": "Rat"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/rat"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.snail",
+        "fallback": "Snail"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/snail"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.tuff_golem",
+        "fallback": "Tuff Golem"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/tuff_golem"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.wisp",
+        "fallback": "Wisp"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/wisp"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.enderkin",
+        "fallback": "Enderkin"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/enderkin"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.vulture",
+        "fallback": "Vulture"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/vulture"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.nice_mobs.hedgehog",
+        "fallback": "Hedgehog"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:summon/hedgehog"
+      }
+    }
+  ]
+}

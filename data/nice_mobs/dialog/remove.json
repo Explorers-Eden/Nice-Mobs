@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:multi_action",
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:tooltip_display": {
+          "hide_tooltip": true
+        }
+      }
+    },
+    "description": {
+      "translate": "menu.nice_mobs.remove.description",
+      "fallback": "Remove Certain Mobs:"
+    }
+  },
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.nice_mobs.remove.title",
+    "fallback": "Remove"
+  },
+  "title": {
+    "translate": "menu.nice_mobs.main.title",
+    "fallback": "Nice Mobs"
+  },
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "nice_mobs:main"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "option.nice_mobs.nearest_mob",
+        "fallback": "Nearest Mob"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.nearest_mob.tooltip",
+        "fallback": "Removes the Nice Mob closest to your position."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:remove/nearest_entity"
+      }
+    },
+    {
+      "label": {
+        "translate": "option.nice_mobs.all_mobs",
+        "fallback": "All Mobs"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.all_mobs.tooltip",
+        "fallback": "Removes all Nice Mobs currently loaded in."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:remove/all_entities"
+      }
+    },
+    {
+      "label": {
+        "translate": "option.nice_mobs.specific_mob",
+        "fallback": "Specific Mob"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.specific_mob.tooltip",
+        "fallback": "Select a specific mob type to remove."
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "nice_mobs:remove_specific"
+      }
+    }
+  ]
+}

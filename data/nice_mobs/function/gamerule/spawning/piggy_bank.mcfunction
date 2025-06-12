@@ -1,5 +1,0 @@
-execute if data storage eden:gamerule nice_mobs.spawning{piggy_bank:"Enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Piggy Bank spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"Disabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{piggy_bank:"Enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.piggy_bank set value "Disabled"
-
-execute if data storage eden:gamerule nice_mobs.spawning{piggy_bank:"Disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Piggy Bank spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"Enabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{piggy_bank:"Disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.piggy_bank set value "Enabled"

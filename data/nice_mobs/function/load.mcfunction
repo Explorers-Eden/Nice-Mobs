@@ -14,22 +14,8 @@ scoreboard objectives add nice_mobs.item.time_since_placed dummy
 scoreboard objectives add nice_mobs.cruncher.ores_holding dummy
 scoreboard objectives add nice_mobs.enderkin.chorus_timer dummy
 
-##Remove old scoreboards
-scoreboard objectives remove nice_mobs.cruncher.stone_block_type
-scoreboard objectives remove nice_mobs.cruncher.total_ore_count
-scoreboard objectives remove nice_mobs.cruncher.coal
-scoreboard objectives remove nice_mobs.cruncher.copper
-scoreboard objectives remove nice_mobs.cruncher.iron
-scoreboard objectives remove nice_mobs.cruncher.redstone
-scoreboard objectives remove nice_mobs.cruncher.lapis
-scoreboard objectives remove nice_mobs.cruncher.diamond
-scoreboard objectives remove nice_mobs.cruncher.gold
-scoreboard objectives remove nice_mobs.cruncher.emerald
-scoreboard objectives remove nice_mobs.entity.action
-scoreboard objectives remove nice_mobs.entity.is_hurt
-
-##update old mobs pre v1.7
-schedule function nice_mobs:update_mobs/init 6s
+##schedule reload on first load to prevent frozen animations
+execute unless score $init_reload eden.technical matches 1 run schedule function nice_mobs:reload 1t
 
 ##add storage for gamerules
-execute unless data storage eden:gamerule nice_mobs run return run function nice_mobs:gamerule/default_settings
+execute unless data storage eden:settings nice_mobs run function nice_mobs:default_values

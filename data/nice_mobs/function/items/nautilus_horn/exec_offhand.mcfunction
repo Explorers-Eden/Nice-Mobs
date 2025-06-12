@@ -1,7 +1,7 @@
 item modify entity @s weapon.offhand eden:used_nautilus_horn
 advancement revoke @s only nice_mobs:used_nautilus_horn
 
-execute if data storage eden:gamerule nice_mobs.spawning{pufftail:0b} run return fail
+execute if data storage eden:settings nice_mobs.spawning{pufftail:"disabled"} run return fail
 
 execute positioned ^ ^3 ^6 run function nice_mobs:summon/pufftail
 execute positioned ^ ^5 ^6 run particle dust{color:[1.000,1.000,1.000],scale:4} ~ ~ ~ 1 1 1 0.1 50 force

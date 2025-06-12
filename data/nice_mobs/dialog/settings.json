@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:multi_action",
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:tooltip_display": {
+          "hide_tooltip": true
+        }
+      }
+    },
+    "description": {
+      "translate": "menu.nice_mobs.main.description",
+      "fallback": "Select An Option:"
+    }
+  },
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.nice_mobs.settings.title",
+    "fallback": "Settings"
+  },
+  "title": {
+    "translate": "menu.nice_mobs.main.title",
+    "fallback": "Nice Mobs"
+  },
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "nice_mobs:main"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "option.nice_mobs.spawning",
+        "fallback": "Spawning"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.update.tooltip",
+        "fallback": "En-/Disable spawning of specific mob types."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:dialog/dynamic/spawning with storage eden:settings nice_mobs.spawning"
+      }
+    },
+    {
+      "label": {
+        "translate": "option.nice_mobs.behavior",
+        "fallback": "Behavior"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.update.tooltip",
+        "fallback": "En-/Disable specific mob behaviors."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:dialog/dynamic/behavior with storage eden:settings nice_mobs.behavior"
+      }
+    },
+    {
+      "label": {
+        "translate": "option.nice_mobs.restore",
+        "fallback": "Restore Default Settings",
+        "color": "gray"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:dialog/command_template/restore"
+      }
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-execute if data storage eden:gamerule nice_mobs.spawning{rat:"Enabled"} run tellraw @s [{"bold":false,"color":"#FF4A4A","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Rat spawning is now "},{"bold":false,"color":"#FF4A4A","italic":false,"text":"Disabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{rat:"Enabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.rat set value "Disabled"
-
-execute if data storage eden:gamerule nice_mobs.spawning{rat:"Disabled"} run tellraw @s [{"bold":false,"color":"#69FF5E","italic":false,"text":"▊ "},{"bold":false,"color":"white","italic":false,"text":"Rat spawning is now "},{"bold":false,"color":"#69FF5E","italic":false,"text":"Enabled"}]
-execute if data storage eden:gamerule nice_mobs.spawning{rat:"Disabled"} run return run data modify storage eden:gamerule nice_mobs.spawning.rat set value "Enabled"

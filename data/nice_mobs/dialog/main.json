@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:multi_action",
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:tooltip_display": {
+          "hide_tooltip": true
+        }
+      }
+    },
+    "description": {
+      "translate": "menu.nice_mobs.main.description",
+      "fallback": "Select An Option:"
+    }
+  },
+  "can_close_with_escape": true,
+  "external_title": {
+    "translate": "menu.nice_mobs.main.title",
+    "fallback": "Nice Mobs"
+  },
+  "title": {
+    "translate": "menu.nice_mobs.main.title",
+    "fallback": "Nice Mobs"
+  },
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "translate": "mco.selectServer.close"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "menu.nice_mobs.settings.title",
+        "fallback": "Settings"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.settings.tooltip",
+        "fallback": "Customize settings like Mob Spawning and Mob Behavior."
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "nice_mobs:settings"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.nice_mobs.summon.title",
+        "fallback": "Summon"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.summon.tooltip",
+        "fallback": "Summon a specific Nice Mob at your position."
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "nice_mobs:summon"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.nice_mobs.remove.title",
+        "fallback": "Remove"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.remove.tooltip",
+        "fallback": "Remove certain Nice Mobs."
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "nice_mobs:remove"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.nice_mobs.update",
+        "fallback": "Update"
+      },
+      "tooltip": {
+        "translate": "option.nice_mobs.update.tooltip",
+        "fallback": "Update already spawned Nice Mobs in case they are broken after an update."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function nice_mobs:update_mobs/init"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.eden.info.title",
+        "fallback": "Explorer's Eden",
+        "color": "gray"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "eden:info"
+      }
+    }
+  ]
+}

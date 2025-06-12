@@ -6,8 +6,8 @@ powered:0b,\
 ExplosionRadius:0b,\
 Fuse:30,\
 ignited:0b,\
-data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"default"}},\
-Tags:["nice_mobs.base","nice_mobs.bloomer.vehicle","eden.settings.applied","eden.equipped","eden.rarity_mob"],\
+data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+Tags:["nice_mobs.base","nice_mobs.bloomer.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:scale",base:.95}]\
 }

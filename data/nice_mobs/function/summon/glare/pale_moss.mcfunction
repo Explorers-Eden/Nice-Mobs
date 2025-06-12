@@ -8,8 +8,8 @@ CanPickUpLoot:0b,\
 Health:75f,\
 IsBaby:0b,\
 PatrolLeader:0b,Patrolling:0b,CanJoinRaid:0b,\
-data:{nice_mobs:{spawned_in_version:1.7d,action:0b,animation:"default",hurt:0b,variant:"pale"}},\
-Tags:["nice_mobs.base","nice_mobs.glare.vehicle","eden.settings.applied","eden.equipped","eden.rarity_mob"],\
+data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"pale"}},\
+Tags:["nice_mobs.base","nice_mobs.glare.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:follow_range",base:64},{id:"minecraft:tempt_range",base:64},{id:"minecraft:attack_damage",base:0},{id:"minecraft:attack_knockback",base:0},{id:"minecraft:attack_speed",base:0},{id:"minecraft:max_health",base:75},{id:"minecraft:movement_speed",base:.22},{id:"minecraft:scale",base:.85},{id:"minecraft:gravity",base:0.03},{id:"minecraft:step_height",base:3},{id:"minecraft:safe_fall_distance",base:1024}]\
 }
