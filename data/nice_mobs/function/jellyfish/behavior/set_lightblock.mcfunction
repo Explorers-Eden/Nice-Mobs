@@ -1,3 +1,3 @@
-execute unless entity @e[type=area_effect_cloud,tag=nice_mobs.jellyfish.lightblock,distance=..0.5] run summon area_effect_cloud ^ ^ ^ {Radius:0f,Duration:10,Tags:["nice_mobs.jellyfish.lightblock"],Particle:{type:"block",block_state:"minecraft:air"}}
+execute unless entity @e[type=area_effect_cloud,tag=nice_mobs.jellyfish.lightblock,distance=..0.5] run summon area_effect_cloud ^ ^ ^ {Radius:0f,Duration:10,Tags:["nice_mobs.jellyfish.lightblock"],custom_particle:{type:"block",block_state:"minecraft:air"}}
 execute if entity @e[type=area_effect_cloud,tag=nice_mobs.jellyfish.lightblock,distance=..0.5] unless entity @e[type=marker,tag=nice_mobs.jellyfish.lightblock,distance=..0.5] run summon marker ^ ^ ^ {Tags:["nice_mobs.jellyfish.lightblock"]}
 execute if entity @e[type=area_effect_cloud,tag=nice_mobs.jellyfish.lightblock,distance=..0.5] if entity @e[type=marker,tag=nice_mobs.jellyfish.lightblock,distance=..0.5] run setblock ^ ^ ^ light[level=10,waterlogged=true]
