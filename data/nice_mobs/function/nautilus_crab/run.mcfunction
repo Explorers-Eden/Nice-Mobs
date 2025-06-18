@@ -6,5 +6,8 @@ execute unless entity @e[type=item_display,tag=aj.nautilus_crab.root] run return
 #on death
 execute as @e[type=item_display,tag=aj.nautilus_crab.root,predicate=!eden:entity/has_pig_vehicle] at @s run function nice_mobs:nautilus_crab/behavior/death
 
+#align rig with vehicle
+execute as @e[type=item_display,tag=aj.nautilus_crab.root] at @s on passengers run rotate @s ~ ~
+
 #run functions as base entity
 execute as @e[type=pig,tag=nice_mobs.nautilus_crab.vehicle] at @s run function nice_mobs:nautilus_crab/exec_as_base

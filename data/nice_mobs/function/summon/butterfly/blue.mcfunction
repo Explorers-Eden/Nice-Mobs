@@ -18,5 +18,7 @@ function animated_java:butterfly/summon {args: {variant: "blue"}}
 ride @n[type=item_display,tag=aj.butterfly.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=bee,tag=nice_mobs.butterfly.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 execute as @n[type=item_display,tag=aj.butterfly.root,tag=!nice_mobs.has_vehicle,distance=..3] run function animated_java:butterfly/animations/default/play
 
+execute as @n[type=item_display,tag=aj.butterfly.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f
+
 tag @n[type=item_display,tag=aj.butterfly.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=bee,tag=nice_mobs.butterfly.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

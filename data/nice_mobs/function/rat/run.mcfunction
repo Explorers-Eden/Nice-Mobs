@@ -9,5 +9,8 @@ execute as @e[type=item,predicate=eden:entity/is_rotten_flesh_item] at @s if ent
 #on death
 execute as @e[type=item_display,tag=aj.rat.root,predicate=!eden:entity/has_pig_vehicle] at @s run function nice_mobs:rat/behavior/death
 
+#align rig with vehicle
+execute as @e[type=item_display,tag=aj.rat.root] at @s on passengers run rotate @s ~ ~
+
 #run functions as base entity
 execute as @e[type=pig,tag=nice_mobs.rat.vehicle] at @s run function nice_mobs:rat/exec_as_base

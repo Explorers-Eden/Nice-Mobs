@@ -5,7 +5,7 @@ execute if data storage aj:temp args.variant run function animated_java:snail/zz
 function animated_java:snail/set_default_pose
 execute if data storage aj:temp args.animation run function animated_java:snail/zzz/summon/animation_arg/process with storage aj:temp args
 tp @s ~ ~ ~ ~ ~
-execute at @s on passengers run rotate @s ~ ~
+#execute at @s on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 5
 execute on passengers run data modify entity @s teleport_duration set value 5
 tag @s remove aj.new

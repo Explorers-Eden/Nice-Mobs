@@ -3,7 +3,6 @@ execute as @s[predicate=eden:percentages/20] run scoreboard players add @s nice_
 
 #set rotations of passengers
 execute store result entity @n[type=item_display,tag=aj.enderkin.root,distance=..2.5] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
-execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #particles
 particle minecraft:reverse_portal ~ ~.5 ~ .4 .4 .4 0.01 1

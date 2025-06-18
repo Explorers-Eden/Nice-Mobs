@@ -5,7 +5,7 @@ execute if data storage aj:temp args.variant run function animated_java:treasure
 function animated_java:treasure_chest/set_default_pose
 execute if data storage aj:temp args.animation run function animated_java:treasure_chest/zzz/summon/animation_arg/process with storage aj:temp args
 tp @s ~ ~ ~ ~ ~
-execute at @s on passengers run rotate @s ~ ~
+#execute at @s on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 2
 execute on passengers run data modify entity @s teleport_duration set value 2
 tag @s remove aj.new

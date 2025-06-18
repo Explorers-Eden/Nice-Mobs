@@ -15,6 +15,7 @@ attributes:[{id:"minecraft:max_absorption",base:2},{id:"minecraft:max_health",ba
 function animated_java:treasure_chest/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.treasure_chest.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.piggy_bank.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
+execute as @n[type=item_display,tag=aj.treasure_chest.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f
 
 tag @n[type=item_display,tag=aj.treasure_chest.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=pig,tag=nice_mobs.piggy_bank.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

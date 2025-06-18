@@ -15,6 +15,7 @@ function animated_java:vulture/summon {args: {}}
 
 ride @n[type=item_display,tag=aj.vulture.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=phantom,tag=nice_mobs.vulture.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 execute as @n[type=item_display,tag=aj.vulture.root,tag=!nice_mobs.has_vehicle,distance=..3] run function animated_java:vulture/animations/default/play
+execute as @n[type=item_display,tag=aj.vulture.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f
 
 tag @n[type=item_display,tag=aj.vulture.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=phantom,tag=nice_mobs.vulture.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

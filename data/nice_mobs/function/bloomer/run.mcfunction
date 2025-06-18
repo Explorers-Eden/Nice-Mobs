@@ -9,5 +9,8 @@ execute unless entity @e[type=item_display,tag=aj.bloomer.root] run return fail
 #on death
 execute as @e[type=item_display,tag=aj.bloomer.root,predicate=!eden:entity/has_creeper_vehicle] at @s run function nice_mobs:bloomer/behavior/death
 
+#align rig with vehicle
+execute as @e[type=item_display,tag=aj.bloomer.root] at @s on passengers run rotate @s ~ ~
+
 #run functions as base entity
 execute as @e[type=creeper,tag=nice_mobs.bloomer.vehicle] at @s run function nice_mobs:bloomer/exec_as_base

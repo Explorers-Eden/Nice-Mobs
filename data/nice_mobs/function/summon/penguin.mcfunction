@@ -19,6 +19,7 @@ function animated_java:penguin/summon {args: {}}
 ride @n[type=item_display,tag=aj.penguin.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=chicken,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 
 scoreboard players set @n[type=chicken,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.generic_timer 0
+execute as @n[type=item_display,tag=aj.penguin.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f
 
 tag @n[type=item_display,tag=aj.penguin.root,tag=!nice_mobs.has_vehicle,distance=..3] add nice_mobs.has_vehicle
 tag @n[type=chicken,tag=nice_mobs.penguin.vehicle,tag=!nice_mobs.has_passenger,distance=..3] add nice_mobs.has_passenger

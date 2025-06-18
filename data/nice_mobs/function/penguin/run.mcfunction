@@ -9,5 +9,8 @@ execute as @e[type=item,predicate=eden:entity/is_cod_item] at @s if entity @e[ty
 #on death
 execute as @e[type=item_display,tag=aj.penguin.root,predicate=!eden:entity/has_chicken_vehicle] at @s run function nice_mobs:penguin/behavior/death
 
+#align rig with vehicle
+execute as @e[type=item_display,tag=aj.penguin.root] at @s on passengers run rotate @s ~ ~
+
 #run functions as base entity
 execute as @e[type=chicken,tag=nice_mobs.penguin.vehicle] at @s run function nice_mobs:penguin/exec_as_base

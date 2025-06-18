@@ -3,7 +3,6 @@ execute as @s[predicate=eden:percentages/25,scores={nice_mobs.entity.generic_tim
 
 #set rotations of passengers
 execute store result entity @n[type=item_display,tag=aj.mushling.root,distance=..1] Rotation[0] float 0.0001 run data get entity @s Rotation[0] 10000
-execute on passengers run data modify entity @s Rotation[1] set value 0f
 
 #play walk/idle animations
 execute as @s[scores={nice_mobs.entity.generic_timer=..959}] unless data entity @s data.nice_mobs{animation:"idle"} if predicate eden:entity/is_idle run function nice_mobs:mushling/behavior/idle
