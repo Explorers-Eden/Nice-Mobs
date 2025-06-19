@@ -1,0 +1,7 @@
+## Changes:
+- General code improvements to dencrease performance impact
+- Added Pigeon variant: spawns in villages, Mansions & Pillager Outposts
+
+## Fixes:
+- Spawning of Jellyfishes and Copper Golems from items
+- Crashing when not having Nice Mob Manager installed

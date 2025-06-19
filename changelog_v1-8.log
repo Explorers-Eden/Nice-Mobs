@@ -1,9 +1,0 @@
-## Changes:
-- Replaced command based config with dialog based ones: /function nice_mobs
-- updated golden chicken variant texture
-- Enderkin breaking Chorus Plants can now be en-/disabled
-- Added missing mobs to remove/update function (Hedgehog, Vulture, Enderkin)
-
-## Fixes:
-- Bloomer spawning setting not working
-- Pufftail spawning setting not working when using the Nautilus Horn

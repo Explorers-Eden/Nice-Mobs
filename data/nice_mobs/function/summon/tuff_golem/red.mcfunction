@@ -8,7 +8,7 @@ CanPickUpLoot:0b,\
 Health:150f,\
 Willing:0b,\
 VillagerData:{level:99,profession:"minecraft:nitwit"},\
-data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"red",holds_item:0b}},\
+data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"red",holds_item:0b}},\
 Tags:["nice_mobs.base","nice_mobs.tuff_golem.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:150},{id:"minecraft:movement_speed",base:.18},{id:"minecraft:scale",base:0.58}]\

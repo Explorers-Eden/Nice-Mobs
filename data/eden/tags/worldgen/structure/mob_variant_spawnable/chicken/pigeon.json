@@ -1,0 +1,7 @@
+{
+    "values": [
+      {"id": "#minecraft:village","required": false},
+      {"id": "minecraft:mansion","required": false},
+      {"id": "minecraft:pillager_outpost","required": false}
+    ]
+  }

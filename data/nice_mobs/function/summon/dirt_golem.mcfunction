@@ -7,7 +7,7 @@ PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:80f,\
 Willing:0b,\
-data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"default"}},\
 VillagerData:{level:99,profession:"minecraft:nitwit"},\
 Tags:["nice_mobs.base","nice_mobs.dirt_golem.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\

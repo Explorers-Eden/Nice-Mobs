@@ -1,0 +1,1 @@
+$execute as @s[predicate=eden:percentages/15] at @s run playsound nice_mobs:entity.pigeon.cooing neutral @a ~ ~ ~ .2 $(coo_pitch)

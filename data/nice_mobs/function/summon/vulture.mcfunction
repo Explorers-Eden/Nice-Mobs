@@ -5,7 +5,7 @@ DeathLootTable:"eden:entity/vulture",\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:30f,\
-data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.vulture.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:burning_time",base:0},{id:"minecraft:max_health",base:30},{id:"minecraft:scale",base:1}]\

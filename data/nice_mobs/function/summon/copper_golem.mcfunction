@@ -6,7 +6,7 @@ PlayerCreated:0b,\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:60f,\
-data:{nice_mobs:{spawned_in_version:"1.8",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.copper_golem.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:max_health",base:60},{id:"minecraft:scale",base:0.58},{id:"minecraft:attack_damage",base:5},{id:"minecraft:movement_speed",base:0.2}]\
