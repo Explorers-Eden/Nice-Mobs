@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#eden:is_deep_ocean",
+    "biomes": "#nice_mobs:is_deep_ocean",
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "none",

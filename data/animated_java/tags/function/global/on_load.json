@@ -2,7 +2,6 @@
 	"values": [
 		"animated_java:bloomer/on_load",
 		"animated_java:butterfly/on_load",
-		"animated_java:copper_golem/on_load",
 		"animated_java:cruncher/on_load",
 		"animated_java:dirt_golem/on_load",
 		"animated_java:enderkin/on_load",

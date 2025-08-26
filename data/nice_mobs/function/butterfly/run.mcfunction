@@ -8,7 +8,7 @@ scoreboard players remove @a[scores={nice_mobs.player.butterfly_effect=1..}] nic
 execute unless entity @e[type=item_display,tag=aj.butterfly.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.butterfly.root,predicate=!eden:entity/has_bee_vehicle] at @s run function nice_mobs:butterfly/behavior/death
+execute as @e[type=item_display,tag=aj.butterfly.root,predicate=!nice_mobs:entity/has_bee_vehicle] at @s run function nice_mobs:butterfly/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.butterfly.root] at @s on passengers run rotate @s ~ ~

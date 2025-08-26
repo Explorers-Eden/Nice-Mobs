@@ -128,7 +128,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "eden:item/dried_jellyfish"
+            "value": "nice_mobs:item/dried_jellyfish"
           }
         ],
         "conditions": [

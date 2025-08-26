@@ -4,7 +4,7 @@ schedule function nice_mobs:tuff_golem/run 5t
 execute unless entity @e[type=item_display,tag=aj.tuff_golem.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.tuff_golem.root,predicate=!eden:entity/has_villager_vehicle] at @s run function nice_mobs:tuff_golem/behavior/death
+execute as @e[type=item_display,tag=aj.tuff_golem.root,predicate=!nice_mobs:entity/has_villager_vehicle] at @s run function nice_mobs:tuff_golem/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.tuff_golem.root] at @s on passengers run rotate @s ~ ~

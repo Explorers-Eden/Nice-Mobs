@@ -4,7 +4,7 @@ schedule function nice_mobs:hedgehog/run 5t
 execute unless entity @e[type=item_display,tag=aj.hedgehog.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.hedgehog.root,predicate=!eden:entity/has_pig_vehicle] at @s run function nice_mobs:hedgehog/behavior/death
+execute as @e[type=item_display,tag=aj.hedgehog.root,predicate=!nice_mobs:entity/has_pig_vehicle] at @s run function nice_mobs:hedgehog/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.hedgehog.root] at @s on passengers run rotate @s ~ ~

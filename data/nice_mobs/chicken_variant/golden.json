@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/chicken/golden"
+        "structures": "#nice_mobs:mob_variant_spawnable/chicken/golden"
       },
       "priority": 1
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/chicken/golden"
+        "biomes": "#nice_mobs:mob_variant_spawnable/chicken/golden"
       },
       "priority": 1
     }

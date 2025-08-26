@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/frog/dry"
+        "structures": "#nice_mobs:mob_variant_spawnable/frog/dry"
       },
       "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/frog/dry"
+        "biomes": "#nice_mobs:mob_variant_spawnable/frog/dry"
       },
       "priority": 1
     }

@@ -4,4 +4,4 @@ execute at @n[type=minecraft:villager,tag=nice_mobs.tuff_golem.vehicle,distance=
 data modify entity @n[type=minecraft:villager,tag=nice_mobs.tuff_golem.vehicle,distance=..3] data.nice_mobs.variant set value "gray"
 execute as @n[type=minecraft:villager,tag=nice_mobs.tuff_golem.vehicle,distance=..3] on passengers run function animated_java:tuff_golem/variants/gray/apply
 
-item modify entity @s[gamemode=!creative] weapon.mainhand eden:detract_item
+item modify entity @s[gamemode=!creative] weapon.mainhand nice_mobs:detract_item

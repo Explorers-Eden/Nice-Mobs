@@ -4,7 +4,7 @@ schedule function nice_mobs:nautilus_crab/run 5t
 execute unless entity @e[type=item_display,tag=aj.nautilus_crab.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.nautilus_crab.root,predicate=!eden:entity/has_pig_vehicle] at @s run function nice_mobs:nautilus_crab/behavior/death
+execute as @e[type=item_display,tag=aj.nautilus_crab.root,predicate=!nice_mobs:entity/has_pig_vehicle] at @s run function nice_mobs:nautilus_crab/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.nautilus_crab.root] at @s on passengers run rotate @s ~ ~

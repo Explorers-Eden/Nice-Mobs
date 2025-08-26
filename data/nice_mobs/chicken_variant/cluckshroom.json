@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/chicken/cluckshroom"
+        "structures": "#nice_mobs:mob_variant_spawnable/chicken/cluckshroom"
       },
       "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/chicken/cluckshroom"
+        "biomes": "#nice_mobs:mob_variant_spawnable/chicken/cluckshroom"
       },
       "priority": 999
     }

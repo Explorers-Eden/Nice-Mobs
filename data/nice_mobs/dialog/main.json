@@ -87,17 +87,6 @@
         "type": "minecraft:run_command",
         "command": "function nice_mobs:update_mobs/init"
       }
-    },
-    {
-      "label": {
-        "translate": "menu.eden.info.title",
-        "fallback": "Explorer's Eden",
-        "color": "gray"
-      },
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "eden:info"
-      }
     }
   ]
 }

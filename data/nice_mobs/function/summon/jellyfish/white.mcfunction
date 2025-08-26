@@ -1,18 +1,19 @@
 summon wither_skeleton ~ ~ ~ {\
 CustomNameVisible:0b,\
 CustomName:{"bold":false,"fallback":"Jellyfish","italic":false,"translate":"entity.nice_mobs.jellyfish"},\
-DeathLootTable:"eden:entity/jellyfish",\
+DeathLootTable:"nice_mobs:entity/jellyfish",\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Silent:1b,\
 Health:16f,\
-data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"white"}},\
+data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"white"}},\
 Tags:["nice_mobs.base","nice_mobs.jellyfish.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:attack_damage",base:0.001},{id:"minecraft:knockback_resistance",base:0},{id:"minecraft:max_health",base:16},{id:"minecraft:movement_speed",base:0},{id:"minecraft:scale",base:0.35}]\
 }
 
 function animated_java:jellyfish/summon {args: {variant: "white"}}
+execute as @e[type=minecraft:item_display,tag=aj.global.entity,distance=..3] run data modify entity @s view_range set value 0.75
 
 ride @n[type=item_display,tag=aj.jellyfish.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=wither_skeleton,tag=nice_mobs.jellyfish.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

@@ -1,0 +1,7 @@
+## Fixes:
+- removed info dialog
+- moved files from eden namespace to nice_mobs
+- removed Copper Golem due to Mojang adding it (Existing Copper Golems get automatically removed)
+- reworked mob update functions
+- reduced view_range of custom mobs
+- custom mobs now only play most of their animations if a player is within 32 blocks to save up on performance

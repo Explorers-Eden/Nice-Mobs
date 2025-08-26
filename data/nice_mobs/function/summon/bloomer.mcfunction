@@ -6,13 +6,14 @@ powered:0b,\
 ExplosionRadius:0b,\
 Fuse:30,\
 ignited:0b,\
-data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.bloomer.vehicle","mob_manager.settings.exclude"],\
 active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],\
 attributes:[{id:"minecraft:scale",base:.95}]\
 }
 
 function animated_java:bloomer/summon {args: {}}
+execute as @e[type=minecraft:item_display,tag=aj.global.entity,distance=..3] run data modify entity @s view_range set value 0.75
 
 ride @n[type=item_display,tag=aj.bloomer.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=creeper,tag=nice_mobs.bloomer.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 scoreboard players set @n[type=creeper,tag=nice_mobs.bloomer.vehicle,tag=!nice_mobs.has_passenger,distance=..3] nice_mobs.entity.action 0

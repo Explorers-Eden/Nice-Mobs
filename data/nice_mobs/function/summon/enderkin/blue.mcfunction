@@ -9,12 +9,13 @@ CanPickUpLoot:0b,\
 Health:74f,\
 Saddle:0b,\
 Age:2400,\
-data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"blue",is_bartering:0b}},\
+data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"blue",is_bartering:0b}},\
 Tags:["nice_mobs.base","nice_mobs.enderkin.vehicle","mob_manager.settings.exclude"],\
 attributes:[{id:"minecraft:max_health",base:74},{id:"minecraft:movement_speed",base:.15},{id:"minecraft:scale",base:0.9},{id:"minecraft:safe_fall_distance",base:32}]\
 }
 
 function animated_java:enderkin/summon {args: {variant: "blue"}}
+execute as @e[type=minecraft:item_display,tag=aj.global.entity,distance=..3] run data modify entity @s view_range set value 0.75
 
 ride @n[type=item_display,tag=aj.enderkin.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.enderkin.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 

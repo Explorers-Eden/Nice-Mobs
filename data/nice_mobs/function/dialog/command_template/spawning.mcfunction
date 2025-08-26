@@ -1,13 +1,10 @@
-$data modify storage eden:settings nice_mobs.spawning merge value {bloomer:$(bloomer),butterfly:$(butterfly),copper_golem:$(copper_golem),cruncher:$(cruncher),dirt_golem:$(dirt_golem),glare:$(glare),jellyfish:$(jellyfish),moth:$(moth),mushling:$(mushling),nautilus_crab:$(nautilus_crab),penguin:$(penguin),piggy_bank:$(piggy_bank),pufftail:$(pufftail),rat:$(rat),snail:$(snail),tuff_golem:$(tuff_golem),wisp:$(wisp),hedgehog:$(hedgehog),enderkin:$(enderkin),vulture:$(vulture)}
+$data modify storage eden:settings nice_mobs.spawning merge value {bloomer:$(bloomer),butterfly:$(butterfly),cruncher:$(cruncher),dirt_golem:$(dirt_golem),glare:$(glare),jellyfish:$(jellyfish),moth:$(moth),mushling:$(mushling),nautilus_crab:$(nautilus_crab),penguin:$(penguin),piggy_bank:$(piggy_bank),pufftail:$(pufftail),rat:$(rat),snail:$(snail),tuff_golem:$(tuff_golem),wisp:$(wisp),hedgehog:$(hedgehog),enderkin:$(enderkin),vulture:$(vulture)}
 
 execute if data storage eden:settings nice_mobs.spawning{bloomer:"enabled"} run data modify storage eden:settings nice_mobs.spawning.bloomer_initial set value "false"
 execute unless data storage eden:settings nice_mobs.spawning{bloomer:"enabled"} run data modify storage eden:settings nice_mobs.spawning.bloomer_initial set value "true"
 
 execute if data storage eden:settings nice_mobs.spawning{butterfly:"enabled"} run data modify storage eden:settings nice_mobs.spawning.butterfly_initial set value "false"
 execute unless data storage eden:settings nice_mobs.spawning{butterfly:"enabled"} run data modify storage eden:settings nice_mobs.spawning.butterfly_initial set value "true"
-
-execute if data storage eden:settings nice_mobs.spawning{copper_golem:"enabled"} run data modify storage eden:settings nice_mobs.spawning.copper_golem_initial set value "false"
-execute unless data storage eden:settings nice_mobs.spawning{copper_golem:"enabled"} run data modify storage eden:settings nice_mobs.spawning.copper_golem_initial set value "true"
 
 execute if data storage eden:settings nice_mobs.spawning{cruncher:"enabled"} run data modify storage eden:settings nice_mobs.spawning.cruncher_initial set value "false"
 execute unless data storage eden:settings nice_mobs.spawning{cruncher:"enabled"} run data modify storage eden:settings nice_mobs.spawning.cruncher_initial set value "true"

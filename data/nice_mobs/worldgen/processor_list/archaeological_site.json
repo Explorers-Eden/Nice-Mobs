@@ -25,7 +25,7 @@
             {
               "block_entity_modifier": {
                 "type": "minecraft:append_loot",
-                "loot_table": "eden:structure/archaeological_site/buried"
+                "loot_table": "nice_mobs:structure/archaeological_site/buried"
               },
               "input_predicate": {
                 "predicate_type": "minecraft:block_match",

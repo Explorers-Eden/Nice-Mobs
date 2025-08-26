@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/pig/dark"
+        "structures": "#nice_mobs:mob_variant_spawnable/pig/dark"
       },
       "priority": 1
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/pig/dark"
+        "biomes": "#nice_mobs:mob_variant_spawnable/pig/dark"
       },
       "priority": 1
     }

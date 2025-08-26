@@ -1,39 +1,39 @@
-kill @e[type=marker,tag=eden.amemasu.spawner]
-kill @e[type=marker,tag=eden.boo.spawner]
-kill @e[type=marker,tag=eden.penguin.spawner]
-kill @e[type=marker,tag=eden.hedgehog.spawner]
-kill @e[type=marker,tag=eden.hermit_crab.spawner]
-kill @e[type=marker,tag=eden.ladybug.spawner]
-kill @e[type=marker,tag=eden.penguin.spawner]
-kill @e[type=marker,tag=eden.nautilus.spawner]
-kill @e[type=marker,tag=eden.rat.spawner]
-kill @e[type=marker,tag=eden.snail.spawner]
+kill @e[type=marker,tag=nice_mobs.amemasu.spawner]
+kill @e[type=marker,tag=nice_mobs.boo.spawner]
+kill @e[type=marker,tag=nice_mobs.penguin.spawner]
+kill @e[type=marker,tag=nice_mobs.hedgehog.spawner]
+kill @e[type=marker,tag=nice_mobs.hermit_crab.spawner]
+kill @e[type=marker,tag=nice_mobs.ladybug.spawner]
+kill @e[type=marker,tag=nice_mobs.penguin.spawner]
+kill @e[type=marker,tag=nice_mobs.nautilus.spawner]
+kill @e[type=marker,tag=nice_mobs.rat.spawner]
+kill @e[type=marker,tag=nice_mobs.snail.spawner]
 
-kill @e[type=vex,tag=eden.amemasu]
-kill @e[type=item_display,tag=eden.amemasu.head]
+kill @e[type=vex,tag=nice_mobs.amemasu]
+kill @e[type=item_display,tag=nice_mobs.amemasu.head]
 
-kill @e[type=vex,tag=eden.boo]
-kill @e[type=item_display,tag=eden.boo.head]
+kill @e[type=vex,tag=nice_mobs.boo]
+kill @e[type=item_display,tag=nice_mobs.boo.head]
 
-kill @e[type=polar_bear,tag=eden.hedgehog]
-kill @e[type=item_display,tag=eden.hedgehog.head]
+kill @e[type=polar_bear,tag=nice_mobs.hedgehog]
+kill @e[type=item_display,tag=nice_mobs.hedgehog.head]
 
-kill @e[type=ocelot,tag=eden.hermit_crab]
-kill @e[type=item_display,tag=eden.hermit_crab.head]
+kill @e[type=ocelot,tag=nice_mobs.hermit_crab]
+kill @e[type=item_display,tag=nice_mobs.hermit_crab.head]
 
-kill @e[type=allay,tag=eden.ladybug]
-kill @e[type=item_display,tag=eden.ladybug.head]
+kill @e[type=allay,tag=nice_mobs.ladybug]
+kill @e[type=item_display,tag=nice_mobs.ladybug.head]
 
-kill @e[type=pillager,tag=eden.penguin]
-kill @e[type=item_display,tag=eden.penguin.head]
+kill @e[type=pillager,tag=nice_mobs.penguin]
+kill @e[type=item_display,tag=nice_mobs.penguin.head]
 
-kill @e[type=axolotl,tag=eden.nautilus]
-kill @e[type=item_display,tag=eden.nautilus.head]
+kill @e[type=axolotl,tag=nice_mobs.nautilus]
+kill @e[type=item_display,tag=nice_mobs.nautilus.head]
 
-kill @e[type=creeper,tag=eden.rat]
-kill @e[type=item_display,tag=eden.rat.head]
+kill @e[type=creeper,tag=nice_mobs.rat]
+kill @e[type=item_display,tag=nice_mobs.rat.head]
 
-kill @e[type=armadillo,tag=eden.snail]
-kill @e[type=item_display,tag=eden.snail.head]
+kill @e[type=armadillo,tag=nice_mobs.snail]
+kill @e[type=item_display,tag=nice_mobs.snail.head]
 
-scoreboard objectives remove eden.penguin.breathing
+scoreboard objectives remove nice_mobs.penguin.breathing

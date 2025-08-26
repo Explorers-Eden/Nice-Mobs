@@ -4,7 +4,7 @@
       "brushed_nautlius_crab_sand": {
         "trigger": "minecraft:player_generates_container_loot",
         "conditions": {
-          "loot_table": "eden:gameplay/nautilus_crab_buried"
+          "loot_table": "nice_mobs:gameplay/nautilus_crab_buried"
         }
       }
     },

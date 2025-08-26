@@ -1,5 +1,5 @@
 {
-    "biomes": "#eden:dirt_golem_spawnable",
+    "biomes": "#nice_mobs:dirt_golem_spawnable",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

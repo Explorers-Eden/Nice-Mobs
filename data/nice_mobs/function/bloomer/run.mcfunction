@@ -7,7 +7,7 @@ execute as @e[type=minecraft:creeper,tag=!nice_mobs.base,tag=!nice_mobs.exclude_
 execute unless entity @e[type=item_display,tag=aj.bloomer.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.bloomer.root,predicate=!eden:entity/has_creeper_vehicle] at @s run function nice_mobs:bloomer/behavior/death
+execute as @e[type=item_display,tag=aj.bloomer.root,predicate=!nice_mobs:entity/has_creeper_vehicle] at @s run function nice_mobs:bloomer/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.bloomer.root] at @s on passengers run rotate @s ~ ~

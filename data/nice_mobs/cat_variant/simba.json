@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/cat/simba"
+        "structures": "#nice_mobs:mob_variant_spawnable/cat/simba"
       },
       "priority": 0
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/cat/simba"
+        "biomes": "#nice_mobs:mob_variant_spawnable/cat/simba"
       },
       "priority": 0
     }

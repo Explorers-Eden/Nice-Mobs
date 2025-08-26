@@ -11,12 +11,11 @@
     },
     "rewards": {
       "recipes": [
-        "eden:crafting_shaped/copper_golem",
-        "eden:crafting_shaped/golden_chorus_fruit",
-        "eden:chorus_juice",
-        "eden:chorus_kebab",
-        "eden:chorus_pie",
-        "eden:chorus_salad"
+        "nice_mobs:crafting_shaped/golden_chorus_fruit",
+        "nice_mobs:chorus_juice",
+        "nice_mobs:chorus_kebab",
+        "nice_mobs:chorus_pie",
+        "nice_mobs:chorus_salad"
       ]
     }
   }

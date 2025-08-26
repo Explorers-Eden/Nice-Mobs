@@ -4,7 +4,7 @@ schedule function nice_mobs:glare/run 5t
 execute unless entity @e[type=item_display,tag=aj.glare.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.glare.root,predicate=!eden:entity/has_pillager_vehicle] at @s run function nice_mobs:glare/behavior/death
+execute as @e[type=item_display,tag=aj.glare.root,predicate=!nice_mobs:entity/has_pillager_vehicle] at @s run function nice_mobs:glare/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.glare.root] at @s on passengers run rotate @s ~ ~

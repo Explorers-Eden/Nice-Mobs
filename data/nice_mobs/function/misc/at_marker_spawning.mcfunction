@@ -12,9 +12,6 @@ execute as @s[tag=nice_mobs.spawner.vulture] if data storage eden:settings nice_
 #Bloomer
 execute as @s[tag=nice_mobs.spawner.bloomer] if data storage eden:settings nice_mobs.spawning{bloomer:"enabled"} run function nice_mobs:summon/bloomer
 
-#Copper Golem
-execute as @s[tag=nice_mobs.spawner.copper_golem] if data storage eden:settings nice_mobs.spawning{copper_golem:"enabled"} run function nice_mobs:summon/copper_golem
-
 #Dirt Golem
 execute as @s[tag=nice_mobs.spawner.dirt_golem] if data storage eden:settings nice_mobs.spawning{dirt_golem:"enabled"} run function nice_mobs:summon/dirt_golem
 

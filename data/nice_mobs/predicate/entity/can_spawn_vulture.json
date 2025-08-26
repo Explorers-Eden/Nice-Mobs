@@ -1,0 +1,35 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "biomes": "#nice_mobs:vulture_spawnable",
+          "can_see_sky": true
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:time_check",
+        "value": {
+          "min": 13000,
+          "max": 23000
+        },
+        "period": 24000
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "nice_mobs.player.health": {
+          "max": 6
+        }
+      }
+    }
+  ]
+}

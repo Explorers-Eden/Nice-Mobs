@@ -1,18 +1,19 @@
 summon pig ~ ~ ~ {\
 CustomNameVisible:0b,\
 CustomName:{"bold":false,"fallback":"Piggy Bank","italic":false,"translate":"entity.nice_mobs.piggy_bank"},\
-DeathLootTable:"eden:entity/piggy_bank",\
+DeathLootTable:"nice_mobs:entity/piggy_bank",\
 PersistenceRequired:1b,\
 CanPickUpLoot:0b,\
 Health:50f,\
 Age:2400,\
 variant:"nice_mobs:piggy_bank",\
-data:{nice_mobs:{spawned_in_version:"1.9",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.piggy_bank.vehicle","mob_manager.settings.exclude"],\
 attributes:[{id:"minecraft:max_absorption",base:2},{id:"minecraft:max_health",base:50},{id:"minecraft:movement_speed",base:.40},{id:"minecraft:scale",base:1},{id:"minecraft:safe_fall_distance",base:1024}]\
 }
 
 function animated_java:treasure_chest/summon {args: {}}
+execute as @e[type=minecraft:item_display,tag=aj.global.entity,distance=..3] run data modify entity @s view_range set value 0.75
 
 ride @n[type=item_display,tag=aj.treasure_chest.root,tag=!nice_mobs.has_vehicle,distance=..3] mount @n[type=pig,tag=nice_mobs.piggy_bank.vehicle,tag=!nice_mobs.has_passenger,distance=..3]
 execute as @n[type=item_display,tag=aj.treasure_chest.root,tag=!nice_mobs.has_vehicle,distance=..3] run data modify entity @s Rotation[1] set value 0f

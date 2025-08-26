@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/pig/spotted_dark"
+        "structures": "#nice_mobs:mob_variant_spawnable/pig/spotted_dark"
       },
       "priority": 1
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/pig/spotted_dark"
+        "biomes": "#nice_mobs:mob_variant_spawnable/pig/spotted_dark"
       },
       "priority": 1
     }

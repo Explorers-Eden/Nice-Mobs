@@ -7,5 +7,5 @@ execute if data entity @s data.nice_mobs{animation:"dig"} on passengers run part
 execute if score @s nice_mobs.entity.generic_timer matches 960 run data modify entity @s data.nice_mobs.animation set value "dig"
 
 execute if score @s nice_mobs.entity.generic_timer matches ..975 run scoreboard players add @s nice_mobs.entity.generic_timer 1
-execute if score @s nice_mobs.entity.generic_timer matches 976.. run setblock ~ ~-1 ~ suspicious_sand{LootTable:"eden:gameplay/nautilus_crab_buried"} replace
+execute if score @s nice_mobs.entity.generic_timer matches 976.. run setblock ~ ~-1 ~ suspicious_sand{LootTable:"nice_mobs:gameplay/nautilus_crab_buried"} replace
 execute if score @s nice_mobs.entity.generic_timer matches 976.. run scoreboard players set @s nice_mobs.entity.generic_timer 0

@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/frog/ender"
+        "structures": "#nice_mobs:mob_variant_spawnable/frog/ender"
       },
       "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/frog/ender"
+        "biomes": "#nice_mobs:mob_variant_spawnable/frog/ender"
       },
       "priority": 999
     }

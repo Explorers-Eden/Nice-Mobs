@@ -1,4 +1,4 @@
-item modify entity @s weapon.mainhand eden:used_nautilus_horn
+item modify entity @s weapon.mainhand nice_mobs:used_nautilus_horn
 advancement revoke @s only nice_mobs:used_nautilus_horn
 
 execute if data storage eden:settings nice_mobs.spawning{pufftail:"disabled"} run return fail

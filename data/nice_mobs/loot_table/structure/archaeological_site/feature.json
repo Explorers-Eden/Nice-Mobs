@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 2,
+          "max": 10
+        },
+        "entries": [
+          {
+            "type": "minecraft:tag",
+            "name": "minecraft:banners",
+            "expand": true
+          },
+          {
+            "type": "minecraft:tag",
+            "name": "nice_mobs:dyes",
+            "expand": true
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brush"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.33
+          }
+        ]
+      }
+    ]
+  }

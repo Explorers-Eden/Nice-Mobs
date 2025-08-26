@@ -1,0 +1,12 @@
+{
+    "values": [
+      "#nice_mobs:is_data_driven_mob",
+      "minecraft:zombified_piglin",
+      "minecraft:wither_skeleton",
+      "minecraft:villager",
+      "minecraft:pillager",
+      "minecraft:vex",
+      "minecraft:creeper",
+      "minecraft:bee"
+    ]
+  }

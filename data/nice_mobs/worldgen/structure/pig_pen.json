@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "step": "surface_structures",
-    "biomes": "#eden:has_structure/pig_pen",
+    "biomes": "#nice_mobs:has_structure/pig_pen",
     "start_pool": "nice_mobs:pig_pen",
     "terrain_adaptation": "beard_thin",
     "size": 7,

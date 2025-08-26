@@ -7,7 +7,7 @@ function nice_mobs:jellyfish/player_created/init
 execute unless entity @e[type=item_display,tag=aj.jellyfish.root] run return fail
 
 #on death
-execute as @e[type=item_display,tag=aj.jellyfish.root,predicate=!eden:entity/has_wither_skeleton_vehicle] at @s run function nice_mobs:jellyfish/behavior/death
+execute as @e[type=item_display,tag=aj.jellyfish.root,predicate=!nice_mobs:entity/has_wither_skeleton_vehicle] at @s run function nice_mobs:jellyfish/behavior/death
 
 #align rig with vehicle
 execute as @e[type=item_display,tag=aj.jellyfish.root] at @s on passengers run rotate @s ~ ~

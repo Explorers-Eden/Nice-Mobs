@@ -1,8 +1,0 @@
-{
-	"values": [
-       "animated_java:copper_golem/animations/walk/stop",
-       "animated_java:copper_golem/animations/idle/stop",
-       "animated_java:copper_golem/animations/idle_angry/stop",
-       "animated_java:copper_golem/animations/walk_angry/play"
-    ]
-}

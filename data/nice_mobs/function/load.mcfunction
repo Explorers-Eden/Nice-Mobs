@@ -2,7 +2,7 @@
 data remove storage eden:temp nice_mobs
 
 ##default technical scoreboard
-scoreboard objectives add eden.technical dummy
+scoreboard objectives add nice_mobs.technical dummy
 
 ##additional scoreboards
 scoreboard objectives add nice_mobs.entity.generic_timer dummy
@@ -14,8 +14,8 @@ scoreboard objectives add nice_mobs.item.time_since_placed dummy
 scoreboard objectives add nice_mobs.cruncher.ores_holding dummy
 scoreboard objectives add nice_mobs.enderkin.chorus_timer dummy
 
-##schedule reload on first load to prevent frozen animations
-execute unless score $init_reload eden.technical matches 1 run schedule function nice_mobs:reload 1t
-
 ##add storage for gamerules
-execute unless data storage eden:settings nice_mobs run function nice_mobs:default_values
+execute unless data storage eden:datapack nice_mobs{version:"2.1"} run function nice_mobs:default_values
+
+##start function to remove Copper Golems from older Versions
+function nice_mobs:remove_copper_golem

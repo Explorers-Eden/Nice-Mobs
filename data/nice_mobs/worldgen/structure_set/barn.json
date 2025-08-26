@@ -6,11 +6,7 @@
     "salt": 392975629,
     "spread_type": "triangular",
     "frequency_reduction_method": "default",
-    "frequency": 0.8,
-    "exclusion_zone": {
-      "other_set": "nice_mobs:copper_forge",
-      "chunk_count": 1
-    }
+    "frequency": 0.8
   },
   "structures": [
     {

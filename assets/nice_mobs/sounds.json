@@ -14,8 +14,7 @@
       "entity.pigeon.cooing": {
         "sounds": [
             "nice_mobs:entity/pigeon/pigeon_1",
-            "nice_mobs:entity/pigeon/pigeon_2",
-            "nice_mobs:entity/pigeon/pigeon_3"
+            "nice_mobs:entity/pigeon/pigeon_2"
         ]
       },
       "music_disc.broken_heart_of_ender": {

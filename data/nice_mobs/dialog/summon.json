@@ -58,16 +58,6 @@
     },
     {
       "label": {
-        "translate": "entity.nice_mobs.copper_golem",
-        "fallback": "Copper Golem"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "function nice_mobs:summon/copper_golem"
-      }
-    },
-    {
-      "label": {
         "translate": "entity.nice_mobs.cruncher",
         "fallback": "Cruncher"
       },

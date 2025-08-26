@@ -8,14 +8,14 @@
       {
         "condition": {
           "type": "minecraft:biome",
-          "biomes": "#eden:mob_variant_spawnable/wolf/white_black"
+          "biomes": "#nice_mobs:mob_variant_spawnable/wolf/white_black"
         },
         "priority": 1
       },
       {
         "condition": {
           "type": "minecraft:structure",
-          "structures": "#eden:mob_variant_spawnable/wolf/white_black"
+          "structures": "#nice_mobs:mob_variant_spawnable/wolf/white_black"
         },
         "priority": 1
       }

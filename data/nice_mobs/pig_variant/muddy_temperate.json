@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/pig/muddy_temperate"
+        "structures": "#nice_mobs:mob_variant_spawnable/pig/muddy_temperate"
       },
       "priority": 1
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/pig/muddy_temperate"
+        "biomes": "#nice_mobs:mob_variant_spawnable/pig/muddy_temperate"
       },
       "priority": 1
     },

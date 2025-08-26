@@ -54,7 +54,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/duck_egg",
+                "value": "nice_mobs:item/eggs/duck_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
@@ -69,7 +69,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/zombie_egg",
+                "value": "nice_mobs:item/eggs/zombie_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
@@ -84,7 +84,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/pigeon_egg",
+                "value": "nice_mobs:item/eggs/pigeon_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
@@ -99,7 +99,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/cluckshroom_egg",
+                "value": "nice_mobs:item/eggs/cluckshroom_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
@@ -114,7 +114,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/dark_brown_egg",
+                "value": "nice_mobs:item/eggs/dark_brown_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
@@ -129,7 +129,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/creamy_egg",
+                "value": "nice_mobs:item/eggs/creamy_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
@@ -144,7 +144,7 @@
               },
               {
                 "type": "minecraft:loot_table",
-                "value": "eden:item/eggs/ender_egg",
+                "value": "nice_mobs:item/eggs/ender_egg",
                 "conditions": [
                   {
                     "condition": "minecraft:entity_properties",

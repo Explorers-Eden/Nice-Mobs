@@ -77,34 +77,6 @@ $dialog show @s \
     },\
     {\
       "type":"minecraft:single_option",\
-      "key":"copper_golem",\
-      "width": 256,\
-      "label":{\
-        "translate":"entity.nice_mobs.copper_golem",\
-        "fallback":"Copper Golem"\
-      },\
-      "options":[\
-        {\
-          "id":"enabled",\
-          "display":{\
-            "translate":"option.nice_mobs.enabled",\
-            "fallback":"Enabled",\
-            "color":"green"\
-          }\
-        },\
-        {\
-          "id":"disabled",\
-          "display":{\
-            "translate":"option.nice_mobs.disabled",\
-            "fallback":"Disabled",\
-            "color":"red"\
-          },\
-          "initial":$(copper_golem_initial)\
-        }\
-      ]\
-    },\
-    {\
-      "type":"minecraft:single_option",\
       "key":"cruncher",\
       "width": 256,\
       "label":{\

@@ -1,5 +1,5 @@
 {
-    "biomes": "#eden:is_taiga",
+    "biomes": "#nice_mobs:is_taiga",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

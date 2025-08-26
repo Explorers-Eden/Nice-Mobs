@@ -1,4 +1,4 @@
-$data modify storage eden:settings nice_mobs.behavior merge value {wanderingvariants:$(wanderingvariants),enderkinchorus:$(enderkinchorus),roostercrowing:$(roostercrowing),chickenjockeyvariants:$(chickenjockeyvariants),enderteleport:$(enderteleport),villagercoppergolem:$(villagercoppergolem),butterflyeffect:$(butterflyeffect)}
+$data modify storage eden:settings nice_mobs.behavior merge value {wanderingvariants:$(wanderingvariants),enderkinchorus:$(enderkinchorus),roostercrowing:$(roostercrowing),chickenjockeyvariants:$(chickenjockeyvariants),enderteleport:$(enderteleport),butterflyeffect:$(butterflyeffect)}
 
 execute if data storage eden:settings nice_mobs.behavior{wanderingvariants:"enabled"} run data modify storage eden:settings nice_mobs.behavior.wanderingvariants_initial set value "false"
 execute unless data storage eden:settings nice_mobs.behavior{wanderingvariants:"enabled"} run data modify storage eden:settings nice_mobs.behavior.wanderingvariants_initial set value "true"
@@ -14,9 +14,6 @@ execute unless data storage eden:settings nice_mobs.behavior{chickenjockeyvarian
 
 execute if data storage eden:settings nice_mobs.behavior{enderteleport:"enabled"} run data modify storage eden:settings nice_mobs.behavior.enderteleport_initial set value "false"
 execute unless data storage eden:settings nice_mobs.behavior{enderteleport:"enabled"} run data modify storage eden:settings nice_mobs.behavior.enderteleport_initial set value "true"
-
-execute if data storage eden:settings nice_mobs.behavior{villagercoppergolem:"enabled"} run data modify storage eden:settings nice_mobs.behavior.villagercoppergolem_initial set value "false"
-execute unless data storage eden:settings nice_mobs.behavior{villagercoppergolem:"enabled"} run data modify storage eden:settings nice_mobs.behavior.villagercoppergolem_initial set value "true"
 
 execute if data storage eden:settings nice_mobs.behavior{butterflyeffect:"enabled"} run data modify storage eden:settings nice_mobs.behavior.butterflyeffect_initial set value "false"
 execute unless data storage eden:settings nice_mobs.behavior{butterflyeffect:"enabled"} run data modify storage eden:settings nice_mobs.behavior.butterflyeffect_initial set value "true"

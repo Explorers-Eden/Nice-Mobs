@@ -21,34 +21,6 @@ $dialog show @s \
   "inputs":[\
     {\
       "type":"minecraft:single_option",\
-      "key":"villagercoppergolem",\
-      "width": 256,\
-      "label":{\
-        "translate":"option.nice_mobs.villagercoppergolem",\
-        "fallback":"Villagers can spawn Copper Golems"\
-      },\
-      "options":[\
-        {\
-          "id":"enabled",\
-          "display":{\
-            "translate":"option.nice_mobs.enabled",\
-            "fallback":"Enabled",\
-            "color":"green"\
-          }\
-        },\
-        {\
-          "id":"disabled",\
-          "display":{\
-            "translate":"option.nice_mobs.disabled",\
-            "fallback":"Disabled",\
-            "color":"red"\
-          },\
-          "initial":$(villagercoppergolem_initial)\
-        }\
-      ]\
-    },\
-    {\
-      "type":"minecraft:single_option",\
       "key":"butterflyeffect",\
       "width": 256,\
       "label":{\

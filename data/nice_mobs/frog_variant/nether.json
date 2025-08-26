@@ -4,14 +4,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/frog/nether"
+        "structures": "#nice_mobs:mob_variant_spawnable/frog/nether"
       },
       "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/frog/nether"
+        "biomes": "#nice_mobs:mob_variant_spawnable/frog/nether"
       },
       "priority": 999
     }

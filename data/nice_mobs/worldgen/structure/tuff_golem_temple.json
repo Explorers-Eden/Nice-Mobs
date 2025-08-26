@@ -1,5 +1,5 @@
 {
-    "biomes": "#eden:is_jungle",
+    "biomes": "#nice_mobs:is_jungle",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

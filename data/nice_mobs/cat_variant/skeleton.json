@@ -4,14 +4,14 @@
       {
         "condition": {
           "type": "minecraft:structure",
-          "structures": "#eden:mob_variant_spawnable/cat/skeleton"
+          "structures": "#nice_mobs:mob_variant_spawnable/cat/skeleton"
         },
         "priority": 999
       },
       {
         "condition": {
           "type": "minecraft:biome",
-          "biomes": "#eden:mob_variant_spawnable/cat/skeleton"
+          "biomes": "#nice_mobs:mob_variant_spawnable/cat/skeleton"
         },
         "priority": 999
       }

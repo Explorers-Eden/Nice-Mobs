@@ -5,14 +5,14 @@
     {
       "condition": {
         "type": "minecraft:structure",
-        "structures": "#eden:mob_variant_spawnable/chicken/rooster"
+        "structures": "#nice_mobs:mob_variant_spawnable/chicken/rooster"
       },
       "priority": 999
     },
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#eden:mob_variant_spawnable/chicken/rooster"
+        "biomes": "#nice_mobs:mob_variant_spawnable/chicken/rooster"
       },
       "priority": 1
     }
