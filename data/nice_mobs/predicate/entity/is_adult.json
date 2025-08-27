@@ -2,7 +2,7 @@
     "condition": "minecraft:value_check",
     "value": {
       "type": "minecraft:storage",
-      "storage": "nice_mobs:temp",
+      "storage": "eden:temp",
       "path": "nice_mobs.age"
     },
     "range": {
