@@ -19,3 +19,6 @@ execute unless data storage eden:datapack nice_mobs{version:"2.1"} run function 
 
 ##start function to remove Copper Golems from older Versions
 function nice_mobs:remove_copper_golem
+
+##set data pack version
+data modify storage eden:datapack nice_mobs.version set value "2.0"
