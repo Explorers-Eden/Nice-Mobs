@@ -9,7 +9,7 @@ CanPickUpLoot:0b,\
 Health:14f,\
 Saddle:0b,\
 Age:2400,\
-data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"brown"}},\
+data:{nice_mobs:{spawned_in_version:"2.1",action:0b,animation:"default",hurt:0b,variant:"brown"}},\
 Tags:["nice_mobs.base","nice_mobs.hedgehog.vehicle","mob_manager.settings.exclude"],\
 attributes:[{id:"minecraft:max_health",base:14},{id:"minecraft:movement_speed",base:.1},{id:"minecraft:scale",base:0.43}]\
 }

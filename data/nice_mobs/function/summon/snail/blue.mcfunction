@@ -9,7 +9,7 @@ CanPickUpLoot:0b,\
 Health:8f,\
 Saddle:0b,\
 Age:2400,\
-data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"blue"}},\
+data:{nice_mobs:{spawned_in_version:"2.1",action:0b,animation:"default",hurt:0b,variant:"blue"}},\
 Tags:["nice_mobs.base","nice_mobs.snail.vehicle","mob_manager.settings.exclude"],\
 attributes:[{id:"minecraft:max_health",base:8},{id:"minecraft:movement_speed",base:.07},{id:"minecraft:scale",base:0.35}]\
 }

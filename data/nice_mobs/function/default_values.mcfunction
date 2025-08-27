@@ -31,4 +31,4 @@ wanderingvariants:"enabled",wanderingvariants_initial:"false",\
 command_template:"function nice_mobs:dialog/command_template/behavior {wanderingvariants:$(wanderingvariants),enderkinchorus:$(enderkinchorus),roostercrowing:$(roostercrowing),chickenjockeyvariants:$(chickenjockeyvariants),enderteleport:$(enderteleport),butterflyeffect:$(butterflyeffect)}"\
 }
 
-data modify storage eden:datapack nice_mobs.version set value "2.0"
+data modify storage eden:datapack nice_mobs.version set value "2.1"

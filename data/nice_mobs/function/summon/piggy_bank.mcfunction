@@ -7,7 +7,7 @@ CanPickUpLoot:0b,\
 Health:50f,\
 Age:2400,\
 variant:"nice_mobs:piggy_bank",\
-data:{nice_mobs:{spawned_in_version:"2.0",action:0b,animation:"default",hurt:0b,variant:"default"}},\
+data:{nice_mobs:{spawned_in_version:"2.1",action:0b,animation:"default",hurt:0b,variant:"default"}},\
 Tags:["nice_mobs.base","nice_mobs.piggy_bank.vehicle","mob_manager.settings.exclude"],\
 attributes:[{id:"minecraft:max_absorption",base:2},{id:"minecraft:max_health",base:50},{id:"minecraft:movement_speed",base:.40},{id:"minecraft:scale",base:1},{id:"minecraft:safe_fall_distance",base:1024}]\
 }
